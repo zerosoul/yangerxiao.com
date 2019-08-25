@@ -1,16 +1,14 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from 'react'
+import styled from 'styled-components'
 import { StaticQuery, graphql } from 'gatsby'
-import Img from 'gatsby-image';
-import { media } from '../../utils/media';
-// import profileImg from '../../images/profile.png';
+import Img from 'gatsby-image'
+import { media } from '../../utils/media'
 
 const Container = styled.section`
   .avator {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border-bottom: 1px solid #999; */
     .top {
       position: relative;
       .img {
@@ -42,64 +40,62 @@ const Container = styled.section`
   }
 
   .items {
-    color:#000;
-    display:flex;
-    /* margin-top:.5rem; */
-    flex-direction:column;
-    justify-content:space-around;
-    flex-wrap:wrap;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
     @media ${media.tablet} {
-        flex-direction:row;
-        /* justify-content:flex-start;
-        padding:.4rem; */
-      }
-    
-    .item{
-      flex:1;
-      flex-direction:column;
-      padding:.5rem;
-      display:flex;
-      border-left:2px solid #ddd;
-      margin-top:.2rem;
-      /* justify-content:center; */
-      flex-wrap:wrap;
+      flex-direction: row;
+    }
+
+    .item {
+      flex: 1;
+      flex-direction: column;
+      padding: 0.5rem;
+      display: flex;
+      border-left: 2px solid #ddd;
+      margin-top: 0.2rem;
+      flex-wrap: wrap;
       @media ${media.tablet} {
-        justify-content:flex-start;
+        justify-content: flex-start;
       }
       @media ${media.desktop} {
-        border-left:none;
-        padding-left:0;
-        align-items:center;
+        border-left: none;
+        padding-left: 0;
+        align-items: center;
       }
     }
-    
   }
-`;
+`
 
 const Profile = props => {
   const {
     name,
-    info: { basic, blog, email, tel }
+    info: { basic, blog, email, tel },
   } = props
-  return (<StaticQuery
-    query={
-      graphql`
+  return (
+    <StaticQuery
+      query={graphql`
         query ImgQuery {
-          profile:file(relativePath:{eq:"profile.png"}){
-            childImageSharp{
-              fluid(maxWidth: 250){
+          profile: file(relativePath: { eq: "profile.png" }) {
+            childImageSharp {
+              fluid(maxWidth: 250) {
                 ...GatsbyImageSharpFluid
               }
             }
           }
         }
-    `}
-    render={
-      data => (
+      `}
+      render={data => (
         <Container>
           <div className="avator">
             <div className="top">
-              <Img className="img" fluid={data.profile.childImageSharp.fluid} alt="简历头像" />
+              <Img
+                className="img"
+                fluid={data.profile.childImageSharp.fluid}
+                alt="简历头像"
+              />
               <span className="status">已离职</span>
             </div>
             <h1 className="name">{name}</h1>
@@ -112,7 +108,7 @@ const Profile = props => {
                 <span className="blog">
                   <a target="_blank" href={blog}>
                     https://yangerxiao.com
-              </a>
+                  </a>
                 </span>
               </div>
             )}
@@ -132,8 +128,9 @@ const Profile = props => {
               </div>
             )}
           </section>
-        </Container>)
-    }
-  />);
+        </Container>
+      )}
+    />
+  )
 }
 export default Profile
