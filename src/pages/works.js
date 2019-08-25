@@ -7,6 +7,7 @@ import Bg from '../images/bg-works.jpg'
 import MF from '../images/mobile.first.png'
 import Eye from '../images/eye.png'
 import GH from '../images/github.png'
+import '../assets/scss/base/_typography.scss'
 
 const GlobalStyle = createGlobalStyle`
   body{

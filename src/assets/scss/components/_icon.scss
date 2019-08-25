@@ -7,11 +7,12 @@
 /* Icon */
 
 .icon {
-  @include icon;
-  border-bottom: none;
-  position: relative;
+    @include icon;
 
-  > .label {
-    display: none;
-  }
+    border-bottom: none;
+    position: relative;
+
+    > .label {
+        display: none;
+    }
 }
