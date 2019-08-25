@@ -1,20 +1,29 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import works from '../assets/works.json'
-import styled, { createGlobalStyle } from 'styled-components'
+import styled, { createGlobalStyle,keyframes } from 'styled-components'
+import Footer from '../components/Footer'
 
-import Bg from '../images/bg-works.jpg'
 import MF from '../images/mobile.first.png'
 import Eye from '../images/eye.png'
 import GH from '../images/github.png'
-
+const gradientBG=keyframes`
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+`
 const GlobalStyle = createGlobalStyle`
   body{
-    background-image:url(${Bg});
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     color:#fff;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #545d6c, #23d5ab);
+	background-size: 400% 400%;
+	animation: ${gradientBG} 15s ease infinite;
     a{
       color:#fff;
     }
@@ -80,8 +89,9 @@ const Wrapper = styled.section`
         width: 2.2rem;
         height: 2.2rem;
         z-index: 3;
-        background: #ccc;
+        background: #d8c30c;
         border-radius: 50%;
+        box-shadow: 0 0 5px #886e45;
         .icon {
           width: 100%;
           cursor: pointer;
@@ -187,7 +197,7 @@ const Works = ({ title: siteTitle, description: siteDescription }) => {
               >
                 <div className="mask"></div>
                 {work.qr && (
-                  <div className="mobile">
+                  <div className="mobile" title="Mobile First">
                     <img className="icon" src={MF} alt="mobile first icon" />
                     <img className="qr" src={`/img/${work.qr}`} alt="QR url" />
                   </div>
@@ -216,6 +226,7 @@ const Works = ({ title: siteTitle, description: siteDescription }) => {
             )
           })}
         </section>
+        <Footer/>
       </Wrapper>
     </>
   )

@@ -96,7 +96,7 @@
   {
     "name": "zj-m",
     "title": "紫荆官网(M端)",
-    "intro": "gatsby.js，第一次完整地做静态页",
+    "intro": "紫荆官网的移动端版本，Powered by react + gatsby.js，第一次完整地做静态页",
     "qr": "qr.zj.m.png",
     "link": "https://m.zijing365.cn",
     "cover": "zj.m.png"
@@ -104,7 +104,7 @@
   {
     "name": "zj-pc",
     "title": "紫荆官网(PC端)",
-    "intro": "gatsby.js",
+    "intro": "紫荆官网的桌面版本，Powered by react + gatsby.js",
     "link": "https://zijing365.cn",
     "cover": "zj.pc.png"
   }
