@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 import works from '../assets/works.json'
 import styled, { createGlobalStyle, keyframes } from 'styled-components'
 import Footer from '../components/Footer'
+import Comment from '../components/Gitalk'
 
 import MF from '../images/mobile.first.png'
 import Eye from '../images/eye.png'
@@ -226,6 +227,7 @@ const Works = () => {
             )
           })}
         </section>
+        <Comment />
         <Footer />
       </Wrapper>
     </>
