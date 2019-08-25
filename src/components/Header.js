@@ -23,7 +23,6 @@ const Header = props => (
           fluid={data.avator.childImageSharp.fluid}
           alt="logo"
         />
-        {/* <div>{data.site.siteMetadata.title}</div> */}
         <div className="content">
           <div className="inner">
             <h1>杨二</h1>
@@ -41,7 +40,7 @@ const Header = props => (
                 href="//weibo.com/yanggc2014"
                 className="ico fa fa-weibo"
               />
-              {/* <a target="_blank" href="#" className="ico fa fa-douban" /> */}
+              {/* <a target="_blank" href="//www.douban.com/people/yanggc/" className="ico fa fa-douban" /> */}
             </div>
           </div>
         </div>

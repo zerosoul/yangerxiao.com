@@ -23,8 +23,7 @@
         @include vendor("transform", "translateY(0.25rem)");
         @include vendor("transition", ("opacity #{_duration(article)} ease-in-out", "transform #{_duration(article)} ease-in-out"));
 
-        @include padding(2.5rem, 2.5rem, (2rem, 0, 1rem, 0));
-
+        padding: 4.5rem 2.5rem 1.5rem;
         position: relative;
         width: 40rem;
         max-width: 100%;
@@ -131,7 +130,7 @@
 
     @include breakpoint(small) {
         article {
-            @include padding(2rem, 2rem, (1.5rem, 0, 0.5rem, 0));
+            padding: 3rem 1.5rem .5rem;
 
             .close {
                 &:before {
@@ -142,13 +141,6 @@
                     background-size: 14px 14px;
                 }
             }
-        }
-    }
-
-
-    @include breakpoint(xsmall) {
-        article {
-            @include padding(2rem, 1.5rem, (1rem, 0, 0.5rem, 0));
         }
     }
 }
