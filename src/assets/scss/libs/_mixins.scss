@@ -23,7 +23,7 @@
 /// @param {mixed} $lr Left/right padding.
 /// @param {list} $pad Optional extra padding (in the following order top, right, bottom, left)
 /// @param {bool} $important If true, adds !important.
-@mixin padding($tb, $lr, $pad: 0, 0, 0, 0, $important: null) {
+@mixin padding($tb, $lr, $pad: (0, 0, 0, 0), $important: null) {
     @if $important {
         $important: "!important";
     }
