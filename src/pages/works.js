@@ -1,13 +1,13 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import works from '../assets/works.json'
-import styled, { createGlobalStyle,keyframes } from 'styled-components'
+import styled, { createGlobalStyle, keyframes } from 'styled-components'
 import Footer from '../components/Footer'
 
 import MF from '../images/mobile.first.png'
 import Eye from '../images/eye.png'
 import GH from '../images/github.png'
-const gradientBG=keyframes`
+const gradientBG = keyframes`
 	0% {
 		background-position: 0% 50%;
 	}
@@ -22,8 +22,8 @@ const GlobalStyle = createGlobalStyle`
   body{
     color:#fff;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #545d6c, #23d5ab);
-	background-size: 400% 400%;
-	animation: ${gradientBG} 15s ease infinite;
+    background-size: 400% 400%;
+    animation: ${gradientBG} 15s ease infinite;
     a{
       color:#fff;
     }
@@ -46,7 +46,7 @@ const Wrapper = styled.section`
       font-size: 0.8rem;
       color: #666;
       position: relative;
-      text-transform:uppercase;
+      text-transform: uppercase;
       .count {
         position: absolute;
         width: 1.2rem;
@@ -167,7 +167,7 @@ const Wrapper = styled.section`
   }
 `
 const BgPlaceholder = 'placeholder.jpg'
-const Works = ({ title: siteTitle, description: siteDescription }) => {
+const Works = () => {
   return (
     <>
       <GlobalStyle />
@@ -226,21 +226,10 @@ const Works = ({ title: siteTitle, description: siteDescription }) => {
             )
           })}
         </section>
-        <Footer/>
+        <Footer />
       </Wrapper>
     </>
   )
 }
 
 export default Works
-
-// export const pageQuery = graphql`
-//   query PageQuery {
-//     site {
-//       siteMetadata {
-//         title
-//         description
-//       }
-//     }
-//   }
-// `
