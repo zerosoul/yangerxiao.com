@@ -7,7 +7,6 @@ import Bg from '../images/bg-works.jpg'
 import MF from '../images/mobile.first.png'
 import Eye from '../images/eye.png'
 import GH from '../images/github.png'
-import '../assets/scss/base/_typography.scss'
 
 const GlobalStyle = createGlobalStyle`
   body{
@@ -15,6 +14,10 @@ const GlobalStyle = createGlobalStyle`
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    color:#fff;
+    a{
+      color:#fff;
+    }
   }
 `
 const Wrapper = styled.section`
@@ -28,13 +31,13 @@ const Wrapper = styled.section`
     margin-bottom: 1rem;
     h1 {
       font-size: 2rem;
-      color: #fff;
       text-shadow: 2px 7px 12px black;
     }
     h2 {
       font-size: 0.8rem;
       color: #666;
       position: relative;
+      text-transform:uppercase;
       .count {
         position: absolute;
         width: 1.2rem;
