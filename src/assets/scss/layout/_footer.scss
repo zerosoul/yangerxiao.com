@@ -7,38 +7,35 @@
 /* Footer */
 
 #footer {
-  @include vendor(
-    'transition',
-    (
-      'transform #{_duration(article)} ease-in-out',
-      'filter #{_duration(article)} ease-in-out',
-      'opacity #{_duration(article)} ease-in-out'
-    )
-  );
+    @include vendor("transition", ("transform #{_duration(article)} ease-in-out", "filter #{_duration(article)} ease-in-out", "opacity #{_duration(article)} ease-in-out"));
 
-  width: 100%;
-  max-width: 100%;
-  margin-top: 2rem;
-  text-align: center;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 2rem;
+    text-align: center;
 
-  .copyright,
-  .powerby {
-    letter-spacing: _font(letter-spacing);
-    font-size: 0.6rem;
-    opacity: 0.75;
-    margin-bottom: 0.5rem;
-    text-transform: uppercase;
-    color: #999;
-  }
+    .copyright,
+    .powerby {
+        letter-spacing: 2px;
+        font-size: 0.6rem;
+        opacity: 0.75;
+        margin-bottom: 0.5rem;
+        text-transform: uppercase;
+        color: #999;
 
-  .body.is-article-visible & {
-    @include vendor('transform', 'scale(0.95)');
-    @include vendor('filter', 'blur(0.1rem)');
+        a {
+            margin: 0 .4rem;
+        }
+    }
 
-    opacity: 0;
-  }
+    .body.is-article-visible & {
+        @include vendor("transform", "scale(0.95)");
+        @include vendor("filter", "blur(0.1rem)");
 
-  .body.is-loading & {
-    opacity: 0;
-  }
+        opacity: 0;
+    }
+
+    .body.is-loading & {
+        opacity: 0;
+    }
 }

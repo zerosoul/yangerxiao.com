@@ -1,39 +1,45 @@
 [
   {
-    "name": "blog",
-    "title": "个人博客",
-    "intro": "我的落地页",
-    "link": "https://blog.yangerxiao.com",
-    "github": "https://github.com/zerosoul/blog.yangerxiao.com"
-  },
-  {
-    "name": "landing",
-    "title": "个人主页",
-    "intro": "我的落地页",
-    "link": "https://yangerxiao.com",
-    "github": "https://github.com/zerosoul/yangerxiao.com"
-  },
-  {
     "name": "tech-logo-game",
     "title": "技术图标连连看",
     "link": "https://works.yangerxiao.com/tech-logo-memo-game/",
     "intro": "包含前后端，多种模式，多种玩法",
-    "github": "https://github.com/zerosoul/frontend-memo-game"
+    "github": "https://github.com/zerosoul/frontend-memo-game",
+    "cover": "logo.memo.game.png"
   },
   {
     "name": "css-arrow",
     "title": "CSS三角生成器",
     "link": "https://works.yangerxiao.com/css-arrow-generator/",
     "github": "https://github.com/zerosoul/css-arrow-generator",
-    "intro": "利用伪元素在线生成三角，妈妈再也不用担心我复制粘贴一堆代码啦！"
+    "intro": "利用伪元素在线生成三角，妈妈再也不用担心我复制粘贴一堆代码啦！",
+    "cover": "css.arrow.png"
   },
   {
     "name": "html-colors",
     "title": "HTML颜色手册",
     "link": "https://works.yangerxiao.com/html-color-cheatsheet/",
     "github": "https://github.com/zerosoul/html-color-cheatsheet",
-    "intro": "HTML大概原生支持140+种有名有姓的颜色，一个页面搞定！"
+    "intro": "HTML大概原生支持140+种有名有姓的颜色，一个页面搞定！",
+    "cover": "html.color.jpg"
   },
+  {
+    "name": "blog",
+    "title": "个人博客",
+    "intro": "我的落地页",
+    "link": "https://blog.yangerxiao.com",
+    "github": "https://github.com/zerosoul/blog.yangerxiao.com",
+    "cover": "blog.jpg"
+  },
+  {
+    "name": "landing",
+    "title": "个人主页",
+    "intro": "我的落地页",
+    "link": "https://yangerxiao.com",
+    "github": "https://github.com/zerosoul/yangerxiao.com",
+    "cover": "landing.png"
+  },
+
   {
     "name": "h5-meeting-demo",
     "title": "会议报名H5页面",
@@ -53,6 +59,28 @@
     "title": "后台数据管理系统",
     "intro": "无他，又一套 CRUD（增删改查）后台数据管理系统，只不过用到的技术栈比较新（express+mongodb+react+GraphQL+antd），具有一定的参考意义。",
     "link": "https://ssde.yangerxiao.com/",
-    "github": "https://github.com/zerosoul/static-site-data-management"
+    "github": "https://github.com/zerosoul/static-site-data-management",
+    "cover": "data.mg.png"
+  },
+  {
+    "name": "ydyd",
+    "title": "壹点壹滴官网",
+    "intro": "gatsby.js",
+    "link": "https://1d1d100.com",
+    "cover": "ydyd.png"
+  },
+  {
+    "name": "zj-m",
+    "title": "紫荆官网(M端)",
+    "intro": "gatsby.js",
+    "link": "https://m.zijing365.cn",
+    "cover": "zj.m.png"
+  },
+  {
+    "name": "zj-pc",
+    "title": "紫荆官网(PC端)",
+    "intro": "gatsby.js",
+    "link": "https://zijing365.cn",
+    "cover": "zj.pc.png"
   }
 ]
