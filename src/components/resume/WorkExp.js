@@ -6,27 +6,14 @@ const Container = styled.section`
   display: flex;
   flex-direction: column;
   .company {
+    color:#000;
     margin-bottom: 0.5rem;
     margin-top:0;
   }
   .occupy {
+    color:#000;
     margin-bottom: 0.6rem;
-    .del {
-      position: relative;
-      display: inline-block;
-    }
-    .del::before,
-    .del::after {
-      content: '';
-      width: 100%;
-      position: absolute;
-      right: 0;
-      top: 40%;
-    }
-    .del::after {
-      border-bottom: 4px solid red;
-      transform: skewY(40deg);
-    }
+   
   }
   .period,
   .stack {
@@ -35,6 +22,7 @@ const Container = styled.section`
     font-size: 0.6rem;
     margin-left: 1rem;
     font-weight: normal;
+        text-transform: inherit;
     &:before,
     &:after {
       position: absolute;

@@ -5,10 +5,11 @@ import Img from 'gatsby-image'
 import { media } from '../../utils/media'
 
 const Container = styled.section`
+    display: flex;
   .avator {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     .top {
       position: relative;
       .img {
@@ -18,7 +19,7 @@ const Container = styled.section`
       }
       .status {
         position: absolute;
-        right: 0;
+        left: 0;
         bottom: 0.1rem;
         font-size: 0.5rem;
         line-height: 0.5rem;
@@ -30,6 +31,7 @@ const Container = styled.section`
       }
     }
     .name {
+      color:#000;
       font-size: 2.2rem;
       margin-top: 1rem;
       margin-bottom: 0;
@@ -45,25 +47,17 @@ const Container = styled.section`
     flex-direction: column;
     justify-content: space-around;
     flex-wrap: wrap;
-    @media ${media.tablet} {
-      flex-direction: row;
-    }
-
+    margin-left:5rem;
     .item {
       flex: 1;
       flex-direction: column;
       padding: 0.5rem;
       display: flex;
-      border-left: 2px solid #ddd;
-      margin-top: 0.2rem;
-      flex-wrap: wrap;
-      @media ${media.tablet} {
-        justify-content: flex-start;
+      .title{
+        color:#666;
       }
-      @media ${media.desktop} {
-        border-left: none;
-        padding-left: 0;
-        align-items: center;
+      .content{
+        font-weight:800;
       }
     }
   }
@@ -96,7 +90,7 @@ const Profile = props => {
                 fluid={data.profile.childImageSharp.fluid}
                 alt="简历头像"
               />
-              <span className="status">已离职</span>
+              <span className="status">在职</span>
             </div>
             <h1 className="name">{name}</h1>
             <p className="desc">{basic}</p>
@@ -105,7 +99,7 @@ const Profile = props => {
             {blog && (
               <div className="item">
                 <span className="title">个人网站</span>
-                <span className="blog">
+                <span className="blog content">
                   <a target="_blank" href={blog}>
                     https://yangerxiao.com
                   </a>
@@ -115,14 +109,15 @@ const Profile = props => {
 
             {email && (
               <div className="item">
-                <span className="title">邮箱</span> <span>{email}</span>
+                <span className="title">邮箱</span> 
+                <span className="content">{email}</span>
               </div>
             )}
 
             {tel && (
               <div className="item">
                 <span className="title">电话</span>
-                <span>
+                <span className="content">
                   <a href={`tel:${tel}`}>{tel}</a>
                 </span>
               </div>

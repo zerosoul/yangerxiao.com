@@ -12,9 +12,6 @@ const CommonStyle = createGlobalStyle`
 body{
   background:#fff
 }
-h1,h2,h3,h4,h5{
-  color:#000;
-}
 p{
   color:#666;
 }
@@ -103,18 +100,17 @@ class Resume extends React.Component {
       info: {
         basic: '男/89年/山东/现居北京',
         blog: 'https://yangerxiao.com',
-        email: 'yanggc888@gmail.com',
-        tel: '+86 18201385848',
+        email: 'yanggc888@163.com',
+        tel: '18201385848',
       },
     }
     const jobs = [
       {
-        company: '自由职业',
-        title: '全<span class="del">栈</span>干工程师',
-        period: ['2018.3', '2018.7'],
+        company: '北京点点未来教育科技有限公司',
+        title: '前端技术经理',
+        period: ['2018.3', '至今'],
         desc:
-          '个人原因离职回家处理事情，期间自己折腾做产品，使用React重构了个人网站',
-        // stack: ['ES6', 'react', 'PHP', 'docker', 'git'],
+          '从一线开始做起，一步一个脚印走到技术经理的职位，负责全公司的前端开发：消化需求，统筹前端资源，研究和推动落地技术升级迭代，提高生产力，团建。',
         duties: [],
       },
       {
@@ -130,20 +126,48 @@ class Resume extends React.Component {
         title: '.NET工程师',
         period: ['2012.9', '2014.4'],
         desc: '参与公司的课件管理平台研发',
-        // stack: [],
         duties: [],
       },
     ]
     const projects = [
       {
-        company: '个人站点重构',
-        title: '重构个人站点',
-        period: ['2018.4', '2018.6'],
-        desc: '使用 React & Gatsby.js 重构',
-        stack: ['react.js', 'gatsby.js', 'es6', 'git'],
+        company: '壹点壹滴官网重构',
+        title: '全栈开发',
+        period: ['2019.5', '至今'],
+        desc: '重构前，官网文章都是写死在代码库；重构后，有专门后台供运营录入文章，大大解放了程序员的精力。',
+        stack: ['react.js', 'graphql', 'gatsby.js', 'express','mongodb/mogoose',"pm2"],
         duties: [
-          '<a href="https://yangerxiao.com/">首页</a> ',
-          '<a href="https://blog.yangerxiao.com/">博客</a>',
+          '从零开始搭建全栈架构',
+          'graphql做接口对接',
+          'mongodb/mogoose做数据库解决方案',
+          'gatsby.js做前台官网展示页面，SEO优化',
+          'PM2做Node进程管理（生产和本地）',
+          '负责所有的后台数据管理系统开发工作',
+          '负责部分前台官网的开发工作',
+        ],
+      },
+      {
+        company: '壹点壹滴超级公众号',
+        title: '重构工程化架构，参与部分业务代码开发',
+        period: ['2018.9', '至今'],
+        desc: '公司主打平台，包含产品非常多，包括不限于：家园共育，哄宝神器，育儿头条，今日宝宝等。赋能幼儿园互联网化管理功能：考勤，社交，写文章等',
+        stack: ['react.js', 'redux', 'styled-commonponents', 'eslint'],
+        duties: [
+          '引入ESLint，保障了代码质量',
+          '引入commitlint，保障了git提交质量',
+          '升级webpack：3.x->4.x，以及各种loader，plugin，引入DLL打包机制，构建速度和打包大小均有质的提升',
+          '升级react：15.x->16.x，改造已废弃生命周期函数，使用新特性，如：hooks，同样的功能，代码量少近三分之一，增加了可维护性，性能也有所提升',
+        ],
+      },
+      {
+        company: '壹点壹滴数据管理中心',
+        title: '前期主程，现在做一些管理工作',
+        period: ['2018.5', '至今'],
+        desc: '各个产品线的业务数据均在该系统里处理',
+        stack: ['react.js', 'redux', 'antd', 'eslint'],
+        duties: [
+          '负责园所和财务两大核心模块的前端开发',
+          '刚接手该系统时，开发任务比较多，通过不断升级架构，尽可能使用工程化方式来解决问题，在人手短缺的情况下，保质保量完成了开发任务',
         ],
       },
       {
@@ -175,30 +199,13 @@ class Resume extends React.Component {
       {
         company: '医患帮',
         title:
-          '致力于解决医患关系的平台，参与并负责APP边际页开发，官网的开发以及微信公众号的开发。',
+          '致力于解决医患关系的平台，参与并负责APP混合页开发，官网的开发以及微信公众号的开发。',
         period: ['2015.3', '2015.10'],
         desc:
           '致力于解决医患关系的平台，参与并负责APP边际页开发，官网的开发以及微信公众号的开发。',
         stack: ['javascript', 'zepto.js', 'smarty'],
-        duties: ['负责把控项目前端开发进度', '该项目已死掉'],
-      },
-      {
-        company: 'Microsoft Study Centre(Win8 App)',
-        title: 'Win8平台下的在线学习应用。',
-        period: ['2013.9', '2014.2'],
-        desc:
-          '使用XAML/C#语言，MVVC模式开发。负责“Win8应用开发与维护"这一方面。',
-        stack: ['.NET Framework', 'C#'],
-        duties: [],
-      },
-      {
-        company: 'Muilti-Tenant E-Training Platform',
-        title: '多租户在线培训平台',
-        desc: '',
-        period: ['2012.7', '2013.6'],
-        stack: ['asp.net', 'webservice', 'ajax', 'json'],
-        duties: [],
-      },
+        duties: ['负责把控项目前端开发进度'],
+      }
     ]
     const edu = {
       company: '贵阳学院',
@@ -235,14 +242,14 @@ class Resume extends React.Component {
             </div>
             <div className="skill">
               <h3>框架/类库</h3>
-              <em>react</em>
+              <em>react/redux/styled-components</em>
               <p>jQuery/zepto.js</p>
-              <p>Bootstrap/Semantic-UI</p>
+              <p>Bootstrap/Semantic-UI/antd</p>
             </div>
             <div className="skill">
               <h3>工具</h3>
               <em>VS CODE</em>
-              <p>SVN/Git</p>
+              <p>git/gitlab</p>
               <p>Chrome DevTools</p>
             </div>
             <div className="skill">
@@ -255,13 +262,14 @@ class Resume extends React.Component {
               <h3>工程化</h3>
               <p>create-react-app</p>
               <p>webpack/babel</p>
-              <p>Node.js/gulp</p>
+              <p>ESLint/prettier</p>
+              <p>husky/commitlint</p>
             </div>
             <div className="skill">
               <h3>偏爱</h3>
               <p>Google</p>
               <p>stackoverflow</p>
-              <p>open source</p>
+              <p>github</p>
             </div>
           </section>
           <ExpTitle title="工作经历" />
@@ -277,9 +285,9 @@ class Resume extends React.Component {
           <ExpTitle title="其它" />
           <ul className="others">
             <li>相信：技术服务产品，创造美好体验</li>
-            <li>英语六级，习惯英语阅读</li>
+            <li>英语还行，日常翻墙，习惯获取一手信息</li>
             <li>
-              可能是写代码里单人单次骑行最远的[1个月2400+km]，骑行里最会写代码的
+              骑行过长途(2345km+)，从贵州贵阳到山东聊城
             </li>
           </ul>
         </Container>
