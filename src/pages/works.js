@@ -178,14 +178,14 @@ const Works = ({ title: siteTitle, description: siteDescription }) => {
                 className={`work`}
                 key={work.name}
                 style={{
-                  backgroundImage: `url(img/${work.cover || BgPlaceholder})`,
+                  backgroundImage: `url(/img/${work.cover || BgPlaceholder})`,
                 }}
               >
                 <div className="mask"></div>
                 {work.qr && (
                   <div className="mobile">
                     <img className="icon" src={MF} alt="mobile first icon" />
-                    <img className="qr" src={`img/${work.qr}`} alt="QR url" />
+                    <img className="qr" src={`/img/${work.qr}`} alt="QR url" />
                   </div>
                 )}
                 <hgroup>
