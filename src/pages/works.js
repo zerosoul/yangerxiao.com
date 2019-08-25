@@ -4,6 +4,7 @@ import works from '../assets/works.json'
 import styled, { createGlobalStyle, keyframes } from 'styled-components'
 import Footer from '../components/Footer'
 import Comment from '../components/Gitalk'
+import HomeLink from '../components/HomeLink'
 
 import MF from '../images/mobile.first.png'
 import Eye from '../images/eye.png'
@@ -22,7 +23,7 @@ const gradientBG = keyframes`
 const GlobalStyle = createGlobalStyle`
   body{
     color:#fff;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #545d6c, #23d5ab);
+    background: linear-gradient(-45deg, #ee7752, #9c8189, #545d6c, #23d5ab);
     background-size: 400% 400%;
     animation: ${gradientBG} 15s ease infinite;
     a{
@@ -45,7 +46,7 @@ const Wrapper = styled.section`
     }
     h2 {
       font-size: 0.8rem;
-      color: #666;
+      color: #aaa;
       position: relative;
       text-transform: uppercase;
       .count {
@@ -179,6 +180,7 @@ const Works = () => {
           content={`以前做过的东西，可以公开的作品集合`}
         />
       </Helmet>
+    <HomeLink/>
       <Wrapper>
         <hgroup>
           <h1>作品集</h1>

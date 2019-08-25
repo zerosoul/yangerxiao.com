@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { StaticQuery, graphql } from 'gatsby'
+import { StaticQuery, graphql,Link } from 'gatsby'
 import Img from 'gatsby-image'
 
 const Header = props => (
@@ -61,9 +61,9 @@ const Header = props => (
               </a>
             </li>
             <li>
-              <a target="_blank" href="/works">
+              <Link to="/works">
                 作品
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>

@@ -27,6 +27,7 @@
     "name": "blog",
     "title": "个人博客",
     "intro": "写点东西的地方",
+    "qr":"qr.blog.png",
     "link": "https://blog.yangerxiao.com",
     "github": "https://github.com/zerosoul/blog.yangerxiao.com",
     "cover": "blog.jpg"
@@ -34,21 +35,21 @@
   {
     "name": "landing",
     "title": "个人主页",
-    "intro": "个人落地页",
+    "intro": "个人落地页，内容很久没更新了，有些懒~",
     "link": "https://yangerxiao.com",
     "github": "https://github.com/zerosoul/yangerxiao.com",
     "cover": "landing.png"
   },
   {
     "name": "izhaichao-pc",
-    "title": "万叶集(PC端)",
+    "title": "万叶集(PC)",
     "intro": "以前做的一个专注美文分享的摘抄网站，主要技术：PHP+Docker+jQuery，此为PC端站点。时间略久，现已不再维护😳",
     "link": "https://www.izhaichao.com/",
     "cover": "wan.logo.png"
   },
   {
     "name": "izhaichao-m",
-    "title": "万叶集(M端)",
+    "title": "万叶集(Mobile)",
     "intro": "以前做的一个专注美文分享的摘抄网站，主要技术：PHP+Docker+jQuery，此为移动端站点。时间略久，现已不再维护😳",
     "link": "https://yangerxiao.com",
     "qr": "qr.izhaichao.png",
@@ -95,7 +96,7 @@
   },
   {
     "name": "zj-m",
-    "title": "紫荆官网(M端)",
+    "title": "紫荆教育官网(Mobile)",
     "intro": "紫荆官网的移动端版本，Powered by react + gatsby.js，第一次完整地做静态页",
     "qr": "qr.zj.m.png",
     "link": "https://m.zijing365.cn",
@@ -103,7 +104,7 @@
   },
   {
     "name": "zj-pc",
-    "title": "紫荆官网(PC端)",
+    "title": "紫荆教育官网(PC)",
     "intro": "紫荆官网的桌面版本，Powered by react + gatsby.js",
     "link": "https://zijing365.cn",
     "cover": "zj.pc.png"

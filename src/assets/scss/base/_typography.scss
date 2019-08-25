@@ -5,7 +5,9 @@
 ///
 
 /* Type */
-
+ html, body {
+        min-width: 320px;
+    }
 html {
     font-size: 16pt;
 
