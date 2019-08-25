@@ -30,7 +30,7 @@ const Container = styled.div`
   margin: 1rem auto;
   border: 1px solid #999;
   max-width: 98%;
-  @media ${media.tabletSmall} {
+  @media ${media.tablet} {
     max-width: 90%;
   }
   @media ${media.desktop} {

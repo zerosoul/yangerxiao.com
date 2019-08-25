@@ -17,10 +17,6 @@ const Container = styled.section`
         width: 10rem;
         height: 10rem;
         border-radius: 50%;
-        @media ${media.tabletWide} {
-          width: 15rem;
-          height: 15rem;
-        }
       }
       .status {
         position: absolute;
@@ -37,9 +33,6 @@ const Container = styled.section`
     }
     .name {
       font-size: 2.2rem;
-      @media ${media.tabletWide} {
-        font-size: 3rem;
-      }
       margin-top: 1rem;
       margin-bottom: 0;
     }
@@ -55,7 +48,7 @@ const Container = styled.section`
     flex-direction:column;
     justify-content:space-around;
     flex-wrap:wrap;
-    @media ${media.tabletSmall} {
+    @media ${media.tablet} {
         flex-direction:row;
         /* justify-content:flex-start;
         padding:.4rem; */
