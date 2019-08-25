@@ -5,8 +5,10 @@ import styled from 'styled-components';
 const Wrapper=styled(Link)`
     position:fixed;
     top:1rem;
-    right:1rem;
+    right:.5rem;
     width:2rem;
+    padding-bottom:.4rem;
+        border-bottom: dotted 2px rgba(255, 255, 255, 0.5);
     svg{
         width:100%;
         height:100%;

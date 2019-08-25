@@ -15,7 +15,7 @@ const Wrapper = styled.footer`
     opacity: 0.75;
     margin-bottom: 0.5rem;
     text-transform: uppercase;
-    color: #999;
+    color: #ccc;
     a {
       margin: 0 0.4rem;
     }

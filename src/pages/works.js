@@ -67,6 +67,10 @@ const Wrapper = styled.section`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    >i{
+      width:18rem;
+      margin-right:.5rem;
+    }
     .work {
       display: flex;
       position: relative;
@@ -74,8 +78,8 @@ const Wrapper = styled.section`
       justify-content: space-between;
       background: #333;
       padding: 0.6rem 0.8rem;
-      margin: 0 1rem;
       margin-bottom: 1.6rem;
+      margin-right: .5rem;
       height: 16rem;
       overflow-wrap: break-word;
       box-shadow: 0 0 6px 0px #0c0c0c;
@@ -154,7 +158,6 @@ const Wrapper = styled.section`
           align-items: center;
           text-decoration: none;
           padding: 0.2rem 0.6rem;
-          border: 1px dotted #666;
           border-radius: 0.4rem;
           margin-right: 0.6rem;
           font-size: 0.7rem;
@@ -228,6 +231,9 @@ const Works = () => {
               </article>
             )
           })}
+          <i/>
+          <i/>
+          <i/>
         </section>
         <Comment />
         <Footer />
