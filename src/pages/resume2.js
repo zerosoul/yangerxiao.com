@@ -110,7 +110,7 @@ class Resume extends React.Component {
         title: '前端技术经理',
         period: ['2018.3', '至今'],
         desc:
-          '从一线开始做起，一步一个脚印走到技术经理的职位，负责全公司的前端开发：消化需求，统筹前端资源，研究和推动落地技术升级迭代，提高生产力，团建。',
+          '从一线开始做起，一步一个脚印走到技术经理的职位，负责全公司的前端开发：理解和把控需求，统筹前端资源，研究和推动落地技术升级迭代，提高生产力，团建。',
         duties: [],
       },
       {
@@ -134,8 +134,16 @@ class Resume extends React.Component {
         company: '壹点壹滴官网重构',
         title: '全栈开发',
         period: ['2019.5', '至今'],
-        desc: '重构前，官网文章都是写死在代码库；重构后，有专门后台供运营录入文章，大大解放了程序员的精力。',
-        stack: ['react.js', 'graphql', 'gatsby.js', 'express','mongodb/mogoose',"pm2"],
+        desc:
+          '重构前，官网文章都是写死在代码库；重构后，有专门后台供运营录入文章，大大解放了程序员的精力。',
+        stack: [
+          'react.js',
+          'graphql',
+          'gatsby.js',
+          'express',
+          'mongodb/mogoose',
+          'pm2',
+        ],
         duties: [
           '从零开始搭建全栈架构',
           'graphql做接口对接',
@@ -150,7 +158,8 @@ class Resume extends React.Component {
         company: '壹点壹滴超级公众号',
         title: '重构工程化架构，参与部分业务代码开发',
         period: ['2018.9', '至今'],
-        desc: '公司主打平台，包含产品非常多，包括不限于：家园共育，哄宝神器，育儿头条，今日宝宝等。赋能幼儿园互联网化管理功能：考勤，社交，写文章等',
+        desc:
+          '公司主打平台，包含产品非常多，包括不限于：家园共育，哄宝神器，育儿头条，今日宝宝等。赋能幼儿园互联网化管理功能：考勤，社交，写文章等',
         stack: ['react.js', 'redux', 'styled-commonponents', 'eslint'],
         duties: [
           '引入ESLint，保障了代码质量',
@@ -192,7 +201,7 @@ class Resume extends React.Component {
         duties: [
           '<a href="https://iask.fh21.com.cn/">飞华问答</a>，<a href="https://news.fh21.com.cn/">飞华新闻</a>等',
           '负责全站的前端开发任务',
-          '消化需求，分配开发任务',
+          '理解需求，分配开发任务',
           '招聘与管理',
         ],
       },
@@ -205,7 +214,7 @@ class Resume extends React.Component {
           '致力于解决医患关系的平台，参与并负责APP边际页开发，官网的开发以及微信公众号的开发。',
         stack: ['javascript', 'zepto.js', 'smarty'],
         duties: ['负责把控项目前端开发进度'],
-      }
+      },
     ]
     const edu = {
       company: '贵阳学院',
@@ -267,7 +276,7 @@ class Resume extends React.Component {
             </div>
             <div className="skill">
               <h3>偏爱</h3>
-              <p>Google</p>
+              <em>Google</em>
               <p>stackoverflow</p>
               <p>github</p>
             </div>
@@ -285,10 +294,9 @@ class Resume extends React.Component {
           <ExpTitle title="其它" />
           <ul className="others">
             <li>相信：技术服务产品，创造美好体验</li>
-            <li>英语还行，日常翻墙，习惯获取一手信息</li>
-            <li>
-              骑行过长途(2345km+)，从贵州贵阳到山东聊城
-            </li>
+            <li>追求：有价值的产品，对用户产生正向影响</li>
+            <li>英语还行，日常翻墙，习惯阅读一手信息</li>
+            <li>骑行过长途(2345km+)，从贵州贵阳到山东聊城，半个中国</li>
           </ul>
         </Container>
         <PdfBtn />
