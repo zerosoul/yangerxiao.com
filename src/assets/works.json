@@ -27,7 +27,7 @@
     "name": "blog",
     "title": "个人博客",
     "intro": "写点东西的地方",
-    "qr":"qr.blog.png",
+    "qr": "qr.blog.png",
     "link": "https://blog.yangerxiao.com",
     "github": "https://github.com/zerosoul/blog.yangerxiao.com",
     "cover": "blog.jpg"
@@ -38,6 +38,15 @@
     "intro": "个人落地页，内容很久没更新了，有些懒~",
     "link": "https://yangerxiao.com",
     "github": "https://github.com/zerosoul/yangerxiao.com",
+    "cover": "landing.png"
+  },
+  {
+    "name": "what-to-eat",
+    "title": "吃什么",
+    "intro": "解决世纪难题：中午吃什么？",
+    "qr": "qr.wte.png",
+    "link": "https://zerosoul.github.io/what_to_eat/",
+    "github": "https://github.com/zerosoul/what_to_eat",
     "cover": "landing.png"
   },
   {
