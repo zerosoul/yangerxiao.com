@@ -259,6 +259,7 @@ class Resume extends React.Component {
               <h3>工具</h3>
               <em>VS CODE</em>
               <p>git/gitlab</p>
+              <p>Jenkins</p>
               <p>Chrome DevTools</p>
             </div>
             <div className="skill">
@@ -269,7 +270,7 @@ class Resume extends React.Component {
             </div>
             <div className="skill">
               <h3>工程化</h3>
-              <p>create-react-app</p>
+              <p>CRA</p>
               <p>webpack/babel</p>
               <p>ESLint/prettier</p>
               <p>husky/commitlint</p>

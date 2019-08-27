@@ -20,13 +20,13 @@
     "title": "HTML颜色手册",
     "link": "https://works.yangerxiao.com/html-color-cheatsheet/",
     "github": "https://github.com/zerosoul/html-color-cheatsheet",
-    "intro": "HTML大概原生支持140+种有名有姓的颜色，一个页面搞定！",
+    "intro": "HTML大概原生支持140+种有名有姓的颜色，一个页面搞定！还可以一键复制",
     "cover": "html.color.jpg"
   },
   {
     "name": "blog",
     "title": "个人博客",
-    "intro": "写点东西的地方",
+    "intro": "写点东西的地方，技术&生活&读书笔记",
     "qr": "qr.blog.png",
     "link": "https://blog.yangerxiao.com",
     "github": "https://github.com/zerosoul/blog.yangerxiao.com",
@@ -43,7 +43,7 @@
   {
     "name": "what-to-eat",
     "title": "吃什么",
-    "intro": "解决世纪难题：中午吃什么？",
+    "intro": "解决世纪难题：中午吃什么？我记得当时看见微博上有个人抱怨中午吃啥是个人生难题，就想着做个页面，调侃&解决下。",
     "qr": "qr.wte.png",
     "link": "https://zerosoul.github.io/what_to_eat/",
     "github": "https://github.com/zerosoul/what_to_eat",
@@ -117,5 +117,13 @@
     "intro": "紫荆官网的桌面版本，Powered by react + gatsby.js",
     "link": "https://zijing365.cn",
     "cover": "zj.pc.png"
+  },
+  {
+    "name": "self-cultivate",
+    "title": "前端工程师的自我修养（PPT）",
+    "intro": "2014年在公司做的一个分享，利用impress.js做的PPT，当时觉得效果挺好的（现在看效果也还可以😂）。为了更好的观看效果，请使用PC打开。",
+    "github": "https://github.com/zerosoul/self-cultivate",
+    "link": "http://zerosoul.github.io/self-cultivate/",
+    "cover": "fenxiang.jpg"
   }
 ]
