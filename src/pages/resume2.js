@@ -135,7 +135,7 @@ class Resume extends React.Component {
         title: '全栈开发',
         period: ['2019.5', '至今'],
         desc:
-          '重构前，官网文章都是写死在代码库；重构后，有专门后台供运营录入文章，大大解放了程序员的精力。',
+          '重构前，官网文章都是写死在代码库；重构后，有专门后台供运营录入文章，大大解放了程序员维护精力。',
         stack: [
           'react.js',
           'graphql',
@@ -162,6 +162,7 @@ class Resume extends React.Component {
           '公司主打平台，包含产品非常多，包括不限于：家园共育，哄宝神器，育儿头条，今日宝宝等。赋能幼儿园互联网化管理功能：考勤，社交，写文章等',
         stack: ['react.js', 'redux', 'styled-commonponents', 'eslint'],
         duties: [
+          '重构部分业务代码，打样板，推动重构计划落地',
           '引入ESLint，保障了代码质量',
           '引入commitlint，保障了git提交质量',
           '升级webpack：3.x->4.x，以及各种loader，plugin，引入DLL打包机制，构建速度和打包大小均有质的提升',
@@ -294,6 +295,12 @@ class Resume extends React.Component {
           <WorkExp {...edu} />
           <ExpTitle title="其它" />
           <ul className="others">
+            <li>
+              Side Projects：
+              <a href="https://works.yangerxiao.com">
+                https://works.yangerxiao.com
+              </a>
+            </li>
             <li>相信：技术服务产品，创造美好体验</li>
             <li>追求：有价值的产品，对用户产生正向影响</li>
             <li>英语还行，日常翻墙，习惯阅读一手信息</li>
