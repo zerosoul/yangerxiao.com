@@ -155,6 +155,29 @@ class Resume extends React.Component {
         ],
       },
       {
+        company: '壹点壹滴数据管理中心',
+        title: '前期主程，现在做一些管理工作',
+        period: ['2018.5', '至今'],
+        desc: '各个产品线的业务数据均在该系统里处理',
+        stack: ['react.js', 'redux', 'antd', 'eslint'],
+        duties: [
+          '负责园所和财务两大核心模块的前端开发',
+          '刚接手该系统时，开发任务比较多，通过不断升级架构，尽可能使用工程化方式来解决问题，在人手短缺的情况下，保质保量完成了开发任务',
+        ],
+      },
+      {
+        company: '代理商会议报名系统',
+        title: '实现类似易企秀效果的H5',
+        period: ['2019.05', '2019.06'],
+        desc: '一人负责前端报名页面的实现',
+        stack: ['react.js', 'anime.js', 'swiper.js'],
+        duties: [
+          '从零搭建开发架子',
+          '引入swiper.js & anime.js，实现了丰富的动效和交互效果',
+          '体验上获得了市场部们和用户一致好评',
+        ],
+      },
+      {
         company: '壹点壹滴超级公众号',
         title: '重构工程化架构，参与部分业务代码开发',
         period: ['2018.9', '至今'],
@@ -167,17 +190,6 @@ class Resume extends React.Component {
           '引入commitlint，保障了git提交质量',
           '升级webpack：3.x->4.x，以及各种loader，plugin，引入DLL打包机制，构建速度和打包大小均有质的提升',
           '升级react：15.x->16.x，改造已废弃生命周期函数，使用新特性，如：hooks，同样的功能，代码量少近三分之一，增加了可维护性，性能也有所提升',
-        ],
-      },
-      {
-        company: '壹点壹滴数据管理中心',
-        title: '前期主程，现在做一些管理工作',
-        period: ['2018.5', '至今'],
-        desc: '各个产品线的业务数据均在该系统里处理',
-        stack: ['react.js', 'redux', 'antd', 'eslint'],
-        duties: [
-          '负责园所和财务两大核心模块的前端开发',
-          '刚接手该系统时，开发任务比较多，通过不断升级架构，尽可能使用工程化方式来解决问题，在人手短缺的情况下，保质保量完成了开发任务',
         ],
       },
       {
@@ -205,16 +217,6 @@ class Resume extends React.Component {
           '理解需求，分配开发任务',
           '招聘与管理',
         ],
-      },
-      {
-        company: '医患帮',
-        title:
-          '致力于解决医患关系的平台，参与并负责APP混合页开发，官网的开发以及微信公众号的开发。',
-        period: ['2015.3', '2015.10'],
-        desc:
-          '致力于解决医患关系的平台，参与并负责APP边际页开发，官网的开发以及微信公众号的开发。',
-        stack: ['javascript', 'zepto.js', 'smarty'],
-        duties: ['负责把控项目前端开发进度'],
       },
     ]
     const edu = {
@@ -260,7 +262,7 @@ class Resume extends React.Component {
               <h3>工具</h3>
               <em>VS CODE</em>
               <p>git/gitlab</p>
-              <p>Jenkins</p>
+              <p>Jenkins/pm2</p>
               <p>Chrome DevTools</p>
             </div>
             <div className="skill">
