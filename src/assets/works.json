@@ -16,6 +16,14 @@
     "cover": "css.arrow.png"
   },
   {
+    "name": "pwd-gen",
+    "title": "强代码生成器",
+    "link": "https://works.yangerxiao.com/strong-password-generator/",
+    "github": "https://github.com/zerosoul/strong-password-generator",
+    "intro": "超强代码生成器！",
+    "cover": "pwd-gen.jpg"
+  },
+  {
     "name": "html-colors",
     "title": "HTML颜色手册",
     "link": "https://works.yangerxiao.com/html-color-cheatsheet/",
