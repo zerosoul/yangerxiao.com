@@ -16,6 +16,13 @@
     "cover": "css.arrow.png"
   },
   {
+    "name": "stopwatch",
+    "title": "迷你计时器",
+    "link": "https://works.yangerxiao.com/mini-stopwatch/",
+    "github": "https://github.com/zerosoul/mini-stopwatch",
+    "intro": "非常简单的一个计时器"
+  },
+  {
     "name": "pwd-gen",
     "title": "密码生成器",
     "link": "https://works.yangerxiao.com/strong-password-generator/",
