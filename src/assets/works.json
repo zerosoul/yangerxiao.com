@@ -5,6 +5,7 @@
     "link": "https://works.yangerxiao.com/tech-logo-memo-game/",
     "intro": "可以选择技术栈和难度等级，还有模式选择、记录成绩、社交分享、全屏沉浸等功能",
     "github": "https://github.com/zerosoul/frontend-memo-game",
+    "qr": "qr.tech.logo.mem.png",
     "cover": "logo.memo.game.png"
   },
   {
@@ -13,6 +14,8 @@
     "link": "https://works.yangerxiao.com/css-arrow-generator/",
     "github": "https://github.com/zerosoul/css-arrow-generator",
     "intro": "利用边框和伪元素在线生成CSS三角，妈妈再也不用担心我到处找代码复制粘贴啦！",
+    "qr": "qr.css.arrow.gen.png",
+
     "cover": "css.arrow.png"
   },
   {
@@ -20,6 +23,9 @@
     "title": "迷你计时器",
     "link": "https://works.yangerxiao.com/mini-stopwatch/",
     "github": "https://github.com/zerosoul/mini-stopwatch",
+    "qr": "qr.mini.stopwatch.png",
+    "cover": "mini.stopwatch.jpg",
+
     "intro": "非常简单的一个计时器"
   },
   {
@@ -37,6 +43,8 @@
     "link": "https://works.yangerxiao.com/html-color-cheatsheet/",
     "github": "https://github.com/zerosoul/html-color-cheatsheet",
     "intro": "HTML大概原生支持140+种有名有姓的颜色，一个页面搞定！还可以一键复制",
+    "qr": "qr.html.color.png",
+
     "cover": "html.color.jpg"
   },
   {

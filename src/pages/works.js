@@ -67,9 +67,9 @@ const Wrapper = styled.section`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    >i{
-      width:18rem;
-      margin-right:.5rem;
+    > i {
+      width: 18rem;
+      margin-right: 0.5rem;
     }
     .work {
       display: flex;
@@ -79,7 +79,7 @@ const Wrapper = styled.section`
       background: #333;
       padding: 0.6rem 0.8rem;
       margin-bottom: 1.6rem;
-      margin-right: .5rem;
+      margin-right: 0.5rem;
       height: 16rem;
       overflow-wrap: break-word;
       box-shadow: 0 0 6px 0px #0c0c0c;
@@ -133,17 +133,19 @@ const Wrapper = styled.section`
         z-index: 1;
         border-radius: 0.5rem;
       }
-      > hgroup {
+      .intro {
         z-index: 2;
 
         h2 {
           font-size: 1.6rem;
-
           text-shadow: 1px 5px 5px black;
+          white-space: nowrap;
+          overflow-y: scroll;
         }
         h3 {
           font-size: 0.8rem;
-
+          overflow-y: scroll;
+          height: 8rem;
           color: #ddd;
           text-transform: initial;
           text-shadow: 0 0 8px black;
@@ -161,7 +163,7 @@ const Wrapper = styled.section`
           border-radius: 0.4rem;
           margin-right: 0.6rem;
           font-size: 0.7rem;
-          background: rgba(0, 0, 0, 0.5);
+          background: rgba(0, 0, 0, 0.6);
           > img {
             height: 0.8rem;
             margin-right: 0.3rem;
@@ -183,7 +185,7 @@ const Works = () => {
           content={`以前做过的东西，可以公开的作品集合`}
         />
       </Helmet>
-    <HomeLink/>
+      <HomeLink />
       <Wrapper>
         <hgroup>
           <h1>作品集</h1>
@@ -208,10 +210,10 @@ const Works = () => {
                     <img className="qr" src={`/img/${work.qr}`} alt="QR url" />
                   </div>
                 )}
-                <hgroup>
+                <a className="intro" href={work.link} target="_blank">
                   <h2>{work.title}</h2>
                   <h3>{work.intro}</h3>
-                </hgroup>
+                </a>
                 <div className="links">
                   <a target="_blank" href={work.link} className="link demo">
                     <img src={Eye} alt="预览" />
@@ -231,9 +233,9 @@ const Works = () => {
               </article>
             )
           })}
-          <i/>
-          <i/>
-          <i/>
+          <i />
+          <i />
+          <i />
         </section>
         <Comment />
         <Footer />
