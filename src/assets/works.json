@@ -9,6 +9,15 @@
     "cover": "logo.memo.game.png"
   },
   {
+    "name": "chinese-colors",
+    "title": "中国风颜色大全",
+    "link": "https://works.yangerxiao.com/chinese-colors/",
+    "github": "https://github.com/zerosoul/chinese-colors",
+    "intro": "中国风的颜色手册",
+
+    "cover": "chinese.colors.jpg"
+  },
+  {
     "name": "css-arrow",
     "title": "CSS三角生成器",
     "link": "https://works.yangerxiao.com/css-arrow-generator/",
