@@ -141,10 +141,16 @@ const Wrapper = styled.section`
           text-shadow: 1px 5px 5px black;
           white-space: nowrap;
           overflow-y: scroll;
+          &::-webkit-scrollbar {
+            display: none;
+          }
         }
         h3 {
           font-size: 0.8rem;
           overflow-y: scroll;
+          &::-webkit-scrollbar {
+            display: none;
+          }
           height: 8rem;
           color: #ddd;
           text-transform: initial;
