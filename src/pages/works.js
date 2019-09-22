@@ -46,7 +46,7 @@ const Wrapper = styled.section`
     }
     h2 {
       font-size: 0.8rem;
-      color: #aaa;
+      color: #eee;
       position: relative;
       text-transform: uppercase;
       .count {
@@ -54,7 +54,7 @@ const Wrapper = styled.section`
         width: 1.2rem;
         height: 1.2rem;
         top: -0.6rem;
-        right: 0.3rem;
+        right: -1.2rem;
         border-radius: 50%;
         font-size: 0.5rem;
         display: flex;
@@ -185,7 +185,7 @@ const Works = () => {
     <>
       <GlobalStyle />
       <Helmet>
-        <title>我的作品</title>
+        <title>我的作品 - Just for fun</title>
         <meta
           name="description"
           content={`以前做过的东西，可以公开的作品集合`}
@@ -196,7 +196,7 @@ const Works = () => {
         <hgroup>
           <h1>作品集</h1>
           <h2>
-            works <p className="count">{works.length}</p>
+            Just for fun<p className="count">{works.length}</p>
           </h2>
         </hgroup>
         <section className="works">
