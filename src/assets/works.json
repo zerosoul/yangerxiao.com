@@ -19,11 +19,19 @@
   },
   {
     "name": "github-star-view",
-    "title": "Github star 统计工具",
+    "title": "Github star统计工具",
     "link": "https://stars.yangerxiao.com/",
     "github": "https://github.com/zerosoul/github-star-stats",
     "intro": "当时有这么个小需求：想统计某个github项目下每日新增多少star，网上找了一通，没找到，于是自己就做了个，算是填补了某种需求的空白。P.S. Github API v4真香！",
     "cover": "star.stats.jpg"
+  },
+  {
+    "name": "github-repo-image-gen",
+    "title": "Github社交图生成工具",
+    "link": "https://works.yangerxiao.com/github-social-image-generator/?repo=https://github.com/zerosoul/github-social-image-generator&utm_source=hacpai.com",
+    "github": "https://github.com/zerosoul/github-social-image-generator",
+    "intro": "做完GitHub Star统计工具，随即又做了这个Github仓库分享图片生成工具，很小众的工具，但切实解决了一个问题：给github项目设置社交分享图",
+    "cover": "github.share.png"
   },
   {
     "name": "css-arrow",
