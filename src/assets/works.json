@@ -26,6 +26,14 @@
     "cover": "star.stats.jpg"
   },
   {
+    "name": "rc-bullets",
+    "title": "React弹幕",
+    "link": "https://zerosoul.github.io/rc-bullets/",
+    "github": "https://github.com/zerosoul/rc-bullets",
+    "intro": "基于CSS3和React实现的弹幕，初衷是用于年会，后来写成了npm包，开源方便大家",
+    "cover": "rc.bullets.png"
+  },
+  {
     "name": "github-repo-image-gen",
     "title": "Github社交图生成工具",
     "link": "https://works.yangerxiao.com/github-social-image-generator/?repo=https://github.com/zerosoul/github-social-image-generator&utm_source=hacpai.com",
