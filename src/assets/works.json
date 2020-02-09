@@ -34,6 +34,14 @@
     "cover": "rc.bullets.png"
   },
   {
+    "name": "breathe-relaxer",
+    "title": "在线调节呼吸节奏",
+    "link": "https://works.yangerxiao.com/breathe-relaxer/",
+    "github": "https://github.com/zerosoul/breathe-relaxer",
+    "intro": "通过视觉反馈，调节呼吸节奏，比较适合静心前的准备工作。",
+    "cover": "breathe.relaxer.png"
+  },
+  {
     "name": "github-repo-image-gen",
     "title": "Github社交图生成工具",
     "link": "https://works.yangerxiao.com/github-social-image-generator/?repo=https://github.com/zerosoul/github-social-image-generator&utm_source=hacpai.com",
@@ -48,7 +56,6 @@
     "github": "https://github.com/zerosoul/css-arrow-generator",
     "intro": "利用边框和伪元素在线生成CSS三角，妈妈再也不用担心我到处找代码复制粘贴啦！",
     "qr": "qr.css.arrow.gen.png",
-
     "cover": "css.arrow.png"
   },
   {
