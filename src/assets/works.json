@@ -26,6 +26,14 @@
     "cover": "chinese.colors.jpg"
   },
   {
+    "name": "image-compress-in-browser",
+    "title": "图片压缩工具",
+    "link": "https://works.yangerxiao.com/icfe/",
+    "github": "https://github.com/zerosoul/image-compress-without-backend",
+    "intro": "纯前端实现，注意该工具不仅会压缩大小，还会自动压缩尺寸（宽高超过 750px 会被压缩）。另，目前处于试验阶段，请根据压缩后的具体效果酌情使用。",
+    "cover": "image.compress.jpg"
+  },
+  {
     "name": "github-star-view",
     "title": "Github star统计工具",
     "link": "https://stars.yangerxiao.com/",
