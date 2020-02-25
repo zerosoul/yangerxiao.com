@@ -9,7 +9,8 @@ const Wrapper = styled.footer`
   text-align: center;
   transition: all 0.5s;
   .copyright,
-  .powerby {
+  .powerby,
+  .icp {
     letter-spacing: 2px;
     font-size: 0.6rem;
     opacity: 0.75;
@@ -46,6 +47,11 @@ const Footer = props => (
       &
       <a target="_blank" href="https://www.gatsbyjs.org/">
         Gatsby.js
+      </a>
+    </p>
+    <p className="icp">
+      <a target="_blank" href="http://www.beian.miit.gov.cn/">
+        京ICP备16015459号-1
       </a>
     </p>
   </Wrapper>
