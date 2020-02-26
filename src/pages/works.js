@@ -88,6 +88,10 @@ const Wrapper = styled.section`
       background-position: center;
       background-repeat: no-repeat;
       width: 18rem;
+      transition: background-image 3s;
+      :hover {
+        background-size: 120%;
+      }
       .mobile {
         position: absolute;
         top: -1rem;
