@@ -74,6 +74,10 @@
                 padding-left: 0;
                 margin: 0.5rem 0;
                 word-break: break-all;
+                .fa-link{
+                    margin-left:.4rem;
+                    color: #aaa;
+                }
             }
         }
 
@@ -82,7 +86,7 @@
             border: 0;
             display: inline-block;
             margin: 1rem 0;
-            width: 100%;
+            max-width: 100%;
         }
 
         .close {

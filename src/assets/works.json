@@ -4,6 +4,7 @@
     "title": "甜言蜜语生成器",
     "link": "https://works.yangerxiao.com/honeyed-words-generator/",
     "intro": "土味情话，在线生成",
+    "mobile": true,
     "github": "https://github.com/zerosoul/honeyed-words-generator",
     "cover": "hwg.png"
   },
@@ -13,7 +14,7 @@
     "link": "https://works.yangerxiao.com/tech-logo-memo-game/",
     "intro": "可以选择技术栈和难度等级，还有模式选择、记录成绩、社交分享、全屏沉浸等功能",
     "github": "https://github.com/zerosoul/tech-logo-memo-game",
-    "qr": "qr.tech.logo.mem.png",
+    "mobile": true,
     "cover": "logo.memo.game.png"
   },
   {
@@ -22,12 +23,13 @@
     "link": "https://colors.ichuantong.cn",
     "github": "https://github.com/zerosoul/chinese-colors",
     "intro": "UI基于日本同行的2010年的一个作品（http://nipponcolors.com/），同时自己做了大量改进。",
-    "qr": "qr.color.png",
+    "mobile": true,
     "cover": "chinese.colors.jpg"
   },
   {
     "name": "image-compress-in-browser",
     "title": "图片压缩工具",
+    "mobile": true,
     "link": "https://works.yangerxiao.com/icfe/",
     "github": "https://github.com/zerosoul/image-compress-without-backend",
     "intro": "纯前端实现，注意该工具不仅会压缩大小，还会自动压缩尺寸（宽高超过 750px 会被压缩）。另，目前处于试验阶段，请根据压缩后的具体效果酌情使用。",
@@ -36,6 +38,7 @@
   {
     "name": "github-star-view",
     "title": "Github star统计工具",
+    "mobile": true,
     "link": "https://stars.yangerxiao.com/",
     "github": "https://github.com/zerosoul/github-star-stats",
     "intro": "当时有这么个小需求：想统计某个github项目下每日新增多少star，网上找了一通，没找到，于是自己就做了个，算是填补了某种需求的空白。P.S. Github API v4真香！",
@@ -47,6 +50,7 @@
     "link": "https://zerosoul.github.io/rc-bullets/",
     "github": "https://github.com/zerosoul/rc-bullets",
     "intro": "基于CSS3和React实现的弹幕，初衷是用于年会，后来写成了npm包，开源方便大家",
+    "mobile": true,
     "cover": "rc.bullets.png"
   },
   {
@@ -55,6 +59,7 @@
     "link": "https://works.yangerxiao.com/breathe-relaxer/",
     "github": "https://github.com/zerosoul/breathe-relaxer",
     "intro": "通过视觉反馈，调节呼吸节奏，比较适合静心前的准备工作。",
+    "mobile": true,
     "cover": "breathe.relaxer.png"
   },
   {
@@ -71,7 +76,7 @@
     "link": "https://works.yangerxiao.com/css-arrow-generator/",
     "github": "https://github.com/zerosoul/css-arrow-generator",
     "intro": "利用边框和伪元素在线生成CSS三角，妈妈再也不用担心我到处找代码复制粘贴啦！",
-    "qr": "qr.css.arrow.gen.png",
+    "mobile": true,
     "cover": "css.arrow.png"
   },
   {
@@ -79,7 +84,7 @@
     "title": "健身激励神器",
     "link": "https://works.yangerxiao.com/oh-my-goal/",
     "github": "https://github.com/zerosoul/oh-my-goal",
-    "qr": "qr.omg.png",
+    "mobile": true,
     "cover": "omg.jpg",
     "intro": "给自己做的一个健身激励页面，选取猛男或美女，还有兄贵，作为榜样😂，设定时长，从模糊开始，坚持时间越长，看到的越清晰。"
   },
@@ -88,9 +93,8 @@
     "title": "迷你计时器",
     "link": "https://works.yangerxiao.com/mini-stopwatch/",
     "github": "https://github.com/zerosoul/mini-stopwatch",
-    "qr": "qr.mini.stopwatch.png",
+    "mobile": true,
     "cover": "mini.stopwatch.jpg",
-
     "intro": "非常简单的一个计时器"
   },
   {
@@ -100,7 +104,7 @@
     "github": "https://github.com/zerosoul/strong-password-generator",
     "intro": "超强密码生成器！字母大小写，各种符号，数字随机大混合，生成让你用了再也想不起来是啥的密码！",
     "cover": "pwd-gen.jpg",
-    "qr": "qr.pwd.gen.png"
+    "mobile": true
   },
   {
     "name": "html-colors",
@@ -108,15 +112,14 @@
     "link": "https://works.yangerxiao.com/html-color-cheatsheet/",
     "github": "https://github.com/zerosoul/html-color-cheatsheet",
     "intro": "HTML大概原生支持140+种有名有姓的颜色，一个页面搞定！还可以一键复制",
-    "qr": "qr.html.color.png",
-
+    "mobile": true,
     "cover": "html.color.jpg"
   },
   {
     "name": "blog",
     "title": "个人博客",
     "intro": "写点东西的地方，技术&生活&读书笔记",
-    "qr": "qr.blog.png",
+    "mobile": true,
     "link": "https://blog.yangerxiao.com",
     "github": "https://github.com/zerosoul/blog.yangerxiao.com",
     "cover": "blog.jpg"
@@ -128,13 +131,13 @@
     "link": "https://yangerxiao.com",
     "github": "https://github.com/zerosoul/yangerxiao.com",
     "cover": "landing.png",
-    "qr": "qr.landing.png"
+    "mobile": true
   },
   {
     "name": "what-to-eat",
     "title": "吃什么",
     "intro": "解决世纪难题：中午吃什么？我记得当时看见微博上有个人抱怨中午吃啥是个人生难题，就想着做个页面，调侃&解决下。",
-    "qr": "qr.wte.png",
+    "mobile": true,
     "link": "https://zerosoul.github.io/what_to_eat/",
     "github": "https://github.com/zerosoul/what_to_eat",
     "cover": "wte.jpg"
@@ -151,7 +154,7 @@
     "title": "万叶集(Mobile)",
     "intro": "以前做的一个专注美文分享的摘抄网站，主要技术：PHP+Docker+jQuery，此为移动端站点。时间略久，现已不再维护😳",
     "link": "https://yangerxiao.com",
-    "qr": "qr.izhaichao.png",
+    "mobile": true,
     "cover": "wan.logo.png"
   },
   {
@@ -165,7 +168,7 @@
   {
     "name": "h5-meeting-demo",
     "title": "会议报名H5页面",
-    "qr": "qr.react.meeting.h5.png",
+    "mobile": true,
     "link": "https://works.yangerxiao.com/react-meeting-h5/",
     "github": "https://github.com/zerosoul/react-meeting-h5",
     "intro": "使用react+swiper.js做的，借助anime.js加入了大量的动画"
@@ -175,7 +178,7 @@
     "title": "会议报名H5页面2",
     "link": "https://works.yangerxiao.com/react-h5/",
     "github": "https://github.com/zerosoul/react-h5",
-    "qr": "qr.react.h5.png",
+    "mobile": true,
     "intro": "同样使用react+swiper.js+anime.js做的，只是主题风格不一样"
   },
   {
@@ -190,14 +193,15 @@
     "name": "ydyd",
     "title": "壹点壹滴官网",
     "intro": "gatsby.js+mongodb，配合后台数据管理录入文章，效率飞起！",
-    "link": "https://web.1d1d100.com",
-    "cover": "ydyd.png"
+    "link": "https://www.1d1d100.com",
+    "cover": "ydyd.png",
+    "mobile": true
   },
   {
     "name": "zj-m",
     "title": "紫荆教育官网(Mobile)",
     "intro": "紫荆官网的移动端版本，Powered by react + gatsby.js，第一次完整地做静态页",
-    "qr": "qr.zj.m.png",
+    "mobile": true,
     "link": "https://m.zijing365.cn",
     "cover": "zj.m.png"
   },

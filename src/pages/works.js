@@ -5,7 +5,7 @@ import styled, { createGlobalStyle, keyframes } from 'styled-components'
 import Footer from '../components/Footer'
 import Comment from '../components/Gitalk'
 import HomeLink from '../components/HomeLink'
-
+import QRCode from 'qrcode.react'
 import MF from '../images/mobile.first.png'
 import Eye from '../images/eye.png'
 import GH from '../images/github.png'
@@ -89,9 +89,7 @@ const Wrapper = styled.section`
       background-repeat: no-repeat;
       width: 18rem;
       transition: background-image 3s;
-      :hover {
-        background-size: 120%;
-      }
+
       .mobile {
         position: absolute;
         top: -1rem;
@@ -214,10 +212,10 @@ const Works = () => {
                 }}
               >
                 <div className="mask"></div>
-                {work.qr && (
+                {work.mobile && (
                   <div className="mobile" title="Mobile First">
                     <img className="icon" src={MF} alt="mobile first icon" />
-                    <img className="qr" src={`/img/${work.qr}`} alt="QR url" />
+                    <QRCode className="qr" value={work.link} />
                   </div>
                 )}
                 <a className="intro" href={work.link} target="_blank">
