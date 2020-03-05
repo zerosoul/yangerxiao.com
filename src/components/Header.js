@@ -34,13 +34,15 @@ const Header = props => (
     <nav>
       <ul>
         <li>
-          <button
-            onClick={() => {
+          <a
+            href="#"
+            onClick={e => {
+              e.preventDefault()
               props.onOpenArticle('about')
             }}
           >
             关于我
-          </button>
+          </a>
         </li>
         <li>
           <a target="_blank" href="//blog.yangerxiao.com">

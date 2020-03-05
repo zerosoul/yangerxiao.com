@@ -35,7 +35,7 @@ const Wrapper = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 90vw;
+  width: 98vw;
   margin: 1rem auto;
   > hgroup {
     text-align: center;
@@ -78,7 +78,7 @@ const Wrapper = styled.section`
       justify-content: space-between;
       background: #333;
       padding: 0.6rem 0.8rem;
-      margin-bottom: 1.6rem;
+      margin-bottom: 3rem;
       margin-right: 0.5rem;
       height: 16rem;
       overflow-wrap: break-word;
@@ -190,7 +190,7 @@ const Works = () => {
         <title>我的作品 - Just for fun</title>
         <meta
           name="description"
-          content={`以前做过的东西，可以公开的作品集合`}
+          content={`我的作品集，just for fun. 以前做过的东西，可以公开的作品集合`}
         />
       </Helmet>
       <HomeLink />
