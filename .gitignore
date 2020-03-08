@@ -32,6 +32,5 @@ node_modules
 .DS_Store
 .intermediate-representation/
 .cache/
-yarn.lock
 package-lock.json
 
