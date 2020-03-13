@@ -208,7 +208,8 @@ const Works = () => {
                 className={`work`}
                 key={work.name}
                 style={{
-                  backgroundImage: `url(/img/${work.cover || BgPlaceholder})`,
+                  backgroundImage: `url('https://gitee.com/zyanggc/oss/raw/master/works/${work.cover ||
+                    BgPlaceholder}')`,
                 }}
               >
                 <div className="mask"></div>

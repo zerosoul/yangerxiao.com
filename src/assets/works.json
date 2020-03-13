@@ -1,5 +1,14 @@
 [
   {
+    "name": "chinese-colors",
+    "title": "中国古典颜色在线手册",
+    "link": "https://colors.ichuantong.cn",
+    "github": "https://github.com/zerosoul/chinese-colors",
+    "intro": "UI基于日本同行的2010年的一个作品（http://nipponcolors.com/），同时自己做了大量改进。",
+    "mobile": true,
+    "cover": "chinese.colors.jpg"
+  },
+  {
     "name": "honeyed-words-generator",
     "title": "甜言蜜语生成器",
     "link": "https://works.yangerxiao.com/honeyed-words-generator/",
@@ -18,13 +27,13 @@
     "cover": "logo.memo.game.png"
   },
   {
-    "name": "chinese-colors",
-    "title": "中国古典颜色在线手册",
-    "link": "https://colors.ichuantong.cn",
-    "github": "https://github.com/zerosoul/chinese-colors",
-    "intro": "UI基于日本同行的2010年的一个作品（http://nipponcolors.com/），同时自己做了大量改进。",
+    "name": "life-progress",
+    "title": "生命进程警示器",
     "mobile": true,
-    "cover": "chinese.colors.jpg"
+    "link": "https://works.yangerxiao.com/life-progress/",
+    "github": "https://github.com/zerosoul/life-progress",
+    "intro": "⚠️⚠️⚠️：你的生命并不长，所以更不能用它来悲伤。",
+    "cover": "life.progress.png"
   },
   {
     "name": "image-compress-in-browser",
