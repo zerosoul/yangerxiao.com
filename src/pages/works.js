@@ -18,6 +18,17 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 `
+const AniFadeInUp = keyframes`
+from{
+  opacity:0;
+  transform:translate3d(0,10px,0);
+}
+to{
+opacity:1;
+  transform:translate3d(0,0,0);
+}
+
+`
 const Wrapper = styled.section`
   display: flex;
   flex-direction: column;
@@ -71,12 +82,16 @@ const Wrapper = styled.section`
       overflow-wrap: break-word;
       box-shadow: 0 0 6px 0px #0c0c0c;
       border-radius: 0.5rem;
-      background-size: cover;
+      background-size: 100% 100%;
       background-position: center;
       background-repeat: no-repeat;
       width: 18rem;
-      transition: background-image 3s;
-
+      transition: all 1s;
+      animation: ${AniFadeInUp} 0.5s;
+      animation-fill-mode: both;
+      &:hover {
+        background-size: 120% 120%;
+      }
       .mobile {
         position: absolute;
         top: -1rem;
@@ -189,7 +204,7 @@ const Works = () => {
           </h2>
         </hgroup>
         <section className="works">
-          {works.map(work => {
+          {works.map((work, idx) => {
             return (
               <article
                 className={`work`}
@@ -197,6 +212,7 @@ const Works = () => {
                 style={{
                   backgroundImage: `url('https://gitee.com/zyanggc/oss/raw/master/works/${work.cover ||
                     BgPlaceholder}')`,
+                  animationDelay: `${idx * 0.2}s`,
                 }}
               >
                 <div className="mask"></div>
@@ -211,10 +227,12 @@ const Works = () => {
                   <h3>{work.intro}</h3>
                 </a>
                 <div className="links">
-                  <a target="_blank" href={work.link} className="link demo">
-                    <img src={Eye} alt="预览" />
-                    链接
-                  </a>
+                  {work.link && (
+                    <a target="_blank" href={work.link} className="link demo">
+                      <img src={Eye} alt="预览" />
+                      链接
+                    </a>
+                  )}
                   {work.github && (
                     <a
                       target="_blank"

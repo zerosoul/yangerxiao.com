@@ -63,6 +63,22 @@
     "cover": "rc.bullets.png"
   },
   {
+    "name": "react-starter",
+    "title": "React开发脚手架",
+    "github": "https://github.com/zerosoul/react-starter",
+    "intro": "个人基于create-react-app魔改，加入了大量自己的改进，当然有些是严重有个人偏好倾向。我的绝大多数作品，都是借助这个脚手架完成的。",
+    "mobile": false,
+    "cover": "react.starter.jpg"
+  },
+  {
+    "name": "react-antd-starter",
+    "title": "Admin脚手架",
+    "github": "https://github.com/zerosoul/react-antd-starter",
+    "intro": "也是基于create-react-app魔改而来，只不过加入了antd 4.0，适合快速开发后台管理界面",
+    "mobile": false,
+    "cover": "react.admin.starter.jpg"
+  },
+  {
     "name": "breathe-relaxer",
     "title": "在线调节呼吸节奏",
     "link": "https://works.yangerxiao.com/breathe-relaxer/",
