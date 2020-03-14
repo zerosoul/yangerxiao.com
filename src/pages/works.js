@@ -11,11 +11,8 @@ import Eye from '../images/eye.png'
 import GH from '../images/github.png'
 const GlobalStyle = createGlobalStyle`
   body{
-    -webkit-overflow-scroll:touch;
     color:#fff;
-    background: linear-gradient(-45deg, #ee7752, #545d6c, #003371,#9c8189);
-    background-size: 150% 100%;
-    background-repeat:no-repeat;
+    background-color:#9c8189;
     a{
       color:#fff;
     }
