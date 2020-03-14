@@ -9,23 +9,13 @@ import QRCode from 'qrcode.react'
 import MF from '../images/mobile.first.png'
 import Eye from '../images/eye.png'
 import GH from '../images/github.png'
-const gradientBG = keyframes`
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-`
 const GlobalStyle = createGlobalStyle`
   body{
+    -webkit-overflow-scroll:touch;
     color:#fff;
-    background: linear-gradient(-45deg, #ee7752, #9c8189, #545d6c, #23d5ab);
-    background-size: 400% 400%;
-    animation: ${gradientBG} 15s ease infinite;
+    background: linear-gradient(-45deg, #ee7752, #545d6c, #003371,#9c8189);
+    background-size: 150% 100%;
+    background-repeat:no-repeat;
     a{
       color:#fff;
     }
