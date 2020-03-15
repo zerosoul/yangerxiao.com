@@ -3,12 +3,18 @@ import { Link } from 'gatsby'
 import styled from 'styled-components'
 
 const Wrapper = styled(Link)`
+  z-index: 999;
   position: fixed;
   top: 1rem;
   right: 0.5rem;
-  width: 2rem;
-  padding-bottom: 0.4rem;
-  border-bottom: dotted 2px rgba(255, 255, 255, 0.5);
+  width: 3rem;
+  height: 3rem;
+  padding: 0.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(2, 2, 2, 0.4);
+  border-radius: 50%;
   svg {
     width: 100%;
     height: 100%;

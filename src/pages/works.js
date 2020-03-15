@@ -35,7 +35,7 @@ const Wrapper = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 98vw;
+  width: 96vw;
   margin: 1rem auto;
   > hgroup {
     text-align: center;
@@ -88,11 +88,12 @@ const Wrapper = styled.section`
       background-position: center;
       background-repeat: no-repeat;
       width: 18rem;
-      transition: all 1s;
+      transition: all 0.6s ease-in-out;
       animation: ${AniFadeInUp} 0.5s;
       animation-fill-mode: both;
       &:hover {
         background-size: 120% 120%;
+        border-radius: 50%;
         box-shadow: 0 0 10px 0px #fff;
       }
       .mobile {
