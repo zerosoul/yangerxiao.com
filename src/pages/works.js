@@ -9,10 +9,12 @@ import QRCode from 'qrcode.react'
 import MF from '../images/mobile.first.png'
 import Eye from '../images/eye.png'
 import GH from '../images/github.png'
+import BgImage from '../images/bg.png'
 const GlobalStyle = createGlobalStyle`
   body{
     color:#fff;
-    background-color:#9c8189;
+    background-color: rgb(25, 97, 39);
+    background-image:url(${BgImage});
     a{
       color:#fff;
     }
@@ -91,6 +93,7 @@ const Wrapper = styled.section`
       animation-fill-mode: both;
       &:hover {
         background-size: 120% 120%;
+        box-shadow: 0 0 10px 0px #fff;
       }
       .mobile {
         position: absolute;
