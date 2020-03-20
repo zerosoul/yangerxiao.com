@@ -114,6 +114,15 @@
     "intro": "给自己做的一个健身激励页面，选取猛男或美女，还有兄贵，作为榜样😂，设定时长，从模糊开始，坚持时间越长，看到的越清晰。"
   },
   {
+    "name": "words.chaos",
+    "title": "中文打乱小工具",
+    "link": "https://works.yangerxiao.com/chinese-word-chaos/",
+    "github": "https://github.com/zerosoul/chinese-word-chaos",
+    "mobile": true,
+    "cover": "words.chaos.png",
+    "intro": "科学研究明表，字汉序顺定一不并响影阅读。"
+  },
+  {
     "name": "stopwatch",
     "title": "迷你计时器",
     "link": "https://works.yangerxiao.com/mini-stopwatch/",
