@@ -54,6 +54,15 @@
     "cover": "star.stats.jpg"
   },
   {
+    "name": "do-the-five",
+    "title": "防疫的五件小事",
+    "mobile": true,
+    "link": "https://works.yangerxiao.com/do-the-five/",
+    "github": "https://github.com/zerosoul/do-the-five",
+    "intro": "写于武汉解封那天，胜利来之不易，个人防疫还需继续...",
+    "cover": "do.the.five.png"
+  },
+  {
     "name": "rc-bullets",
     "title": "React弹幕",
     "link": "https://zerosoul.github.io/rc-bullets/",

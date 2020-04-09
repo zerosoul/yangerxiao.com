@@ -4,26 +4,27 @@
   "version": "3.1.0",
   "author": "Tristan",
   "dependencies": {
-    "gatsby": "^2.19.32",
-    "gatsby-image": "^2.2.43",
+    "gatsby": "^2.20.13",
+    "gatsby-image": "^2.3.2",
     "gatsby-plugin-baidu-analytics": "^2.2.0",
-    "gatsby-plugin-manifest": "^2.2.44",
-    "gatsby-plugin-offline": "^3.0.37",
-    "gatsby-plugin-react-helmet": "^3.1.23",
-    "gatsby-plugin-sass": "^2.1.30",
-    "gatsby-plugin-styled-components": "^3.1.20",
-    "gatsby-source-filesystem": "^2.1.50",
+    "gatsby-plugin-manifest": "^2.3.3",
+    "gatsby-plugin-offline": "^3.1.2",
+    "gatsby-plugin-react-helmet": "^3.2.1",
+    "gatsby-plugin-sass": "^2.2.1",
+    "gatsby-plugin-styled-components": "^3.2.1",
+    "gatsby-source-filesystem": "^2.2.2",
     "gitalk": "^1.6.2",
     "node-sass": "^4.13.1",
     "prop-types": "^15.7.2",
     "qrcode.react": "^1.0.0",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-helmet": "^5.2.1",
-    "styled-components": "^5.0.1"
+    "styled-components": "^5.1.0"
   },
   "keywords": [
     "tristan",
+    "works",
     "react",
     "gatsby",
     "homepage"
@@ -38,7 +39,7 @@
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^1.10.7",
-    "prettier": "^1.19.1"
+    "prettier": "^2.0.4"
   },
   "repository": {
     "type": "git",
