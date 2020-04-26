@@ -63,6 +63,15 @@
     "cover": "do.the.five.png"
   },
   {
+    "name": "swordman",
+    "title": "沧海一声笑",
+    "link": "https://github.com/zerosoul/swordman-music-list",
+    "github": "https://works.yangerxiao.com/swordman-music-list/",
+    "intro": "重温1990版电影《笑傲江湖》，为致敬金曲《沧海一声笑》，做了个页面收集网上各种版本的翻唱。",
+    "mobile": true,
+    "cover": "bg.wuxia.png"
+  },
+  {
     "name": "rc-bullets",
     "title": "React弹幕",
     "link": "https://zerosoul.github.io/rc-bullets/",
