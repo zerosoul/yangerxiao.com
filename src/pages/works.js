@@ -1,5 +1,5 @@
 import React from 'react'
-import Helmet from 'react-helmet'
+import { Helmet } from 'react-helmet'
 import works from '../assets/works.json'
 import styled, { createGlobalStyle, keyframes } from 'styled-components'
 import Footer from '../components/Footer'
@@ -93,7 +93,6 @@ const Wrapper = styled.section`
       animation-fill-mode: both;
       &:hover {
         background-size: 120% 120%;
-        border-radius: 50%;
         box-shadow: 0 0 10px 0px #fff;
       }
       .mobile {
@@ -214,9 +213,10 @@ const Works = () => {
                 className={`work`}
                 key={work.name}
                 style={{
-                  backgroundImage: `url('https://gitee.com/zyanggc/oss/raw/master/works/${work.cover ||
-                    BgPlaceholder}')`,
-                  animationDelay: `${idx * 0.2}s`,
+                  backgroundImage: `url('https://gitee.com/zyanggc/oss/raw/master/works/${
+                    work.cover || BgPlaceholder
+                  }')`,
+                  animationDelay: `${idx * 0.2}s`
                 }}
               >
                 <div className="mask"></div>

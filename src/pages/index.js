@@ -1,6 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import Helmet from 'react-helmet'
+import { Helmet } from 'react-helmet'
 
 import Header from '../components/Header'
 import Main from '../components/Main'
@@ -15,7 +15,7 @@ class Index extends React.Component {
       timeout: false,
       articleTimeout: false,
       article: '',
-      loading: 'is-loading',
+      loading: 'is-loading'
     }
   }
 
@@ -31,52 +31,55 @@ class Index extends React.Component {
     }
   }
 
-  handleOpenArticle = article => {
+  handleOpenArticle = (article) => {
     this.setState({
       isArticleVisible: !this.state.isArticleVisible,
-      article,
+      article
     })
 
     setTimeout(() => {
       this.setState({
-        timeout: !this.state.timeout,
+        timeout: !this.state.timeout
       })
     }, 325)
 
     setTimeout(() => {
       this.setState({
-        articleTimeout: !this.state.articleTimeout,
+        articleTimeout: !this.state.articleTimeout
       })
     }, 350)
   }
 
   handleCloseArticle = () => {
     this.setState({
-      articleTimeout: !this.state.articleTimeout,
+      articleTimeout: !this.state.articleTimeout
     })
 
     setTimeout(() => {
       this.setState({
-        timeout: !this.state.timeout,
+        timeout: !this.state.timeout
       })
     }, 325)
 
     setTimeout(() => {
       this.setState({
         isArticleVisible: !this.state.isArticleVisible,
-        article: '',
+        article: ''
       })
     }, 350)
   }
 
   render() {
-    const { title: siteTitle, description: siteDescription } = this.props.data.site.siteMetadata;
+    const {
+      title: siteTitle,
+      description: siteDescription
+    } = this.props.data.site.siteMetadata
 
     return (
       <div
         className={`body ${this.state.loading} ${
           this.state.isArticleVisible ? 'is-article-visible' : ''
-          }`}
+        }`}
       >
         <Helmet>
           <title>{siteTitle}</title>
