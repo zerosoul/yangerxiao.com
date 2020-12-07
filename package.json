@@ -1,26 +1,24 @@
 {
   "name": "yangerxiao-landingpage",
-  "description": "Tristan Yang Home Landing Page",
+  "description": "Tristan Yang Personal Landing Page",
   "version": "3.1.0",
   "author": "Tristan",
   "dependencies": {
-    "gatsby": "^2.24.62",
-    "gatsby-image": "^2.4.19",
+    "gatsby": "^2.28.0",
+    "gatsby-image": "^2.7.0",
     "gatsby-plugin-baidu-analytics": "^2.2.0",
-    "gatsby-plugin-manifest": "^2.4.30",
-    "gatsby-plugin-offline": "^3.2.28",
-    "gatsby-plugin-react-helmet": "^3.3.11",
-    "gatsby-plugin-sass": "^2.3.13",
-    "gatsby-plugin-styled-components": "^3.3.11",
-    "gatsby-source-filesystem": "^2.3.30",
-    "gitalk": "^1.6.2",
-    "node-sass": "^4.14.1",
+    "gatsby-plugin-manifest": "^2.8.0",
+    "gatsby-plugin-offline": "^3.6.0",
+    "gatsby-plugin-react-helmet": "^3.6.0",
+    "gatsby-plugin-styled-components": "^3.6.0",
+    "gatsby-source-filesystem": "^2.7.0",
+    "gitalk": "^1.7.0",
     "prop-types": "^15.7.2",
     "qrcode.react": "^1.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0",
-    "styled-components": "^5.2.0"
+    "styled-components": "^5.2.1"
   },
   "keywords": [
     "tristan",
@@ -34,15 +32,14 @@
     "build": "yarn install && gatsby build",
     "dev": "gatsby develop",
     "deploy": "gatsby build && git add public && git commit -m 'rebuild' && git push",
-    "format": "prettier --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write 'src/**/*.js'"
   },
   "devDependencies": {
-    "babel-plugin-styled-components": "^1.11.1",
-    "prettier": "^2.1.2"
+    "babel-plugin-styled-components": "^1.12.0",
+    "prettier": "^2.2.1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/zerosoul/yangerxiao.com.git"
   }
 }

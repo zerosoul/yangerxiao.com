@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet'
 import Header from '../components/Header'
 import Main from '../components/Main'
 import Footer from '../components/Footer'
-import '../assets/scss/main.scss'
+import '../assets/style/main.css'
 
 class Index extends React.Component {
   constructor(props) {
