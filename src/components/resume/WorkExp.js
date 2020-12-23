@@ -2,27 +2,28 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Container = styled.section`
-  margin-top: 1rem;
+  margin-top: 0.8rem;
   display: flex;
   flex-direction: column;
   .company {
-    color:#000;
+    color: #000;
     margin-bottom: 0.5rem;
-    margin-top:0;
+    margin-top: 0;
   }
   .occupy {
-    color:#000;
+    color: #000;
     margin-bottom: 0.6rem;
-   
   }
   .period,
   .stack {
+    color: #666;
     position: relative;
     font-style: italic;
     font-size: 0.6rem;
     margin-left: 1rem;
     font-weight: normal;
-        text-transform: inherit;
+    line-height: 0.8rem;
+    text-transform: inherit;
     &:before,
     &:after {
       position: absolute;
@@ -31,8 +32,8 @@ const Container = styled.section`
   }
   .period {
     &:before {
-      content: '（';
-      left: -0.7rem;
+      content: '(';
+      left: -0.4rem;
     }
     &:after {
       content: ')';
@@ -41,57 +42,71 @@ const Container = styled.section`
   }
   .stack {
     &:before {
-      content: '[';
+      content: '(';
       left: -0.4rem;
     }
     &:after {
-      content: ']';
+      content: ')';
       right: -0.4rem;
     }
   }
   .desc {
-    margin-bottom: 0.4rem;
-    margin-top:0;
+    margin: 0;
+    margin-bottom: 0.3rem;
     font-size: 0.8rem;
+    line-height: 1.2;
   }
   .duties {
-    list-style-position: inside;
-    list-style-type: square;
+    list-style: none;
     padding: 0;
     margin: 0.5rem 0;
     margin-top: 0;
     .duty {
       color: #333;
-      margin-bottom: 0.2rem;
+      /* margin-bottom: 0.2rem; */
+      position: relative;
+      padding-left: 0.8rem;
+      padding-top: 0.3rem;
+      line-height: 1.3;
       a {
         text-decoration: underline;
+      }
+      &:before {
+        content: '-';
+        color: #aaa;
+        position: absolute;
+        left: 0;
+        top: 0.2rem;
+      }
+      em {
+        font-style: normal;
+        font-weight: bold;
       }
     }
   }
 `
-const WorkExp = props => {
+const WorkExp = (props) => {
   const { company, title, duties, period, children, stack, desc } = props
   return (
     <Container>
       <h3 className="company">
         {company}
         {period && <span className="period">{period.join(' - ')}</span>}
+        {stack && <span className="stack">{stack.join('/')}</span>}
       </h3>
 
-      <h4 className="occupy">
-        <span className="title" dangerouslySetInnerHTML={{ __html: title }} />
-        {stack && <span className="stack">{stack.join('/')}</span>}
-      </h4>
       {desc && <p className="desc"> {desc}</p>}
-      <ul className="duties">
-        {duties.map(duty => (
-          <li
-            key={duty}
-            className="duty"
-            dangerouslySetInnerHTML={{ __html: duty }}
-          />
-        ))}
-      </ul>
+      {duties.length ? (
+        <ul className="duties">
+          {duties.map((duty) => (
+            <li
+              key={duty}
+              className="duty"
+              dangerouslySetInnerHTML={{ __html: duty }}
+            />
+          ))}
+        </ul>
+      ) : null}
       {children}
     </Container>
   )

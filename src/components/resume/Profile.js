@@ -6,21 +6,49 @@ import profile from '../../images/profile.png'
 
 const Container = styled.section`
   display: flex;
-  .avator {
+  flex-direction: column;
+
+  /* padding-right */
+  .profile {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    .top {
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .social {
+      padding: 1rem 0;
+      color: #000;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      /* justify-content: space-around; */
+      /* flex-wrap: wrap; */
+      /* margin-left: 5rem; */
+      .item {
+        flex: 1;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-right: 0.5rem;
+        display: flex;
+        .title {
+          color: #666;
+          font-size: 0.8rem;
+        }
+        .content {
+          font-weight: 800;
+        }
+      }
+    }
+    .head {
       position: relative;
       .img {
-        width: 10rem;
-        height: 10rem;
+        width: 11rem;
+        height: 11rem;
         border-radius: 50%;
       }
       .status {
         position: absolute;
-        left: 0;
-        bottom: 0.1rem;
+        right: 0;
+        top: 0;
         font-size: 0.5rem;
         line-height: 0.5rem;
         background: #333;
@@ -30,82 +58,86 @@ const Container = styled.section`
         z-index: -1;
       }
     }
-    .name {
-      color: #000;
-      font-size: 2.2rem;
-      margin-top: 1rem;
-      margin-bottom: 0;
-    }
-    .desc {
-      margin-top: 0;
-    }
-  }
 
-  .items {
-    color: #000;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-left: 5rem;
-    .item {
-      flex: 1;
-      flex-direction: column;
-      padding: 0.5rem;
+    .info {
       display: flex;
-      .title {
-        color: #666;
+      flex-direction: column;
+      align-items: flex-start;
+      /* margin-right: 1rem; */
+
+      .name {
+        color: #000;
+        font-size: 2.2rem;
+        margin-top: 0;
+        margin-bottom: 0;
       }
-      .content {
-        font-weight: 800;
+      .desc {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 0.8rem;
       }
     }
   }
 `
-
-const Profile = props => {
+const getHostUrl = (url) => {
+  let tmp = new URL(url)
+  return `${tmp.host}${tmp.pathname == '/' ? '' : tmp.pathname}`
+}
+const Profile = (props) => {
   const {
     name,
-    info: { basic, blog, email, tel },
+    info: { basic, blog, email, tel, github }
   } = props
   return (
     <Container>
-      <div className="avator">
-        <div className="top">
+      <div className="profile">
+        <div className="info">
+          <h1 className="name">{name}</h1>
+          <p className="desc">{basic}</p>
+        </div>
+        <div className="head">
           <img className="img" src={profile} alt="简历头像" />
           <span className="status">在职</span>
         </div>
-        <h1 className="name">{name}</h1>
-        <p className="desc">{basic}</p>
+        <section className="social">
+          {github && (
+            <div className="item">
+              <span className="title">GitHub</span>
+              <span className="blog content">
+                <a target="_blank" href={github}>
+                  {getHostUrl(github)}
+                </a>
+              </span>
+            </div>
+          )}
+          {blog && (
+            <div className="item">
+              <span className="title">个人站点</span>
+              <span className="blog content">
+                <a target="_blank" href={blog}>
+                  {getHostUrl(blog)}
+                </a>
+              </span>
+            </div>
+          )}
+
+          {email && (
+            <div className="item">
+              <span className="title">邮箱</span>
+              <span className="content">{email}</span>
+            </div>
+          )}
+
+          {tel && (
+            <div className="item">
+              <span className="title">电话</span>
+              <span className="content">
+                <a href={`tel:${tel}`}>{tel}</a>
+              </span>
+            </div>
+          )}
+        </section>
       </div>
-      <section className="items">
-        {blog && (
-          <div className="item">
-            <span className="title">个人网站</span>
-            <span className="blog content">
-              <a target="_blank" href={blog}>
-                https://yangerxiao.com
-              </a>
-            </span>
-          </div>
-        )}
-
-        {email && (
-          <div className="item">
-            <span className="title">邮箱</span>
-            <span className="content">{email}</span>
-          </div>
-        )}
-
-        {tel && (
-          <div className="item">
-            <span className="title">电话</span>
-            <span className="content">
-              <a href={`tel:${tel}`}>{tel}</a>
-            </span>
-          </div>
-        )}
-      </section>
     </Container>
   )
 }
