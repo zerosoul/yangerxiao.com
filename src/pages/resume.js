@@ -12,7 +12,6 @@ const CommonStyle = createGlobalStyle`
 body{
   background:#fff;
   font-family:"Microsoft Yahei", "Helvetica";
-  
 }
 p{
   color:#666;
@@ -25,16 +24,23 @@ h4{
 }
 `
 const Container = styled.div`
-  padding: 1.6rem 1rem;
-  margin: 0.4rem auto;
-  border: 1px solid #999;
-  border-radius: 0.6rem;
-  max-width: 94%;
+  padding: 2rem;
+  margin: 2rem auto;
+  /* border: 1px solid #999; */
+  /* border-radius: 0.6rem; */
+  box-shadow: 7px 5px 20px 0px #101010;
+  max-width: 100%;
   @media ${media.tablet} {
     max-width: 90%;
   }
   @media ${media.desktop} {
-    max-width: 70%;
+    max-width: 76%;
+  }
+  @media print {
+    margin: 0;
+    max-width: 100%;
+    box-shadow: none;
+    break-before: always;
   }
   .skills {
     display: flex;
@@ -94,8 +100,8 @@ class Resume extends React.Component {
 
         blog: 'https://yangerxiao.com',
         github: 'https://github.com/zerosoul',
-        // email: 'yanggc888@163.com',
-        tel: '+86 18201385848'
+        email: 'yanggc888@163.com'
+        // tel: '+86 18201385848'
       }
     }
     const jobs = [
@@ -104,7 +110,7 @@ class Resume extends React.Component {
         title: '前端技术经理',
         period: ['2018.5', '至今'],
         desc:
-          '从一线做起，一步一个脚印走到技术经理的职位，负责全公司的前端开发：理解和把控需求，统筹前端资源，保障进度，研究和推动落地技术升级迭代，提高生产力。',
+          '一线做起，逐步到前端技术经理，负责全公司的前端开发：团队管理，理解和把控需求，统筹前端资源，保障进度，研究和推动落地技术升级迭代，提高生产力。',
         duties: []
       },
       {
@@ -112,7 +118,7 @@ class Resume extends React.Component {
         title: '前端工程师',
         period: ['2014.5', '2018.2'],
         desc:
-          '公司第一位专职前端，与公司共成长，从前端工程师到前端经理，公司前端从无到有，从弱到强。引入npm、gulp工作流，前端切图产出无缝接入后端，大大提升开发效率，原来5天开发缩短为2天。',
+          '公司第一位专职前端，与公司共成长，从前端工程师做到前端经理。引入npm、gulp工作流，前端切图产出无缝接入后端，大大提升开发效率，原来5天开发缩短为2天。',
         duties: []
       },
       {
@@ -125,13 +131,40 @@ class Resume extends React.Component {
     ]
     const projects = [
       {
-        company: '壹点壹滴官网重构',
+        company: '壹点壹滴-幼教云(SaaS)',
+        title: '重构工程化架构，参与部分产品业务线代码开发',
+        period: ['2018.9', '至今'],
+        desc:
+          '公司主打SaaS平台，包含产品线较多，包括不限于：家园共育，哄宝神器，育儿头条，今日宝宝等。赋能幼儿园互联网化管理功能：考勤，社交，写文章等',
+        stack: [
+          'react',
+          'redux',
+          'antd',
+          'styled-commonponents',
+          'anime.js',
+          'webpack',
+          'ESLint'
+        ],
+        duties: [
+          '刚接手该系统时，开发任务比较多，通过不断升级架构，尽可能使用工程化方式来解决问题，在人手短缺的情况下，保质保量完成了开发任务',
+          '重构部分业务代码，打样板，并推动重构计划落地',
+
+          // '引入ESLint/Husky/lint-staged组合，保障代码提交质量',
+          // '引入CommitLint，保障了git提交质量',
+          // '升级webpack：3.x->4.x，以及各种loader，plugin，引入DLL打包机制，构建速度和打包大小均有质的提升',
+          // '升级react：15.x->16.x，改造已废弃生命周期函数，使用新特性，如：hooks，同样的功能，代码量少近三分之一，增加了可维护性，性能也有所提升',
+          '代理商会议报名页面主程：引入swiper.js & anime.js，实现了丰富的动效和交互效果，体验上获得了市场部和用户一致好评',
+          '幼师最强大脑小程序主程'
+        ]
+      },
+      {
+        company: '壹点壹滴官网重构与维护',
         title: '全栈开发',
         period: ['2019.5', '至今'],
         desc:
           '重构前，文章写死在代码库；重构后，有专门后台供运营录入文章，大大解放了程序员维护迭代精力。',
         stack: [
-          'react.js',
+          'react',
           'GraphQL',
           'Gatsby.js',
           'Express',
@@ -139,62 +172,20 @@ class Resume extends React.Component {
           'pm2'
         ],
         duties: [
-          '从零开始搭建全栈架构',
-          'GraphQL：接口',
-          'MongoDB/mogoose：数据库解决方案',
-          'Gatsby.js：前台官网展示页面，SEO优化',
-          '负责后台数据管理平台开发工作'
-        ]
-      },
-      {
-        company: '壹点壹滴-幼教云',
-        title: '重构工程化架构，参与部分业务代码开发',
-        period: ['2018.9', '至今'],
-        desc:
-          '公司主打SaaS平台，包含产品非常多，包括不限于：家园共育，哄宝神器，育儿头条，今日宝宝等。赋能幼儿园互联网化管理功能：考勤，社交，写文章等',
-        stack: ['react.js', 'redux', 'antd', 'styled-commonponents', 'ESLint'],
-        duties: [
-          '刚接手该系统时，开发任务比较多，通过不断升级架构，尽可能使用工程化方式来解决问题，在人手短缺的情况下，保质保量完成了开发任务',
-          '重构部分业务代码，打样板，并推动重构计划落地',
-          '引入ESLint/Husky/lint-staged组合，保障代码提交质量',
-          '引入CommitLint，保障了git提交质量',
-          '升级webpack：3.x->4.x，以及各种loader，plugin，引入DLL打包机制，构建速度和打包大小均有质的提升',
-          '升级react：15.x->16.x，改造已废弃生命周期函数，使用新特性，如：hooks，同样的功能，代码量少近三分之一，增加了可维护性，性能也有所提升'
-        ]
-      },
-      {
-        company: '代理商会议报名系统',
-        title: '实现类似易企秀效果的H5',
-        period: ['2019.05', '2019.06'],
-        desc: '一人负责前端报名页面的实现',
-        stack: ['react.js', 'anime.js', 'swiper.js'],
-        duties: [
-          '引入swiper.js & anime.js，实现了丰富的动效和交互效果',
-          '体验上获得了市场部和用户一致好评'
+          '搭建全栈架构，接口：GraphQL；数据库：MongoDB/mogoose；前台官网：Gatsby.js；后台数据管理：Express'
         ]
       },
 
       {
-        company: '飞华分站',
-        title: '主程，从后台到前台，从后端到前端',
-        period: ['2017.6', '2017.9'],
-        desc: '飞华资讯类网站在各省的分站，可以通过后台管理分站和资讯数据。',
-        stack: ['jQuery', 'semantic-ui', 'PHP', 'smarty', 'docker', 'mysql'],
-        duties: [
-          '负责把控项目的进度 & 所有功能的实现',
-          '举例（无账号，后台不可访问）：<a target="_blank" href="http://nmg.fh21.com.cn/">前台：内蒙古分站</a> & <a href="http://fs3.fh21.com.cn/">后台：FS3管理系统</a>',
-          '<a target="_blank" href="https://blog.yangerxiao.com/posts/fh-21-subsite-summary">该项目总结</a>'
-        ]
-      },
-      {
-        company: '飞华频道网站重构',
+        company: '飞华网站',
         title:
           '飞华健康网问答、医院、医生、电话咨询、名医义诊、疾病百科等频道的改版重构，负责前端交互效果。',
         period: ['2014.6', '2018.2'],
         desc: '飞华资讯类网站在各省的分站，可以通过后台管理分站和资讯数据。',
-        stack: ['javascript', 'jQuery', 'PHP', 'smarty', 'zepto.js', 'mysql'],
+        stack: ['javascript', 'jQuery', 'PHP', 'smarty', 'docker', 'mysql'],
         duties: [
           '<a href="https://iask.fh21.com.cn/">飞华问答</a>，<a href="https://news.fh21.com.cn/">飞华新闻</a>等',
+          '飞华分站：负责把控项目的进度 & 所有功能的实现，<a target="_blank" href="https://blog.yangerxiao.com/posts/fh-21-subsite-summary">该项目总结</a>',
           '负责全站的前端开发，理解需求，分配开发任务，招聘与管理'
         ]
       }
@@ -265,12 +256,12 @@ class Resume extends React.Component {
               <h3>偏爱</h3>
               <em>Google</em>
               <p>StackOverflow</p>
-              <p>Github/开源</p>
+              <p>Github/Open Source</p>
             </div>
           </section>
           <ExpTitle title="教育" />
           <WorkExp {...edu} />
-          <ExpTitle title="工作" />
+          <ExpTitle title="工作经历" />
           {jobs.map((job) => (
             <WorkExp key={job.title} {...job} />
           ))}
@@ -285,7 +276,7 @@ class Resume extends React.Component {
               '英语阅读流利（听说较弱），习惯阅读一手信息。',
               '喜欢创作，UX和逻辑，偏爱简洁有美感。',
               `<em>中国色网站</em>作者：<a target="_blank" href="http://colors.ichuantong.cn/">colors.ichuantong.cn</a>`,
-              `<em>React弹幕类库</em>作者：<a target="_blank" href="https://github.com/zerosoul/rc-bullets">github.com/zerosoul/rc-bullets</a>`,
+              `<em>rc-bullets</em>作者：<a target="_blank" href="https://github.com/zerosoul/rc-bullets">github.com/zerosoul/rc-bullets</a>`,
               `更多个人作品：<a target="_blank" href="https://works.yangerxiao.com">works.yangerxiao.com</a>`,
               '骑行过长途(2345km+/单人一个月)，从贵州贵阳到山东聊城，半个中国：<em>可能是写代码里单人骑行最长的，骑行里最会写代码的。</em>'
             ]}

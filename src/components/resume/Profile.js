@@ -1,7 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { graphql } from 'gatsby'
-import { media } from '../../utils/media'
 import profile from '../../images/profile.png'
 
 const Container = styled.section`
@@ -70,6 +68,7 @@ const Container = styled.section`
         font-size: 2.2rem;
         margin-top: 0;
         margin-bottom: 0;
+        /* text-transform: none; */
       }
       .desc {
         margin-top: 0;
@@ -85,6 +84,7 @@ const getHostUrl = (url) => {
 }
 const Profile = (props) => {
   const {
+    en = false,
     name,
     info: { basic, blog, email, tel, github }
   } = props
@@ -97,7 +97,7 @@ const Profile = (props) => {
         </div>
         <div className="head">
           <img className="img" src={profile} alt="简历头像" />
-          <span className="status">在职</span>
+          <span className="status">{en ? 'At Work' : '在职'}</span>
         </div>
         <section className="social">
           {github && (
@@ -112,7 +112,7 @@ const Profile = (props) => {
           )}
           {blog && (
             <div className="item">
-              <span className="title">个人站点</span>
+              <span className="title">{en ? 'Personal Site' : '个人站点'}</span>
               <span className="blog content">
                 <a target="_blank" href={blog}>
                   {getHostUrl(blog)}
@@ -123,14 +123,14 @@ const Profile = (props) => {
 
           {email && (
             <div className="item">
-              <span className="title">邮箱</span>
+              <span className="title">{en ? 'Email' : '邮箱'}</span>
               <span className="content">{email}</span>
             </div>
           )}
 
           {tel && (
             <div className="item">
-              <span className="title">电话</span>
+              <span className="title">{en ? 'Mobile' : '电话'}</span>
               <span className="content">
                 <a href={`tel:${tel}`}>{tel}</a>
               </span>

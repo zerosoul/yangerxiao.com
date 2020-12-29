@@ -5,11 +5,11 @@ const Container = styled.h1`
   background: #333;
   color: #eee;
   width: fit-content;
-  padding: 0.4rem 1rem;
+  padding: 0.4rem 2rem;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
-  padding-left: 2rem;
-  margin-left: -2rem;
+  padding-left: 3rem;
+  margin-left: -3rem;
   position: relative;
   &:before {
     content: '';

@@ -23,7 +23,7 @@ const Container = styled.section`
     margin-left: 1rem;
     font-weight: normal;
     line-height: 0.8rem;
-    text-transform: inherit;
+    /* text-transform: none; */
     &:before,
     &:after {
       position: absolute;
@@ -53,7 +53,7 @@ const Container = styled.section`
   .desc {
     margin: 0;
     margin-bottom: 0.3rem;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     line-height: 1.2;
   }
   .duties {
