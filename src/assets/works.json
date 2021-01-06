@@ -9,13 +9,13 @@
     "cover": "chinese.colors.jpg"
   },
   {
-    "name": "honeyed-words-generator",
-    "title": "甜言蜜语生成器",
-    "link": "https://works.yangerxiao.com/honeyed-words-generator/",
-    "intro": "土味情话，在线生成",
+    "name": "rc-bullets",
+    "title": "React弹幕",
+    "link": "https://zerosoul.github.io/rc-bullets/",
+    "github": "https://github.com/zerosoul/rc-bullets",
+    "intro": "基于CSS3和React实现的弹幕，初衷是用于年会，后来写成了npm包，开源方便大家",
     "mobile": true,
-    "github": "https://github.com/zerosoul/honeyed-words-generator",
-    "cover": "hwg.png"
+    "cover": "rc.bullets.png"
   },
   {
     "name": "tech-logo-game",
@@ -25,6 +25,31 @@
     "github": "https://github.com/zerosoul/tech-logo-memo-game",
     "mobile": true,
     "cover": "logo.memo.game.png"
+  },
+  {
+    "name": "portal-china-lite",
+    "title": "主页导航",
+    "link": "//nicegoodthings.com/",
+    "intro": "常用网站与功能聚合主页，一个试验性产品，目前数据走的都是本地存储，请放心食用。",
+    "cover": "portal.jpg"
+  },
+  {
+    "name": "honeyed-words-generator",
+    "title": "甜言蜜语生成器",
+    "link": "https://works.yangerxiao.com/honeyed-words-generator/",
+    "intro": "土味情话，在线生成",
+    "mobile": true,
+    "github": "https://github.com/zerosoul/honeyed-words-generator",
+    "cover": "hwg.png"
+  },
+  {
+    "name": "do-the-five",
+    "title": "防疫的五件小事",
+    "mobile": true,
+    "link": "https://works.yangerxiao.com/do-the-five/",
+    "github": "https://github.com/zerosoul/do-the-five",
+    "intro": "写于武汉解封那天，胜利来之不易，个人防疫还需继续...",
+    "cover": "do.the.five.png"
   },
   {
     "name": "life-progress",
@@ -53,15 +78,7 @@
     "intro": "当时有这么个小需求：想统计某个github项目下每日新增多少star，网上找了一通，没找到，于是自己就做了个，算是填补了某种需求的空白。P.S. Github API v4真香！",
     "cover": "star.stats.jpg"
   },
-  {
-    "name": "do-the-five",
-    "title": "防疫的五件小事",
-    "mobile": true,
-    "link": "https://works.yangerxiao.com/do-the-five/",
-    "github": "https://github.com/zerosoul/do-the-five",
-    "intro": "写于武汉解封那天，胜利来之不易，个人防疫还需继续...",
-    "cover": "do.the.five.png"
-  },
+
   {
     "name": "swordman",
     "title": "沧海一声笑",
@@ -71,15 +88,7 @@
     "mobile": true,
     "cover": "xiaoaojianghu.jpg"
   },
-  {
-    "name": "rc-bullets",
-    "title": "React弹幕",
-    "link": "https://zerosoul.github.io/rc-bullets/",
-    "github": "https://github.com/zerosoul/rc-bullets",
-    "intro": "基于CSS3和React实现的弹幕，初衷是用于年会，后来写成了npm包，开源方便大家",
-    "mobile": true,
-    "cover": "rc.bullets.png"
-  },
+
   {
     "name": "react-starter",
     "title": "React开发脚手架",
