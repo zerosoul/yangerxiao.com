@@ -52,6 +52,14 @@
     "cover": "do.the.five.png"
   },
   {
+    "name": "fake-sys-update",
+    "title": "模拟操作系统升级界面",
+    "link": "https://works.yangerxiao.com/fsu/",
+    "github": "https://github.com/zerosoul/fake-system-update",
+    "intro": "迷惑领导同事，摸鱼神器😄",
+    "cover": "fake.system.update.jpg"
+  },
+  {
     "name": "life-progress",
     "title": "生命进程警示器",
     "mobile": true,
