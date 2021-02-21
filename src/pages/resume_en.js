@@ -97,10 +97,10 @@ class ResumeEn extends React.Component {
   }
   render() {
     const profile = {
-      name: 'Tristan Yang',
+      name: 'Guochun (Tristan) Yang',
       info: {
+        title: 'Privoce VP of Engineering',
         basic: 'Male / 31 / Beijing',
-
         blog: 'https://yangerxiao.com',
         github: 'https://github.com/zerosoul',
         // email: 'yanggc888@163.com',
@@ -266,9 +266,7 @@ class ResumeEn extends React.Component {
             duties={[
               'Pass in English reading and writing, weak in listening and speaking',
               'Liking to create, UX and logic, preferring simplicity and aesthetics.',
-              `Author of <em>Chinese Color Website</em>: <a target="_blank" href="http://colors.ichuantong.cn/">colors.ichuantong.cn</a>`,
-              `Author of <em>rc-bullets</em>: <a target="_blank" href="https://github.com/zerosoul/rc-bullets">github.com/zerosoul/rc-bullets</a>`,
-              `More personal works: <a target="_blank" href="https://works.yangerxiao.com">works.yangerxiao.com</a>`,
+              `Author of <em>Chinese Color</em>: <a target="_blank" href="http://colors.ichuantong.cn/">colors.ichuantong.cn</a> and <em>rc-bullets</em>: <a target="_blank" href="https://github.com/zerosoul/rc-bullets">github.com/zerosoul/rc-bullets</a>, more works: <a target="_blank" href="https://works.yangerxiao.com">works.yangerxiao.com</a>`,
               'Rode long distance (2345km+/single person a month), from Guiyang, Guizhou to Liaocheng, Shandong, half of China: <em>probably the longest single person ride in writing code, and the best in writing code among cyclists.</em>'
             ]}
           />

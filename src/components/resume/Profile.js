@@ -72,7 +72,7 @@ const Container = styled.section`
       }
       .desc {
         margin-top: 0;
-        margin-bottom: 1rem;
+        margin-bottom: 0;
         font-size: 0.8rem;
       }
     }
@@ -86,13 +86,14 @@ const Profile = (props) => {
   const {
     en = false,
     name,
-    info: { basic, blog, email, tel, github }
+    info: { title, basic, blog, email, tel, github }
   } = props
   return (
     <Container>
       <div className="profile">
         <div className="info">
           <h1 className="name">{name}</h1>
+          {title && <p className="desc">{title}</p>}
           <p className="desc">{basic}</p>
         </div>
         <div className="head">
