@@ -59,8 +59,7 @@ const Container = styled.section`
   .duties {
     list-style: none;
     padding: 0;
-    margin: 0.5rem 0;
-    margin-top: 0;
+    margin: 0;
     .duty {
       color: #333;
       /* margin-bottom: 0.2rem; */

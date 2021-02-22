@@ -109,9 +109,17 @@ class ResumeEn extends React.Component {
     }
     const jobs = [
       {
+        company: 'Privoce.com',
+        title: 'Privoce VP of Engineering',
+        period: ['2020.12', 'now'],
+        desc:
+          'Co-founder of Privoce.com. In charge of the engineering development of the core product functionalities—Portal, user APIs, and developer tools. The MVP version of Portal has gained 3k+ users and attracted multiple developers to contribute various widgets—users can choose whatever widgets they want on their Portal home page. The github repo has gained 300+ stars and dozens of forks.',
+        duties: []
+      },
+      {
         company: 'Beijing Diandian Future Education Technology Co., Ltd',
         title: 'Frontend Tech Manager',
-        period: ['2018.5', 'now'],
+        period: ['2018.5', '2020.11'],
         desc:
           'Starting from the front line, one step at a time to the position of technical manager, responsible for the front-end development of the whole company: understanding and controlling the requirements, coordinating front-end resources, guaranteeing the progress, researching and promoting the implementation of technical upgrades and iterations to improve productivity.',
         duties: []
@@ -136,7 +144,7 @@ class ResumeEn extends React.Component {
     const projects = [
       {
         company: 'Preschool Education Cloud Platform(SaaS)',
-        period: ['2018.9', 'now'],
+        period: ['2018.9', '2020.12'],
         desc:
           "Including but not limited: Home Edu, Parenting headlines, Today's baby, etc. Enabling kindergarten Internet management functions: attendance, social, writing weixin articles, etc",
         stack: [
@@ -156,7 +164,7 @@ class ResumeEn extends React.Component {
       {
         company: 'Landing Page System Development',
         title: 'Fullstack Development',
-        period: ['2019.5', 'now'],
+        period: ['2019.5', '2020.11'],
         desc:
           'Before: all the articles hard coded in the codebase; After: providing platform to input and publish articles.Saving time too much!',
         stack: [
@@ -266,7 +274,7 @@ class ResumeEn extends React.Component {
             duties={[
               'Pass in English reading and writing, weak in listening and speaking',
               'Liking to create, UX and logic, preferring simplicity and aesthetics.',
-              `Author of <em>Chinese Color</em>: <a target="_blank" href="http://colors.ichuantong.cn/">colors.ichuantong.cn</a> and <em>rc-bullets</em>: <a target="_blank" href="https://github.com/zerosoul/rc-bullets">github.com/zerosoul/rc-bullets</a>, more works: <a target="_blank" href="https://works.yangerxiao.com">works.yangerxiao.com</a>`,
+              `Author of <em>Chinese Color (Github Star:1.6k+)</em>: <a target="_blank" href="http://colors.ichuantong.cn/">colors.ichuantong.cn</a> and <em>rc-bullets (Github Star:400+)</em>: <a target="_blank" href="https://github.com/zerosoul/rc-bullets">github.com/zerosoul/rc-bullets</a>, more works: <a target="_blank" href="https://works.yangerxiao.com">works.yangerxiao.com</a>`,
               'Rode long distance (2345km+/single person a month), from Guiyang, Guizhou to Liaocheng, Shandong, half of China: <em>probably the longest single person ride in writing code, and the best in writing code among cyclists.</em>'
             ]}
           />
