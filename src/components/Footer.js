@@ -10,7 +10,8 @@ const Wrapper = styled.footer`
   transition: all 0.5s;
   .copyright,
   .powerby,
-  .icp {
+  .icp,
+  .links {
     letter-spacing: 2px;
     font-size: 0.6rem;
     opacity: 0.75;
@@ -21,7 +22,11 @@ const Wrapper = styled.footer`
       margin: 0 0.4rem;
     }
   }
-
+  .links {
+    a {
+      text-decoration: underline;
+    }
+  }
   &.body.is-article-visible {
     transform: scale(0.95);
     filter: blur(0.1rem);
@@ -33,7 +38,7 @@ const Wrapper = styled.footer`
   }
 `
 
-const Footer = props => (
+const Footer = (props) => (
   <Wrapper style={props.timeout ? { display: 'none' } : {}}>
     <p className="copyright">
       &copy;2015 - {new Date().getFullYear()} <i className="fa fa-heart" />
@@ -49,6 +54,12 @@ const Footer = props => (
         Gatsby.js
       </a>
     </p>
+    <p className="links">
+      <span className="title">友链：</span>
+      <a target="_blank" href="https://www.nomadguide.cn">
+        数字游民指南
+      </a>
+    </p>
     <p className="icp">
       <a target="_blank" href="http://www.beian.miit.gov.cn/">
         京ICP备16015459号-1
@@ -58,7 +69,7 @@ const Footer = props => (
 )
 
 Footer.propTypes = {
-  timeout: PropTypes.bool,
+  timeout: PropTypes.bool
 }
 
 export default Footer

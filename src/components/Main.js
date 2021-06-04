@@ -1,51 +1,50 @@
 import React from 'react'
-import { graphql } from 'gatsby'
 
 import weixin from '../images/wx.jpg'
 const data = [
   { title: '有尿床史，幼儿园，不治自愈' },
   {
     title: '有休学史，小学，不请自回',
-    link: '//blog.yangerxiao.com/posts/memory-about-bookstore',
+    link: '//blog.yangerxiao.com/posts/memory-about-bookstore'
   },
   {
     title: '有学霸史，中学，不攻自破',
-    link: '//blog.yangerxiao.com/posts/memory-about-bookstore',
+    link: '//blog.yangerxiao.com/posts/memory-about-bookstore'
   },
   {
     title: '有平庸史，高中，不愠不火',
-    link: '//blog.yangerxiao.com/posts/memory-about-bookstore',
+    link: '//blog.yangerxiao.com/posts/memory-about-bookstore'
   },
   {
     title: '有沉淀史，大学，不骄不躁',
-    link: '//blog.yangerxiao.com/posts/memory-about-bookstore',
+    link: '//blog.yangerxiao.com/posts/memory-about-bookstore'
   },
   {
     title: '有骑行史，毕业，不同凡响',
-    link: '//blog.yangerxiao.com/posts/graduate-riding-part-one',
+    link: '//blog.yangerxiao.com/posts/graduate-riding-part-one'
   },
   {
     title: '有搭车史，回家，不期而遇',
-    link: '//blog.yangerxiao.com/posts/lift-part-one',
+    link: '//blog.yangerxiao.com/posts/lift-part-one'
   },
   {
     title: '有阅读史，至今，不求甚解',
-    link: 'https://book.douban.com/people/yanggc/collect',
+    link: 'https://book.douban.com/people/yanggc/collect'
   },
   {
     title: '有跑步史，至今，不屈不挠',
-    link: '//blog.yangerxiao.com/posts/about-running',
+    link: '//blog.yangerxiao.com/posts/about-running'
   },
   {
-    title: '有摄影史，至今，不甚了了',
+    title: '有摄影史，至今，不甚了了'
   },
   {
     title: '有观影史，至今，不胜枚举',
-    link: 'https://movie.douban.com/people/yanggc/collect',
+    link: 'https://movie.douban.com/people/yanggc/collect'
   },
   {
-    title: '有编码史，至今，不甘雌伏',
-  },
+    title: '有编码史，至今，不甘雌伏'
+  }
 ]
 class Main extends React.Component {
   render() {
@@ -84,7 +83,7 @@ class Main extends React.Component {
 
           <h2>人生史记</h2>
           <ul>
-            {data.map(item => {
+            {data.map((item) => {
               const { title, link } = item
               return link ? (
                 <li key={title}>

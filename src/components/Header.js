@@ -1,8 +1,8 @@
 import React from 'react'
-import { graphql, Link } from 'gatsby'
+import { Link } from 'gatsby'
 import avator from '../images/avator.jpg'
 
-const Header = props => (
+const Header = (props) => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <img className="logo" src={avator} alt="logo" />
     <div className="content">
@@ -36,7 +36,7 @@ const Header = props => (
         <li>
           <a
             href="#"
-            onClick={e => {
+            onClick={(e) => {
               e.preventDefault()
               props.onOpenArticle('about')
             }}
