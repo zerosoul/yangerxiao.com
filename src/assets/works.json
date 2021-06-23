@@ -34,6 +34,14 @@
     "cover": "portal.jpg"
   },
   {
+    "name": "vera",
+    "title": "Vera Co-browsing",
+    "link": "https://chrome.google.com/webstore/detail/vera-cobrowse-doc-figma-p/ccegbnlnelhgaefimiaklaindffpfcmh",
+    "intro": "基于webRTC做的一个实时音视频通讯的谷歌浏览器扩展，严格说不是我个人的产品，是Privoce（https://privoce.com）公司产品，目前主要是我在做产品开发落地",
+    "github": "https: //github.com/Privoce/Vera",
+    "cover": "8UogVj.png"
+  },
+  {
     "name": "honeyed-words-generator",
     "title": "甜言蜜语生成器",
     "link": "https://works.yangerxiao.com/honeyed-words-generator/",
@@ -41,6 +49,14 @@
     "mobile": true,
     "github": "https://github.com/zerosoul/honeyed-words-generator",
     "cover": "hwg.png"
+  },
+  {
+    "name": "chwg",
+    "title": "春华微信头像生成器",
+    "link": "https://works.yangerxiao.com/chwg/",
+    "intro": "给亲哥定制的一个微信头像生成器，方便员工自己去生成微信头像",
+    "mobile": true,
+    "cover": "bQkCK7.png"
   },
   {
     "name": "do-the-five",
@@ -86,7 +102,6 @@
     "intro": "当时有这么个小需求：想统计某个github项目下每日新增多少star，网上找了一通，没找到，于是自己就做了个，算是填补了某种需求的空白。P.S. Github API v4真香！",
     "cover": "star.stats.jpg"
   },
-
   {
     "name": "swordman",
     "title": "沧海一声笑",
@@ -96,7 +111,6 @@
     "mobile": true,
     "cover": "xiaoaojianghu.jpg"
   },
-
   {
     "name": "react-starter",
     "title": "React开发脚手架",
@@ -233,7 +247,6 @@
     "link": "https://admin.izhaichao.com/",
     "cover": "wan.logo.png"
   },
-
   {
     "name": "h5-meeting-demo",
     "title": "会议报名H5页面",
