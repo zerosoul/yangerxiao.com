@@ -212,9 +212,8 @@ const Works = () => {
                 className={`work`}
                 key={work.name}
                 style={{
-                  backgroundImage: `url('https://gitee.com/zyanggc/oss/raw/master/works/${
-                    work.cover || BgPlaceholder
-                  }')`,
+                  backgroundImage: `url('https://static.nicegoodthings.com/uPic/co-link/${work.cover || BgPlaceholder
+                    }')`,
                   animationDelay: `${idx * 0.2}s`
                 }}
               >
