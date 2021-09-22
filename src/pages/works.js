@@ -207,13 +207,14 @@ const Works = () => {
         </hgroup>
         <section className="works">
           {works.map((work, idx) => {
+            const bgValue = work.cover?.startsWith('http') ? `url(${work.cover})` : `url('https://static.nicegoodthings.com/uPic/co-link/${work.cover || BgPlaceholder
+              }')`;
             return (
               <article
                 className={`work`}
                 key={work.name}
                 style={{
-                  backgroundImage: `url('https://static.nicegoodthings.com/uPic/co-link/${work.cover || BgPlaceholder
-                    }')`,
+                  backgroundImage: bgValue,
                   animationDelay: `${idx * 0.2}s`
                 }}
               >
