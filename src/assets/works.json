@@ -37,18 +37,26 @@
   },
   {
     "name": "portal-china-lite",
-    "title": "主页导航",
+    "title": "Portal",
     "link": "//nicegoodthings.com/",
     "intro": "常用网站与功能聚合主页，一个试验性产品，目前数据走的都是本地存储，请放心食用。",
     "cover": "portal.jpg"
   },
   {
     "name": "vera",
-    "title": "Vera Co-browsing",
-    "link": "https://chrome.google.com/webstore/detail/vera-cobrowse-doc-figma-p/ccegbnlnelhgaefimiaklaindffpfcmh",
-    "intro": "基于webRTC做的一个实时音视频通讯的谷歌浏览器扩展，严格说不是我个人的产品，是Privoce（https://privoce.com）公司产品，目前主要是我在做产品开发落地",
-    "github": "https: //github.com/Privoce/Vera",
+    "title": "Vera",
+    "link": "http://webrow.se/vera",
+    "intro": "一个基于webRTC的实时音视频通讯的谷歌浏览器扩展，严格说不是我个人的产品，是Privoce（https://privoce.com）公司产品，目前主要是我在做产品开发落地",
+    "github": "https://github.com/Privoce/Vera",
     "cover": "8UogVj.png"
+  },
+  {
+    "name": "webrowse",
+    "title": "Webrowse",
+    "link": "http://webrow.se/",
+    "intro": "一个基于websocket的实时管理与同步tab的谷歌浏览器扩展，严格说不是我个人的产品，是Privoce（https://privoce.com）公司产品，目前主要是我在做产品开发落地",
+    "github": "https://github.com/Privoce/webrowse",
+    "cover": "https://g-store.oss-cn-beijing.aliyuncs.com/works/cobrowse.jpg"
   },
   {
     "name": "honeyed-words-generator",
