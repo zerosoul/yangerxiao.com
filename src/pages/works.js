@@ -1,15 +1,15 @@
-import React from 'react'
-import { Helmet } from 'react-helmet'
-import works from '../assets/works.json'
-import styled, { createGlobalStyle, keyframes } from 'styled-components'
-import Footer from '../components/Footer'
-import Comment from '../components/Gitalk'
-import HomeLink from '../components/HomeLink'
-import QRCode from 'qrcode.react'
-import MF from '../images/mobile.first.png'
-import Eye from '../images/eye.png'
-import GH from '../images/github.png'
-import BgImage from '../images/bg.png'
+import React from "react";
+import { Helmet } from "react-helmet";
+import works from "../assets/works.json";
+import styled, { createGlobalStyle, keyframes } from "styled-components";
+import Footer from "../components/Footer";
+import Comment from "../components/Gitalk";
+import HomeLink from "../components/HomeLink";
+import { QRCodeCanvas } from "qrcode.react";
+import MF from "../images/mobile.first.png";
+import Eye from "../images/eye.png";
+import GH from "../images/github.png";
+import BgImage from "../images/bg.png";
 const GlobalStyle = createGlobalStyle`
   body{
     color:#fff;
@@ -19,7 +19,7 @@ const GlobalStyle = createGlobalStyle`
       color:#fff;
     }
   }
-`
+`;
 const AniFadeInUp = keyframes`
   from{
     opacity:0;
@@ -29,7 +29,7 @@ const AniFadeInUp = keyframes`
     opacity:1;
     transform:translate3d(0,0,0);
   }
-`
+`;
 const Wrapper = styled.section`
   display: flex;
   flex-direction: column;
@@ -108,7 +108,7 @@ const Wrapper = styled.section`
           width: 100%;
           cursor: pointer;
         }
-        .qr {
+        > .qr {
           visibility: hidden;
           opacity: 0;
           position: absolute;
@@ -116,7 +116,7 @@ const Wrapper = styled.section`
           left: 0;
           top: 0;
           background: #fff;
-          padding: 0.6rem;
+          padding: 0.5rem;
           border-radius: 0.5rem;
           transform: translateX(-160%);
           transition: all 0.6s;
@@ -125,7 +125,6 @@ const Wrapper = styled.section`
           visibility: visible;
           opacity: 1;
           box-shadow: 8px 11px 9px 0px black;
-
           transform: translateX(-110%);
         }
       }
@@ -184,8 +183,8 @@ const Wrapper = styled.section`
       }
     }
   }
-`
-const BgPlaceholder = 'placeholder.jpg'
+`;
+const BgPlaceholder = "placeholder.jpg";
 const Works = () => {
   return (
     <>
@@ -207,22 +206,25 @@ const Works = () => {
         </hgroup>
         <section className="works">
           {works.map((work, idx) => {
-            const bgValue = work.cover?.startsWith('http') ? `url(${work.cover})` : `url('https://static.nicegoodthings.com/uPic/co-link/${work.cover || BgPlaceholder
-              }')`;
+            const bgValue = work.cover?.startsWith("http")
+              ? `url(${work.cover})`
+              : `url('https://static.nicegoodthings.com/uPic/co-link/${
+                  work.cover || BgPlaceholder
+                }')`;
             return (
               <article
                 className={`work`}
                 key={work.name}
                 style={{
                   backgroundImage: bgValue,
-                  animationDelay: `${idx * 0.2}s`
+                  animationDelay: `${idx * 0.2}s`,
                 }}
               >
                 <div className="mask"></div>
                 {work.mobile && (
                   <div className="mobile" title="Mobile First">
                     <img className="icon" src={MF} alt="mobile first icon" />
-                    <QRCode className="qr" value={work.link} />
+                    <QRCodeCanvas size={128} className="qr" value={work.link} />
                   </div>
                 )}
                 <a className="intro" href={work.link} target="_blank">
@@ -248,7 +250,7 @@ const Works = () => {
                   )}
                 </div>
               </article>
-            )
+            );
           })}
           <i />
           <i />
@@ -258,7 +260,7 @@ const Works = () => {
         <Footer />
       </Wrapper>
     </>
-  )
-}
+  );
+};
 
-export default Works
+export default Works;

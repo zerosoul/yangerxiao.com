@@ -1,6 +1,6 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import styled from 'styled-components'
+import React from "react";
+import PropTypes from "prop-types";
+import styled from "styled-components";
 
 const Wrapper = styled.footer`
   width: 100%;
@@ -9,22 +9,19 @@ const Wrapper = styled.footer`
   text-align: center;
   transition: all 0.5s;
   .copyright,
-  .powerby,
   .icp,
   .links {
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-size: 0.6rem;
     opacity: 0.75;
     margin-bottom: 0.5rem;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: #ccc;
     a {
-      margin: 0 0.4rem;
-    }
-  }
-  .links {
-    a {
-      text-decoration: underline;
+      margin: 0 0.2rem;
+      padding-bottom: 2px;
+      border-bottom: 1px solid #666;
+      text-decoration: none;
     }
   }
   &.body.is-article-visible {
@@ -36,28 +33,22 @@ const Wrapper = styled.footer`
   &.body.is-loading {
     opacity: 0;
   }
-`
+`;
 
 const Footer = (props) => (
-  <Wrapper style={props.timeout ? { display: 'none' } : {}}>
-    <p className="copyright">
-      &copy;2015 - {new Date().getFullYear()} <i className="fa fa-heart" />
-      tristan
-    </p>
-    <p className="powerby">
-      Powerd by
-      <a target="_blank" href="http://reactjs.org/">
-        React.js
-      </a>
-      &
-      <a target="_blank" href="https://www.gatsbyjs.org/">
-        Gatsby.js
-      </a>
-    </p>
+  <Wrapper style={props.timeout ? { display: "none" } : {}}>
+    <p className="copyright">&copy;2015 - {new Date().getFullYear()}</p>
+    <p className="copyright">Created By Tristan With ♥️</p>
     <p className="links">
       <span className="title">友链：</span>
       <a target="_blank" href="https://www.nomadguide.cn">
         数字游民指南
+      </a>
+      <a target="_blank" href="https://eleduck.com/">
+        电鸭
+      </a>
+      <a target="_blank" href="https://kalacloud.com">
+        卡拉云低代码工具
       </a>
     </p>
     <p className="icp">
@@ -66,10 +57,10 @@ const Footer = (props) => (
       </a>
     </p>
   </Wrapper>
-)
+);
 
 Footer.propTypes = {
-  timeout: PropTypes.bool
-}
+  timeout: PropTypes.bool,
+};
 
-export default Footer
+export default Footer;
