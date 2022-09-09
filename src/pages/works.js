@@ -1,5 +1,4 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 import works from "../assets/works.json";
 import styled, { createGlobalStyle, keyframes } from "styled-components";
 import Footer from "../components/Footer";
@@ -189,13 +188,6 @@ const Works = () => {
   return (
     <>
       <GlobalStyle />
-      <Helmet>
-        <title>我的作品 - Just for fun</title>
-        <meta
-          name="description"
-          content={`我的作品集，just for fun. 以前做过的东西，可以公开的作品集合`}
-        />
-      </Helmet>
       <HomeLink />
       <Wrapper>
         <hgroup>
@@ -208,9 +200,8 @@ const Works = () => {
           {works.map((work, idx) => {
             const bgValue = work.cover?.startsWith("http")
               ? `url(${work.cover})`
-              : `url('https://static.nicegoodthings.com/uPic/co-link/${
-                  work.cover || BgPlaceholder
-                }')`;
+              : `url('https://static.nicegoodthings.com/uPic/co-link/${work.cover || BgPlaceholder
+              }')`;
             return (
               <article
                 className={`work`}
@@ -264,3 +255,16 @@ const Works = () => {
 };
 
 export default Works;
+
+
+export function Head() {
+  return (
+    <>
+      <title>我的作品 - Just for fun</title>
+      <meta
+        name="description"
+        content={`我的作品集，just for fun. 以前做过的东西，可以公开的作品集合`}
+      />
+    </>
+  )
+}

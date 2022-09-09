@@ -1,7 +1,6 @@
 import React from 'react'
 import styled, { createGlobalStyle } from 'styled-components'
 // import { graphql } from 'gatsby'
-import { Helmet } from 'react-helmet'
 import ExpTitle from '../components/resume/ExpTitle'
 import WorkExp from '../components/resume/WorkExp'
 import EduExp from '../components/resume/EduExp'
@@ -110,7 +109,7 @@ class ResumeEn extends React.Component {
     const jobs = [
       {
         company: 'Privoce.com',
-        title: 'Privoce VP of Engineering',
+        title: 'VP of Engineering',
         period: ['2020.12', 'now'],
         desc:
           'Co-founder of Privoce.com. In charge of the engineering development of the core product functionalities—Portal, user APIs, and developer tools. The MVP version of Portal has gained 3k+ users and attracted multiple developers to contribute various widgets—users can choose whatever widgets they want on their Portal home page. The github repo has gained 300+ stars and dozens of forks.',
@@ -208,10 +207,6 @@ class ResumeEn extends React.Component {
       <>
         <CommonStyle />
         <Container>
-          <Helmet>
-            <title>Tristan Yang's Resume</title>
-            <meta name="description" content={"Tristan Yang's Resume"} />
-          </Helmet>
           <Profile {...profile} en={true} />
           <ExpTitle title="SKILLS" />
           <section className="skills">
@@ -286,3 +281,13 @@ class ResumeEn extends React.Component {
 }
 
 export default ResumeEn
+
+
+export function Head() {
+  return (
+    <>
+      <title>Tristan Yang's Resume</title>
+      <meta name="description" content={"Tristan Yang's Resume"} />
+    </>
+  )
+}

@@ -1,7 +1,5 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import { Helmet } from 'react-helmet'
-
 import Header from '../components/Header'
 import Main from '../components/Main'
 import Footer from '../components/Footer'
@@ -70,22 +68,11 @@ class Index extends React.Component {
   }
 
   render() {
-    const {
-      title: siteTitle,
-      description: siteDescription
-    } = this.props.data.site.siteMetadata
-
     return (
       <div
-        className={`body ${this.state.loading} ${
-          this.state.isArticleVisible ? 'is-article-visible' : ''
-        }`}
+        className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''
+          }`}
       >
-        <Helmet>
-          <title>{siteTitle}</title>
-          <meta name="description" content={siteDescription} />
-        </Helmet>
-
         <div id="wrapper">
           <Header
             onOpenArticle={this.handleOpenArticle}
@@ -118,3 +105,16 @@ export const pageQuery = graphql`
     }
   }
 `
+
+export function Head({ data }) {
+  const {
+    title,
+    description
+  } = data.site.siteMetadata
+  return (
+    <>
+      <title>{title}</title>
+      <meta name="description" content={description} />
+    </>
+  )
+}

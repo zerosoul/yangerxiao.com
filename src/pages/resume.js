@@ -1,7 +1,6 @@
 import React from 'react'
 import styled, { createGlobalStyle } from 'styled-components'
 import { graphql } from 'gatsby'
-import { Helmet } from 'react-helmet'
 import ExpTitle from '../components/resume/ExpTitle'
 import WorkExp from '../components/resume/WorkExp'
 // import PdfBtn from '../components/resume/PdfBtn'
@@ -106,9 +105,17 @@ class Resume extends React.Component {
     }
     const jobs = [
       {
+        company: 'Privoce',
+        title: 'VP of Engineering',
+        period: ['2020.12', '至今'],
+        desc:
+          '核心员工，全干工程师',
+        duties: []
+      },
+      {
         company: '北京点点未来教育科技有限公司',
         title: '前端技术经理',
-        period: ['2018.5', '至今'],
+        period: ['2018.5', '2020.11'],
         desc:
           '一线做起，逐步到前端技术经理，负责全公司的前端开发：团队管理，理解和把控需求，统筹前端资源，保障进度，研究和推动落地技术升级迭代，提高生产力。',
         duties: []
@@ -209,10 +216,6 @@ class Resume extends React.Component {
       <>
         <CommonStyle />
         <Container>
-          <Helmet>
-            <title>{siteTitle} - 简历</title>
-            <meta name="description" content={siteDescription} />
-          </Helmet>
           <Profile {...profile} />
           <ExpTitle title="技能" />
           <section className="skills">
@@ -300,3 +303,13 @@ export const resumeQuery = graphql`
     }
   }
 `
+
+export function Head({ data }) {
+  const { title, description } = data.site.siteMetadata;
+  return (
+    <>
+      <title>{title} - 简历</title>
+      <meta name="description" content={description} />
+    </>
+  )
+}
