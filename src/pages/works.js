@@ -34,6 +34,7 @@ const Wrapper = styled.section`
   flex-direction: column;
   align-items: center;
   width: 96vw;
+  max-width: 1680px;
   margin: 1rem auto;
   > hgroup {
     text-align: center;
@@ -82,7 +83,7 @@ const Wrapper = styled.section`
       overflow-wrap: break-word;
       box-shadow: 0 0 6px 0px #0c0c0c;
       border-radius: 0.5rem;
-      background-size: 100% 100%;
+      background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
       width: 18rem;
@@ -90,8 +91,7 @@ const Wrapper = styled.section`
       animation: ${AniFadeInUp} 0.5s;
       animation-fill-mode: both;
       &:hover {
-        background-size: 120% 120%;
-        box-shadow: 0 0 10px 0px #fff;
+        box-shadow: 0 0 18px 0px #fff;
       }
       .mobile {
         position: absolute;
@@ -115,10 +115,20 @@ const Wrapper = styled.section`
           left: 0;
           top: 0;
           background: #fff;
-          padding: 0.5rem;
+          padding: 0.6rem;
           border-radius: 0.5rem;
           transform: translateX(-160%);
           transition: all 0.6s;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          >.title{
+            font-size: .8rem;
+            line-height: 1rem;
+            margin-bottom: .5rem;
+            color: #666;
+          }
         }
         .icon:hover + .qr {
           visibility: visible;
@@ -139,7 +149,6 @@ const Wrapper = styled.section`
       }
       .intro {
         z-index: 2;
-
         h2 {
           font-size: 1.6rem;
           text-shadow: 1px 5px 5px black;
@@ -149,7 +158,7 @@ const Wrapper = styled.section`
             display: none;
           }
         }
-        h3 {
+        >h3 {
           font-size: 0.8rem;
           overflow-y: scroll;
           &::-webkit-scrollbar {
@@ -215,7 +224,10 @@ const Works = () => {
                 {work.mobile && (
                   <div className="mobile" title="Mobile First">
                     <img className="icon" src={MF} alt="mobile first icon" />
-                    <QRCodeCanvas size={128} className="qr" value={work.link} />
+                    <div className="qr">
+                      <div className="title">👇手机扫码访问👇</div>
+                      <QRCodeCanvas size={128} value={work.link} />
+                    </div>
                   </div>
                 )}
                 <a className="intro" href={work.link} target="_blank">
