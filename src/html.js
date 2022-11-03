@@ -23,6 +23,10 @@ export default class HTML extends React.Component {
           />
           {this.props.postBodyComponents}
         </body>
+        <script
+          src="https://vocechat.yangerxiao.com/widget.js"
+          data-origin="https://vocechat.yangerxiao.com"
+        />
       </html>
     )
   }
@@ -34,5 +38,5 @@ HTML.propTypes = {
   bodyAttributes: PropTypes.object,
   preBodyComponents: PropTypes.array,
   body: PropTypes.string,
-  postBodyComponents: PropTypes.array,
+  postBodyComponents: PropTypes.array
 }
