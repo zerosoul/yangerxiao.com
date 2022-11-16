@@ -23,10 +23,7 @@ export default class HTML extends React.Component {
           />
           {this.props.postBodyComponents}
         </body>
-        <script
-          src="https://vocechat.yangerxiao.com/widget.js"
-          data-origin="https://vocechat.yangerxiao.com"
-        />
+        <script src="https://vocechat.yangerxiao.com/widget.js" />
       </html>
     )
   }
