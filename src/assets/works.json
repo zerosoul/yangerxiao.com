@@ -9,6 +9,23 @@
     "cover": "chinese.colors.jpg"
   },
   {
+    "name": "minesweeper",
+    "title": "扫雷小游戏",
+    "link": "https://ohminesweeper.online",
+    "intro": "win98 UI，一款主打怀旧的小游戏，支持PWA",
+    "mobile": true,
+    "cover": "minesweeper.cover.png"
+  },
+  {
+    "name": "voce-chat",
+    "title": "VoceChat",
+    "link": "https://voce.chat",
+    "intro": "可自部署的轻量聊天系统",
+    "mobile": true,
+    "github": "https://github.com/Privoce/vocechat-web",
+    "cover": "vocechat.cover.jpg"
+  },
+  {
     "name": "rc-bullets",
     "title": "React弹幕",
     "link": "https://zerosoul.github.io/rc-bullets/",

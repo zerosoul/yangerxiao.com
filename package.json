@@ -4,19 +4,19 @@
   "version": "3.2.0",
   "author": "Tristan",
   "dependencies": {
-    "gatsby": "^4.24.4",
+    "gatsby": "^5.12.4",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-baidu-analytics": "^2.2.0",
-    "gatsby-plugin-manifest": "^4.24.0",
-    "gatsby-plugin-offline": "^5.24.0",
-    "gatsby-plugin-styled-components": "^5.24.0",
-    "gatsby-source-filesystem": "^4.24.0",
+    "gatsby-plugin-manifest": "^5.12.0",
+    "gatsby-plugin-offline": "^6.12.0",
+    "gatsby-plugin-styled-components": "^6.12.0",
+    "gatsby-source-filesystem": "^5.12.0",
     "gitalk": "^1.8.0",
     "prop-types": "^15.8.1",
     "qrcode.react": "^3.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "styled-components": "^5.3.6"
+    "styled-components": "^6.0.8"
   },
   "keywords": [
     "tristan",
@@ -33,8 +33,8 @@
     "format": "prettier --write 'src/**/*.js'"
   },
   "devDependencies": {
-    "babel-plugin-styled-components": "^2.0.7",
-    "prettier": "^2.7.1"
+    "babel-plugin-styled-components": "^2.1.4",
+    "prettier": "^3.0.3"
   },
   "repository": {
     "type": "git",
