@@ -4,15 +4,23 @@
     "title": "中国古典颜色在线手册",
     "link": "https://colors.ichuantong.cn",
     "github": "https://github.com/zerosoul/chinese-colors",
-    "intro": "UI基于日本同行的2010年的一个作品（http://nipponcolors.com/），同时自己做了大量改进。",
+    "intro": "UI 基于日本同行的 2010 年的一个作品（http://nipponcolors.com/），同时自己做了大量改进。",
     "mobile": true,
     "cover": "chinese.colors.jpg"
+  },
+  {
+    "name": "sinqi.tools",
+    "title": "小神器",
+    "link": "https://sinqi.tools",
+    "intro": "小工具集合",
+    "mobile": true,
+    "cover": "https://sinqi.tools/ph/600x400/9455d4/fff?text=sinqi.tools"
   },
   {
     "name": "minesweeper",
     "title": "扫雷小游戏",
     "link": "https://ohminesweeper.online",
-    "intro": "win98 UI，一款主打怀旧的小游戏，支持PWA",
+    "intro": "win98 UI，一款主打怀旧的小游戏，支持 PWA",
     "mobile": true,
     "cover": "minesweeper.cover.png"
   },
@@ -27,10 +35,10 @@
   },
   {
     "name": "rc-bullets",
-    "title": "React弹幕",
+    "title": "React 弹幕",
     "link": "https://zerosoul.github.io/rc-bullets/",
     "github": "https://github.com/zerosoul/rc-bullets",
-    "intro": "基于CSS3和React实现的弹幕，初衷是用于年会，后来写成了npm包，开源方便大家",
+    "intro": "基于 CSS3 和 React 实现的弹幕，初衷是用于年会，后来写成了 npm 包，开源方便大家",
     "mobile": true,
     "cover": "rc.bullets.png"
   },
@@ -63,7 +71,7 @@
     "name": "vera",
     "title": "Vera",
     "link": "http://webrow.se/vera",
-    "intro": "一个基于webRTC的实时音视频通讯的谷歌浏览器扩展，严格说不是我个人的产品，是Privoce（https://privoce.com）公司产品，目前主要是我在做产品开发落地",
+    "intro": "一个基于 webRTC 的实时音视频通讯的谷歌浏览器扩展，严格说不是我个人的产品，是 Privoce（https://privoce.com）公司产品，目前主要是我在做产品开发落地",
     "github": "https://github.com/Privoce/Vera",
     "cover": "8UogVj.png"
   },
@@ -71,7 +79,7 @@
     "name": "webrowse",
     "title": "Webrowse",
     "link": "http://webrow.se/",
-    "intro": "一个基于websocket的实时管理与同步tab的谷歌浏览器扩展，严格说不是我个人的产品，是Privoce（https://privoce.com）公司产品，目前主要是我在做产品开发落地",
+    "intro": "一个基于 websocket 的实时管理与同步 tab 的谷歌浏览器扩展，严格说不是我个人的产品，是 Privoce（https://privoce.com）公司产品，目前主要是我在做产品开发落地",
     "github": "https://github.com/Privoce/webrowse",
     "cover": "https://g-store.oss-cn-beijing.aliyuncs.com/works/cobrowse.jpg"
   },
@@ -129,11 +137,11 @@
   },
   {
     "name": "github-star-view",
-    "title": "Github star统计工具",
+    "title": "Github star 统计工具",
     "mobile": true,
     "link": "https://stars.yangerxiao.com/",
     "github": "https://github.com/zerosoul/github-star-stats",
-    "intro": "当时有这么个小需求：想统计某个github项目下每日新增多少star，网上找了一通，没找到，于是自己就做了个，算是填补了某种需求的空白。P.S. Github API v4真香！",
+    "intro": "当时有这么个小需求：想统计某个 github 项目下每日新增多少 star，网上找了一通，没找到，于是自己就做了个，算是填补了某种需求的空白。P.S. Github API v4 真香！",
     "cover": "star.stats.jpg"
   },
   {
@@ -141,23 +149,23 @@
     "title": "沧海一声笑",
     "github": "https://github.com/zerosoul/swordman-music-list",
     "link": "https://works.yangerxiao.com/swordman-music-list/",
-    "intro": "重温1990版电影《笑傲江湖》，为致敬金曲《沧海一声笑》，做了个页面收集网上各种版本的翻唱。",
+    "intro": "重温 1990 版电影《笑傲江湖》，为致敬金曲《沧海一声笑》，做了个页面收集网上各种版本的翻唱。",
     "mobile": true,
     "cover": "xiaoaojianghu.jpg"
   },
   {
     "name": "react-starter",
-    "title": "React开发脚手架",
+    "title": "React 开发脚手架",
     "github": "https://github.com/zerosoul/react-starter",
-    "intro": "个人基于create-react-app魔改，加入了大量自己的改进，当然有些是严重有个人偏好倾向。我的绝大多数作品，都是借助这个脚手架完成的。",
+    "intro": "个人基于 create-react-app 魔改，加入了大量自己的改进，当然有些是严重有个人偏好倾向。我的绝大多数作品，都是借助这个脚手架完成的。",
     "mobile": false,
     "cover": "react.starter.jpg"
   },
   {
     "name": "react-antd-starter",
-    "title": "Admin脚手架",
+    "title": "Admin 脚手架",
     "github": "https://github.com/zerosoul/react-antd-starter",
-    "intro": "也是基于create-react-app魔改而来，只不过加入了antd 4.0，适合快速开发后台管理界面",
+    "intro": "也是基于 create-react-app 魔改而来，只不过加入了 antd 4.0，适合快速开发后台管理界面",
     "mobile": false,
     "cover": "react.admin.starter.jpg"
   },
@@ -172,18 +180,18 @@
   },
   {
     "name": "github-repo-image-gen",
-    "title": "Github社交图生成工具",
+    "title": "Github 社交图生成工具",
     "link": "https://works.yangerxiao.com/github-social-image-generator/?repo=https://github.com/zerosoul/github-social-image-generator&utm_source=hacpai.com",
     "github": "https://github.com/zerosoul/github-social-image-generator",
-    "intro": "做完GitHub Star统计工具，随即又做了这个Github仓库分享图片生成工具，很小众的工具，但切实解决了一个问题：给github项目设置社交分享图",
+    "intro": "做完 GitHub Star 统计工具，随即又做了这个 Github 仓库分享图片生成工具，很小众的工具，但切实解决了一个问题：给 github 项目设置社交分享图",
     "cover": "github.share.png"
   },
   {
     "name": "css-arrow",
-    "title": "CSS三角生成器",
+    "title": "CSS 三角生成器",
     "link": "https://works.yangerxiao.com/css-arrow-generator/",
     "github": "https://github.com/zerosoul/css-arrow-generator",
-    "intro": "利用边框和伪元素在线生成CSS三角，妈妈再也不用担心我到处找代码复制粘贴啦！",
+    "intro": "利用边框和伪元素在线生成 CSS 三角，妈妈再也不用担心我到处找代码复制粘贴啦！",
     "mobile": true,
     "cover": "css.arrow.png"
   },
@@ -225,10 +233,10 @@
   },
   {
     "name": "html-colors",
-    "title": "HTML颜色手册",
+    "title": "HTML 颜色手册",
     "link": "https://works.yangerxiao.com/html-color-cheatsheet/",
     "github": "https://github.com/zerosoul/html-color-cheatsheet",
-    "intro": "HTML大概原生支持140+种有名有姓的颜色，一个页面搞定！还可以一键复制",
+    "intro": "HTML 大概原生支持 140+ 种有名有姓的颜色，一个页面搞定！还可以一键复制",
     "mobile": true,
     "cover": "html.color.jpg"
   },
@@ -261,14 +269,14 @@
   },
   {
     "name": "izhaichao-pc",
-    "title": "万叶集(PC)",
-    "intro": "以前做的一个专注美文分享的摘抄网站，主要技术：PHP+Docker+jQuery，此为PC端站点。时间略久，现已不再维护😳",
+    "title": "万叶集 (PC)",
+    "intro": "以前做的一个专注美文分享的摘抄网站，主要技术：PHP+Docker+jQuery，此为 PC 端站点。时间略久，现已不再维护😳",
     "link": "https://www.izhaichao.com/",
     "cover": "wan.logo.png"
   },
   {
     "name": "izhaichao-m",
-    "title": "万叶集(Mobile)",
+    "title": "万叶集 (Mobile)",
     "intro": "以前做的一个专注美文分享的摘抄网站，主要技术：PHP+Docker+jQuery，此为移动端站点。时间略久，现已不再维护😳",
     "link": "https://yangerxiao.com",
     "mobile": true,
@@ -283,19 +291,19 @@
   },
   {
     "name": "h5-meeting-demo",
-    "title": "会议报名H5页面",
+    "title": "会议报名 H5 页面",
     "mobile": true,
     "link": "https://works.yangerxiao.com/react-meeting-h5/",
     "github": "https://github.com/zerosoul/react-meeting-h5",
-    "intro": "使用react+swiper.js做的，借助anime.js加入了大量的动画"
+    "intro": "使用 react+swiper.js 做的，借助 anime.js 加入了大量的动画"
   },
   {
     "name": "h5-demo",
-    "title": "会议报名H5页面2",
+    "title": "会议报名 H5 页面 2",
     "link": "https://works.yangerxiao.com/react-h5/",
     "github": "https://github.com/zerosoul/react-h5",
     "mobile": true,
-    "intro": "同样使用react+swiper.js+anime.js做的，只是主题风格不一样"
+    "intro": "同样使用 react+swiper.js+anime.js 做的，只是主题风格不一样"
   },
   {
     "name": "ssde",
@@ -315,7 +323,7 @@
   },
   {
     "name": "zj-m",
-    "title": "紫荆教育官网(Mobile)",
+    "title": "紫荆教育官网 (Mobile)",
     "intro": "紫荆官网的移动端版本，Powered by react + gatsby.js，第一次完整地做静态页",
     "mobile": true,
     "link": "https://m.zijing365.cn",
@@ -323,7 +331,7 @@
   },
   {
     "name": "zj-pc",
-    "title": "紫荆教育官网(PC)",
+    "title": "紫荆教育官网 (PC)",
     "intro": "紫荆官网的桌面版本，Powered by react + gatsby.js",
     "link": "https://zijing365.cn",
     "cover": "zj.pc.png"
@@ -331,7 +339,7 @@
   {
     "name": "self-cultivate",
     "title": "前端工程师的自我修养（PPT）",
-    "intro": "2014年在公司做的一个分享，利用impress.js做的PPT，当时觉得效果挺好的（现在看效果也还可以😂）。为了更好的观看效果，请使用PC打开。",
+    "intro": "2014 年在公司做的一个分享，利用 impress.js 做的 PPT，当时觉得效果挺好的（现在看效果也还可以😂）。为了更好的观看效果，请使用 PC 打开。",
     "github": "https://github.com/zerosoul/self-cultivate",
     "link": "http://zerosoul.github.io/self-cultivate/",
     "cover": "fenxiang.jpg"
