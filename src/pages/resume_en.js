@@ -99,7 +99,7 @@ class ResumeEn extends React.Component {
       name: 'Guochun (Tristan) Yang',
       info: {
         title: 'Privoce VP of Engineering',
-        basic: 'Male / 31 / Beijing',
+        basic: 'Male / 34 / Beijing',
         blog: 'https://yangerxiao.com',
         github: 'https://github.com/zerosoul',
         // email: 'yanggc888@163.com',
@@ -110,33 +110,29 @@ class ResumeEn extends React.Component {
       {
         company: 'Privoce.com',
         title: 'VP of Engineering',
-        period: ['2020.12', 'now'],
-        desc:
-          'Co-founder of Privoce.com. In charge of the engineering development of the core product functionalities—Portal, user APIs, and developer tools. The MVP version of Portal has gained 3k+ users and attracted multiple developers to contribute various widgets—users can choose whatever widgets they want on their Portal home page. The github repo has gained 300+ stars and dozens of forks.',
+        period: ['2020.12', '2023.09'],
+        desc: 'Co-founder of Privoce.com. In charge of the engineering development of the core product functionalities—Portal, user APIs, and developer tools. The MVP version of Portal has gained 3k+ users and attracted multiple developers to contribute various widgets—users can choose whatever widgets they want on their Portal home page. The github repo has gained 300+ stars and dozens of forks.',
         duties: []
       },
       {
         company: 'Beijing Diandian Future Education Technology Co., Ltd',
         title: 'Frontend Tech Manager',
         period: ['2018.5', '2020.11'],
-        desc:
-          'Starting from the front line, one step at a time to the position of technical manager, responsible for the front-end development of the whole company: understanding and controlling the requirements, coordinating front-end resources, guaranteeing the progress, researching and promoting the implementation of technical upgrades and iterations to improve productivity.',
+        desc: 'Starting from the front line, one step at a time to the position of technical manager, responsible for the front-end development of the whole company: understanding and controlling the requirements, coordinating front-end resources, guaranteeing the progress, researching and promoting the implementation of technical upgrades and iterations to improve productivity.',
         duties: []
       },
       {
         company: 'Feihua Health Technology Co., Ltd',
         title: 'Frontend Development Engineer',
         period: ['2014.5', '2018.2'],
-        desc:
-          "The company's first full-time front-end, growing with the company, from front-end engineer to front-end manager, the company's front-end from scratch, from weak to strong. Introduced npm, gulp workflow, front-end slicing output seamlessly into the back-end, greatly improving development efficiency, the original 5 days of development shortened to 2 days.",
+        desc: "The company's first full-time front-end, growing with the company, from front-end engineer to front-end manager, the company's front-end from scratch, from weak to strong. Introduced npm, gulp workflow, front-end slicing output seamlessly into the back-end, greatly improving development efficiency, the original 5 days of development shortened to 2 days.",
         duties: []
       },
       {
         company: 'Beijing Huachen creative Co., Ltd',
-        title: '.NET工程师/ASP.NET',
+        title: '.NET 工程师/ASP.NET',
         period: ['2012.9', '2014.4'],
-        desc:
-          "Participate in the development of the company's courseware management platform",
+        desc: "Participate in the development of the company's courseware management platform",
         duties: []
       }
     ]
@@ -144,8 +140,7 @@ class ResumeEn extends React.Component {
       {
         company: 'Preschool Education Cloud Platform(SaaS)',
         period: ['2018.9', '2020.12'],
-        desc:
-          "Including but not limited: Home Edu, Parenting headlines, Today's baby, etc. Enabling kindergarten Internet management functions: attendance, social, writing weixin articles, etc",
+        desc: "Including but not limited: Home Edu, Parenting headlines, Today's baby, etc. Enabling kindergarten Internet management functions: attendance, social, writing weixin articles, etc",
         stack: [
           'react',
           'redux',
@@ -164,8 +159,7 @@ class ResumeEn extends React.Component {
         company: 'Landing Page System Development',
         title: 'Fullstack Development',
         period: ['2019.5', '2020.11'],
-        desc:
-          'Before: all the articles hard coded in the codebase; After: providing platform to input and publish articles.Saving time too much!',
+        desc: 'Before: all the articles hard coded in the codebase; After: providing platform to input and publish articles.Saving time too much!',
         stack: [
           'react',
           'GraphQL',
@@ -184,8 +178,7 @@ class ResumeEn extends React.Component {
         title:
           'Feihua website channels: ask,hospital,doctor,tel-consulting,etc.Responsible for all frontend development work',
         period: ['2014.6', '2018.2'],
-        desc:
-          'Feihua website informative sub-stations in each province, you can manage the sub-stations and data through the backend platform.',
+        desc: 'Feihua website informative sub-stations in each province, you can manage the sub-stations and data through the backend platform.',
         stack: ['javascript', 'jQuery', 'PHP', 'smarty', 'docker', 'mysql'],
         duties: [
           'Responsible for front-end development of the whole site, understanding requirements, assigning development tasks, recruiting and managing'
@@ -220,18 +213,17 @@ class ResumeEn extends React.Component {
             </div>
             <div className="skill">
               <h3>Frameworks/Libraries</h3>
-              <em>react/redux/react-router</em>
+              <em>react/nextjs/tailwind</em>
+              <p>redux(rtk)/react-router</p>
               <p>Gatsby.js/styled-components</p>
-              <p>Weixin MiniProgram</p>
-              <p>jQuery/zepto.js</p>
-              <p>antd/Bootstrap/Semantic-UI</p>
+              <p>antd/Semantic-UI</p>
             </div>
             <div className="skill">
               <h3>Tools</h3>
               <em>VS CODE</em>
               <p>Git/GitLab</p>
               <p>Jenkins/pm2</p>
-              <p>Chrome DevTools</p>
+              <p>Vercel</p>
             </div>
             <div className="skill">
               <h3>Operation System</h3>
@@ -269,7 +261,7 @@ class ResumeEn extends React.Component {
             duties={[
               'Pass in English reading and writing, weak in listening and speaking',
               'Liking to create, UX and logic, preferring simplicity and aesthetics.',
-              `Author of <em>Chinese Color (Github Star:1.6k+)</em>: <a target="_blank" href="http://colors.ichuantong.cn/">colors.ichuantong.cn</a> and <em>rc-bullets (Github Star:400+)</em>: <a target="_blank" href="https://github.com/zerosoul/rc-bullets">github.com/zerosoul/rc-bullets</a>, more works: <a target="_blank" href="https://works.yangerxiao.com">works.yangerxiao.com</a>`,
+              `Author of <em>Chinese Color (Github Star:2.2k+)</em>: <a target="_blank" href="http://colors.ichuantong.cn/">colors.ichuantong.cn</a> and <em>rc-bullets (Github Star:600+)</em>: <a target="_blank" href="https://github.com/zerosoul/rc-bullets">github.com/zerosoul/rc-bullets</a>, more works: <a target="_blank" href="https://works.yangerxiao.com">works.yangerxiao.com</a>`,
               'Rode long distance (2345km+/single person a month), from Guiyang, Guizhou to Liaocheng, Shandong, half of China: <em>probably the longest single person ride in writing code, and the best in writing code among cyclists.</em>'
             ]}
           />
@@ -281,7 +273,6 @@ class ResumeEn extends React.Component {
 }
 
 export default ResumeEn
-
 
 export function Head() {
   return (

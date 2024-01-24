@@ -45,7 +45,7 @@ const Container = styled.section`
       }
       .status {
         position: absolute;
-        right: 0;
+        right: 0.2rem;
         top: 0;
         font-size: 0.5rem;
         line-height: 0.5rem;
@@ -98,7 +98,7 @@ const Profile = (props) => {
         </div>
         <div className="head">
           <img className="img" src={profile} alt="简历头像" />
-          <span className="status">{en ? 'At Work' : '在职'}</span>
+          <span className="status">{en ? 'Remote' : '在职'}</span>
         </div>
         <section className="social">
           {github && (

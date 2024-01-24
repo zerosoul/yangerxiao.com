@@ -14,41 +14,15 @@ const Container = styled.section`
     color: #000;
     margin-bottom: 0.6rem;
   }
+
   .period,
   .stack {
     color: #666;
-    position: relative;
     font-style: italic;
     font-size: 0.6rem;
     margin-left: 1rem;
     font-weight: normal;
     line-height: 0.8rem;
-    /* text-transform: none; */
-    &:before,
-    &:after {
-      position: absolute;
-      bottom: 0;
-    }
-  }
-  .period {
-    &:before {
-      content: '(';
-      left: -0.4rem;
-    }
-    &:after {
-      content: ')';
-      right: -0.4rem;
-    }
-  }
-  .stack {
-    &:before {
-      content: '(';
-      left: -0.4rem;
-    }
-    &:after {
-      content: ')';
-      right: -0.4rem;
-    }
   }
   .desc {
     margin: 0;
