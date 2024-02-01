@@ -156,21 +156,21 @@ body {
 }
 
 html {
-  font-size: 100px;
+  font-size: 16pt;
 }
 @media screen and (max-width: 1680px) {
   html {
-    font-size: 22px;
+    font-size: 12pt;
   }
 }
 @media screen and (max-width: 736px) {
   html {
-    font-size: 18px;
+    font-size: 11pt;
   }
 }
 @media screen and (max-width: 360px) {
   html {
-    font-size: 12px;
+    font-size: 10pt;
   }
 }
 
