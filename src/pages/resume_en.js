@@ -96,10 +96,10 @@ class ResumeEn extends React.Component {
   }
   render() {
     const profile = {
-      name: 'Guochun (Tristan) Yang',
+      name: 'Tristan Yang',
       info: {
         title: 'Privoce VP of Engineering',
-        basic: 'Male / 34 / Beijing',
+        basic: 'Male / 34 / Liaocheng Shandong',
         blog: 'https://yangerxiao.com',
         github: 'https://github.com/zerosoul',
         // email: 'yanggc888@163.com',
@@ -111,7 +111,7 @@ class ResumeEn extends React.Component {
         company: 'Privoce.com',
         title: 'VP of Engineering',
         period: ['2020.12', '2023.09'],
-        desc: 'Co-founder of Privoce.com. In charge of the engineering development of the core product functionalities—Portal, user APIs, and developer tools. The MVP version of Portal has gained 3k+ users and attracted multiple developers to contribute various widgets—users can choose whatever widgets they want on their Portal home page. The github repo has gained 300+ stars and dozens of forks.',
+        desc: 'Co-founder of Privoce.com. In charge of the engineering development of the core product functionalities — Portal and voce.chat. Responsible for the overall technical architecture, team building, and the development of the engineering team.',
         duties: []
       },
       {
@@ -205,7 +205,7 @@ class ResumeEn extends React.Component {
           <section className="skills">
             <div className="skill">
               <h3>Languages</h3>
-              <em>Javascript/ES6</em>
+              <em>Typescript/ES6</em>
               <p>Node.js/Express/hapi</p>
               <p>HTML/CSS/Less</p>
               <p>PHP/Smarty/C#</p>
@@ -233,14 +233,14 @@ class ResumeEn extends React.Component {
             </div>
             <div className="skill">
               <h3>Engineering</h3>
-              <em>CRA</em>
+              <em>Vite</em>
               <p>webpack/babel</p>
               <p>ESLint/prettier</p>
               <p>Husky/CommitLint</p>
             </div>
             <div className="skill">
               <h3>Preferred</h3>
-              <em>Google</em>
+              <em>Google/ChatGPT</em>
               <p>StackOverflow</p>
               <p>Github/Open Source</p>
             </div>
