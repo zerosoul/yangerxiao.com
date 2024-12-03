@@ -17,6 +17,14 @@
     "cover": "https://sinqi.tools/ph/600x400/9455d4/fff?text=sinqi.tools"
   },
   {
+    "name": "unsplash-wanderer",
+    "title": "Unsplash Wanderer",
+    "link": "https://sinqi.tools/unsplash",
+    "intro": "一款随机展示来自 unsplash 精选摄影大片的应用，主要使用方式是浏览器插件",
+    "mobile": false,
+    "cover": "minesweeper.cover.png"
+  },
+  {
     "name": "minesweeper",
     "title": "扫雷小游戏",
     "link": "https://ohminesweeper.online",
@@ -54,7 +62,7 @@
   {
     "name": "tech-logo-game",
     "title": "技术图标连连看",
-    "link": "https://works.yangerxiao.com/tech-logo-memo-game/",
+    "link": "https://logo-game.yangerxiao.com/",
     "intro": "可以选择技术栈和难度等级，还有模式选择、记录成绩、社交分享、全屏沉浸等功能",
     "github": "https://github.com/zerosoul/tech-logo-memo-game",
     "mobile": true,
@@ -95,7 +103,7 @@
   {
     "name": "chwg",
     "title": "春华微信头像生成器",
-    "link": "https://works.yangerxiao.com/chwg/",
+    "link": "https://chwg.yangerxiao.com/",
     "intro": "给亲哥定制的一个微信头像生成器，方便员工自己去生成微信头像",
     "mobile": true,
     "cover": "bQkCK7.png"
@@ -104,7 +112,7 @@
     "name": "do-the-five",
     "title": "防疫的五件小事",
     "mobile": true,
-    "link": "https://works.yangerxiao.com/do-the-five/",
+    "link": "https://do-the-five.yangerxiao.com/",
     "github": "https://github.com/zerosoul/do-the-five",
     "intro": "写于武汉解封那天，胜利来之不易，个人防疫还需继续...",
     "cover": "do.the.five.png"
@@ -112,7 +120,7 @@
   {
     "name": "fake-sys-update",
     "title": "模拟操作系统升级界面",
-    "link": "https://works.yangerxiao.com/fsu/",
+    "link": "https://sinqi.tools/fsu",
     "github": "https://github.com/zerosoul/fake-system-update",
     "intro": "迷惑领导同事，摸鱼神器😄",
     "cover": "fake.system.update.jpg"
@@ -121,7 +129,7 @@
     "name": "life-progress",
     "title": "生命进程警示器",
     "mobile": true,
-    "link": "https://works.yangerxiao.com/life-progress/",
+    "link": "https://life-pro.yangerxiao.com/",
     "github": "https://github.com/zerosoul/life-progress",
     "intro": "⚠️⚠️⚠️：你的生命并不长，所以更不能用它来悲伤。",
     "cover": "life.progress.png"
@@ -130,7 +138,7 @@
     "name": "image-compress-in-browser",
     "title": "图片压缩工具",
     "mobile": true,
-    "link": "https://works.yangerxiao.com/icfe/",
+    "link": "https://icfe.yangerxiao.com/",
     "github": "https://github.com/zerosoul/image-compress-without-backend",
     "intro": "纯前端实现，注意该工具不仅会压缩大小，还会自动压缩尺寸（宽高超过 750px 会被压缩）。另，目前处于试验阶段，请根据压缩后的具体效果酌情使用。",
     "cover": "image.compress.jpg"
@@ -148,7 +156,7 @@
     "name": "swordman",
     "title": "沧海一声笑",
     "github": "https://github.com/zerosoul/swordman-music-list",
-    "link": "https://works.yangerxiao.com/swordman-music-list/",
+    "link": "https://swordman-musics.yangerxiao.com/",
     "intro": "重温 1990 版电影《笑傲江湖》，为致敬金曲《沧海一声笑》，做了个页面收集网上各种版本的翻唱。",
     "mobile": true,
     "cover": "xiaoaojianghu.jpg"
@@ -172,7 +180,7 @@
   {
     "name": "breathe-relaxer",
     "title": "在线调节呼吸节奏",
-    "link": "https://works.yangerxiao.com/breathe-relaxer/",
+    "link": "https://sinqi.tools/breathe_relaxer",
     "github": "https://github.com/zerosoul/breathe-relaxer",
     "intro": "通过视觉反馈，调节呼吸节奏，比较适合静心前的准备工作。",
     "mobile": true,
@@ -181,7 +189,7 @@
   {
     "name": "github-repo-image-gen",
     "title": "Github 社交图生成工具",
-    "link": "https://works.yangerxiao.com/github-social-image-generator/?repo=https://github.com/zerosoul/github-social-image-generator&utm_source=hacpai.com",
+    "link": "https://github-og-gen.yangerxiao.com/?repo=https://github.com/zerosoul/github-social-image-generator&utm_source=hacpai.com",
     "github": "https://github.com/zerosoul/github-social-image-generator",
     "intro": "做完 GitHub Star 统计工具，随即又做了这个 Github 仓库分享图片生成工具，很小众的工具，但切实解决了一个问题：给 github 项目设置社交分享图",
     "cover": "github.share.png"
@@ -189,7 +197,7 @@
   {
     "name": "css-arrow",
     "title": "CSS 三角生成器",
-    "link": "https://works.yangerxiao.com/css-arrow-generator/",
+    "link": "https://css-arrow-gen.yangerxiao.com/",
     "github": "https://github.com/zerosoul/css-arrow-generator",
     "intro": "利用边框和伪元素在线生成 CSS 三角，妈妈再也不用担心我到处找代码复制粘贴啦！",
     "mobile": true,
@@ -198,7 +206,7 @@
   {
     "name": "omg",
     "title": "健身激励神器",
-    "link": "https://works.yangerxiao.com/oh-my-goal/",
+    "link": "https://omg.yangerxiao.com/",
     "github": "https://github.com/zerosoul/oh-my-goal",
     "mobile": true,
     "cover": "omg.jpg",
@@ -207,7 +215,7 @@
   {
     "name": "words.chaos",
     "title": "中文打乱小工具",
-    "link": "https://works.yangerxiao.com/chinese-word-chaos/",
+    "link": "https://word-chaos.yangerxiao.com/",
     "github": "https://github.com/zerosoul/chinese-word-chaos",
     "mobile": true,
     "cover": "words.chaos.png",
@@ -216,7 +224,7 @@
   {
     "name": "stopwatch",
     "title": "迷你计时器",
-    "link": "https://works.yangerxiao.com/mini-stopwatch/",
+    "link": "https://mini-stop.yangerxiao.com/",
     "github": "https://github.com/zerosoul/mini-stopwatch",
     "mobile": true,
     "cover": "mini.stopwatch.jpg",
@@ -225,7 +233,7 @@
   {
     "name": "pwd-gen",
     "title": "密码生成器",
-    "link": "https://works.yangerxiao.com/strong-password-generator/",
+    "link": "https://pwd-gen.yangerxiao.com/",
     "github": "https://github.com/zerosoul/strong-password-generator",
     "intro": "超强密码生成器！字母大小写，各种符号，数字随机大混合，生成让你用了再也想不起来是啥的密码！",
     "cover": "pwd-gen.jpg",
@@ -234,7 +242,7 @@
   {
     "name": "html-colors",
     "title": "HTML 颜色手册",
-    "link": "https://works.yangerxiao.com/html-color-cheatsheet/",
+    "link": "https://html-colors.yangerxiao.com/",
     "github": "https://github.com/zerosoul/html-color-cheatsheet",
     "intro": "HTML 大概原生支持 140+ 种有名有姓的颜色，一个页面搞定！还可以一键复制",
     "mobile": true,
@@ -293,14 +301,14 @@
     "name": "h5-meeting-demo",
     "title": "会议报名 H5 页面",
     "mobile": true,
-    "link": "https://works.yangerxiao.com/react-meeting-h5/",
+    "link": "https://h5-demo1.yangerxiao.com/",
     "github": "https://github.com/zerosoul/react-meeting-h5",
     "intro": "使用 react+swiper.js 做的，借助 anime.js 加入了大量的动画"
   },
   {
     "name": "h5-demo",
     "title": "会议报名 H5 页面 2",
-    "link": "https://works.yangerxiao.com/react-h5/",
+    "link": "https://h5-demo2.yangerxiao.com/",
     "github": "https://github.com/zerosoul/react-h5",
     "mobile": true,
     "intro": "同样使用 react+swiper.js+anime.js 做的，只是主题风格不一样"
