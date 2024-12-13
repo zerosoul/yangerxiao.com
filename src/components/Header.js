@@ -1,9 +1,9 @@
-import React from "react";
-import { Link } from "gatsby";
-import avator from "../images/avator.jpg";
+import React from 'react'
+import { Link } from 'gatsby'
+import avator from '../images/avator.jpg'
 
 const Header = (props) => (
-  <header id="header" style={props.timeout ? { display: "none" } : {}}>
+  <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <img className="logo" src={avator} alt="logo" />
     <div className="content">
       <div className="inner">
@@ -37,8 +37,8 @@ const Header = (props) => (
           <a
             href="#"
             onClick={(e) => {
-              e.preventDefault();
-              props.onOpenArticle("about");
+              e.preventDefault()
+              props.onOpenArticle('about')
             }}
           >
             关于我
@@ -50,11 +50,13 @@ const Header = (props) => (
           </a>
         </li>
         <li>
-          <Link to="/works">作品</Link>
+          <Link target="_blank" href="//works.yangerxiao.com">
+            作品
+          </Link>
         </li>
       </ul>
     </nav>
   </header>
-);
+)
 
-export default Header;
+export default Header
