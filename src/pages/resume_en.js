@@ -285,7 +285,7 @@ class ResumeEn extends React.Component {
               <em>nextjs/supabase</em>
               <p>redux(rtk)/react-router</p>
               <p>Gatsby.js/styled-components</p>
-              <p>antd/Semantic-UI</p>
+              <p>Chrome Extension</p>
             </div>
             <div className="skill">
               <h3>Tools</h3>
