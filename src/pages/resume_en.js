@@ -98,8 +98,8 @@ class ResumeEn extends React.Component {
     const profile = {
       name: 'Tristan Yang',
       info: {
-        title: 'Privoce VP of Engineering',
-        basic: 'Male / 34 / Liaocheng Shandong',
+        // title: 'Freelancer',
+        basic: 'Male / 35 / Liaocheng Shandong',
         blog: 'https://yangerxiao.com',
         github: 'https://github.com/zerosoul',
         // email: 'yanggc888@163.com',
@@ -107,6 +107,13 @@ class ResumeEn extends React.Component {
       }
     }
     const jobs = [
+      {
+        company: 'Freelancer',
+        title: 'Freelancer',
+        period: ['2023.09', 'today'],
+        desc: 'Maintain existing products, try to create new products, help others create products, and work as a freelancer.',
+        duties: []
+      },
       {
         company: 'Privoce.com',
         title: 'VP of Engineering',
@@ -130,13 +137,62 @@ class ResumeEn extends React.Component {
       },
       {
         company: 'Beijing Huachen creative Co., Ltd',
-        title: '.NET 工程师/ASP.NET',
+        title: '.NET Engineer/ASP.NET',
         period: ['2012.9', '2014.4'],
         desc: "Participate in the development of the company's courseware management platform",
         duties: []
       }
     ]
     const projects = [
+      {
+        company: 'https://edensign.io',
+        period: ['2024.10', 'today'],
+        desc: 'Edensign is a cutting-edge virtual staging solution that empowers real estate professionals and designers to showcase properties in their best light.',
+        stack: [
+          'react/typescript',
+          'redux-toolkit',
+          'cloudflare',
+          'tailwind',
+          'nextjs',
+          'supabase',
+          'next-ui',
+          'stripe'
+        ],
+        duties: ['All development and product work except for the LLM API']
+      },
+      {
+        company: 'https://sinqi.tools',
+        period: ['2024.03', 'today'],
+        desc: 'refined web tools for developers, designers and perfectionists',
+        stack: [
+          'react/typescript',
+          'redux-toolkit',
+          'cloudflare worker',
+          'tailwind',
+          'supabase',
+          'nextjs',
+          'next-ui',
+          'stripe'
+        ],
+        duties: ['Creator']
+      },
+      {
+        company: 'https://voce.chat',
+        period: ['2021.03', 'today'],
+        desc: '',
+        stack: [
+          'react/typescript',
+          'redux-toolkit',
+          'tailwind',
+          'nextjs',
+          'stripe',
+          'webpack',
+          'ESLint'
+        ],
+        duties: [
+          'All development and operations work except for the backend service of chat'
+        ]
+      },
       {
         company: 'Preschool Education Cloud Platform(SaaS)',
         period: ['2018.9', '2020.12'],
@@ -213,7 +269,8 @@ class ResumeEn extends React.Component {
             </div>
             <div className="skill">
               <h3>Frameworks/Libraries</h3>
-              <em>react/nextjs/tailwind</em>
+              <em>react/next-ui/tailwind</em>
+              <em>nextjs/supabase</em>
               <p>redux(rtk)/react-router</p>
               <p>Gatsby.js/styled-components</p>
               <p>antd/Semantic-UI</p>
@@ -259,9 +316,9 @@ class ResumeEn extends React.Component {
           <ExpTitle title="ADDITIONAL INFORMATION" />
           <WorkExp
             duties={[
-              'Pass in English reading and writing, weak in listening and speaking',
+              'Proficient in English reading and writing, but speaking is relatively weaker.',
               'Liking to create, UX and logic, preferring simplicity and aesthetics.',
-              `Author of <em>Chinese Color (Github Star:2.2k+)</em>: <a target="_blank" href="http://colors.ichuantong.cn/">colors.ichuantong.cn</a> and <em>rc-bullets (Github Star:600+)</em>: <a target="_blank" href="https://github.com/zerosoul/rc-bullets">github.com/zerosoul/rc-bullets</a>, more works: <a target="_blank" href="https://works.yangerxiao.com">works.yangerxiao.com</a>`,
+              `Author of <em> <a target="_blank" href="http://sinqi.tools/">Sinqi Tools</a></em> and <a target="_blank" href="http://colors.ichuantong.cn/">Chinese Color (Github Star:2.4k+)</a>, more works: <a target="_blank" href="https://works.yangerxiao.com">works.yangerxiao.com</a>`,
               'Rode long distance (2345km+/single person a month), from Guiyang, Guizhou to Liaocheng, Shandong, half of China: <em>probably the longest single person ride in writing code, and the best in writing code among cyclists.</em>'
             ]}
           />
