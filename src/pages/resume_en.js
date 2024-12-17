@@ -115,7 +115,7 @@ class ResumeEn extends React.Component {
         duties: []
       },
       {
-        company: 'Privoce.com',
+        company: 'Privoce',
         title: 'VP of Engineering',
         period: ['2020.12', '2023.09'],
         desc: 'Co-founder of Privoce.com. In charge of the engineering development of the core product functionalities — Portal and voce.chat. Responsible for the overall technical architecture, team building, and the development of the engineering team.',
@@ -163,6 +163,29 @@ class ResumeEn extends React.Component {
           'stripe'
         ],
         duties: ['All development and product work except for the LLM API']
+      },
+      {
+        company: (
+          <a
+            target="_blank"
+            href="https://chromewebstore.google.com/detail/Unsplash%20Wanderer/jdjjjnfdkhpdppedhjgdcecmmcmklopm"
+          >
+            Unsplash Wanderer
+          </a>
+        ),
+        period: ['2024.08', '2024.09'],
+        desc: 'Elevate your browsing with stunning Unsplash photos on every new tab. Simple, beautiful, and ad-free.',
+        stack: [
+          'react/typescript',
+          'redux-toolkit',
+          'cloudflare',
+          'tailwind',
+          'nextjs',
+          'supabase',
+          'next-ui',
+          'stripe'
+        ],
+        duties: ['Creator']
       },
       {
         company: (
@@ -239,19 +262,19 @@ class ResumeEn extends React.Component {
         duties: [
           'Fullstack: APIs:GraphQL;DB:MongoDB/mogoose;Landing Page:Gatsby.js;Backend:Express'
         ]
-      },
-
-      {
-        company: 'FeiHua Websites',
-        title:
-          'Feihua website channels: ask,hospital,doctor,tel-consulting,etc.Responsible for all frontend development work',
-        period: ['2014.6', '2018.2'],
-        desc: 'Feihua website informative sub-stations in each province, you can manage the sub-stations and data through the backend platform.',
-        stack: ['javascript', 'jQuery', 'PHP', 'smarty', 'docker', 'mysql'],
-        duties: [
-          'Responsible for front-end development of the whole site, understanding requirements, assigning development tasks, recruiting and managing'
-        ]
       }
+
+      // {
+      //   company: 'FeiHua Websites',
+      //   title:
+      //     'Feihua website channels: ask,hospital,doctor,tel-consulting,etc.Responsible for all frontend development work',
+      //   period: ['2014.6', '2018.2'],
+      //   desc: 'Feihua website informative sub-stations in each province, you can manage the sub-stations and data through the backend platform.',
+      //   stack: ['javascript', 'jQuery', 'PHP', 'smarty', 'docker', 'mysql'],
+      //   duties: [
+      //     'Responsible for front-end development of the whole site, understanding requirements, assigning development tasks, recruiting and managing'
+      //   ]
+      // }
     ]
     const edu = {
       school: 'GuiYang University',
