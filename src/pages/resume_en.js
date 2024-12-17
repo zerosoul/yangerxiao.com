@@ -145,7 +145,11 @@ class ResumeEn extends React.Component {
     ]
     const projects = [
       {
-        company: 'https://edensign.io',
+        company: (
+          <a target="_blank" href="https://edensign.io">
+            Edensign
+          </a>
+        ),
         period: ['2024.10', 'today'],
         desc: 'Edensign is a cutting-edge virtual staging solution that empowers real estate professionals and designers to showcase properties in their best light.',
         stack: [
@@ -161,7 +165,11 @@ class ResumeEn extends React.Component {
         duties: ['All development and product work except for the LLM API']
       },
       {
-        company: 'https://sinqi.tools',
+        company: (
+          <a target="_blank" href="https://sinqi.tools">
+            Sinqi Tools
+          </a>
+        ),
         period: ['2024.03', 'today'],
         desc: 'refined web tools for developers, designers and perfectionists',
         stack: [
@@ -177,9 +185,13 @@ class ResumeEn extends React.Component {
         duties: ['Creator']
       },
       {
-        company: 'https://voce.chat',
+        company: (
+          <a target="_blank" href="https://voce.chat">
+            VoceChat
+          </a>
+        ),
         period: ['2021.03', 'today'],
-        desc: '',
+        desc: 'A super-light Rust powered chat app, API and SDK that prioritizes private hosting.',
         stack: [
           'react/typescript',
           'redux-toolkit',

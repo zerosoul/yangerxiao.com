@@ -9,6 +9,9 @@ const Container = styled.section`
     color: #000;
     margin-bottom: 0.5rem;
     margin-top: 0;
+    a {
+      text-decoration: underline;
+    }
   }
   .occupy {
     color: #000;
