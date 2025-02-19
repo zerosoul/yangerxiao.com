@@ -96,7 +96,6 @@ class Resume extends React.Component {
       name: '杨国春',
       info: {
         basic: '男 / 89 年 / 山东',
-
         blog: 'https://yangerxiao.com',
         github: 'https://github.com/zerosoul',
         email: 'yanggc888@163.com'
@@ -107,14 +106,14 @@ class Resume extends React.Component {
         company: '自由职业者',
         title: '',
         period: ['2023.09', '至今'],
-        desc: '维护现有产品，创造新产品，给别人做产品，以自由职业者的身份工作',
+        desc: '以自由职业者的身份工作：维护现有产品，创造新产品，为别人做产品',
         duties: []
       },
       {
         company: 'Privoce',
         title: 'VP of Engineering',
         period: ['2020.12', '2023.08'],
-        desc: 'privoce.com 联合创始人。负责核心产品功能——Portal 和 voce.chat 的工程开发。负责整体技术架构、团队建设以及工程团队的发展。',
+        desc: 'privoce.com 联合创始人。参与核心产品——Portal 和 voce.chat 的产品研发。负责整体技术架构、核心功能、团队建设以及部分产品运维增长工作',
         duties: []
       },
       {
@@ -147,7 +146,7 @@ class Resume extends React.Component {
           </a>
         ),
         period: ['2024.12', '至今'],
-        desc: '浏览器插件产品：主打不开新标签页的前提下，预览网址内容。',
+        desc: '浏览器插件产品：不开新标签页的前提下，预览网址内容，进而避免海量的 Tab 管理烦恼',
         stack: [
           'react/typescript',
           'redux-toolkit',
@@ -166,8 +165,8 @@ class Resume extends React.Component {
             Edensign
           </a>
         ),
-        period: ['2024.10', 'today'],
-        desc: '用户上传一张室内图，借助 AI，生成特定风格的家居图，赋予房地产专业人士和设计师以最佳方式展示房产的能力。',
+        period: ['2024.10', '至今'],
+        desc: '用户上传一张室内图，借助 AI，生成特定风格的家居图，赋予房地产专业人士和设计师以最佳方式展示房产的能力',
         stack: [
           'react/typescript',
           'redux-toolkit',
@@ -186,7 +185,7 @@ class Resume extends React.Component {
             Sinqi Tools
           </a>
         ),
-        period: ['2024.03', 'today'],
+        period: ['2024.03', '至今'],
         desc: '为开发人员、设计师和完美主义者精心打造的 Web 工具',
         stack: [
           'react/typescript',
@@ -206,7 +205,7 @@ class Resume extends React.Component {
           </a>
         ),
         period: ['2021.03', '至今'],
-        desc: '一个超轻量级的聊天应用、API 和 SDK，基于 Rust 开发，优先支持私有托管。',
+        desc: '一个超轻量级的聊天应用、API 和 SDK，基于 Rust 开发，支持私有部署',
         stack: [
           'react/typescript',
           'redux-toolkit',
@@ -300,7 +299,7 @@ class Resume extends React.Component {
             <div className="skill">
               <h3>操作系统</h3>
               <p>Linux/CentOS</p>
-              <em>Mac OS</em>
+              <em>MacOS</em>
               <p>Windows</p>
             </div>
             <div className="skill">
@@ -330,10 +329,9 @@ class Resume extends React.Component {
           <ExpTitle title="其它" />
           <WorkExp
             duties={[
-              '英语阅读流利（听说较弱），习惯阅读一手信息。',
+              '英语读写流利（听说较弱），习惯阅读一手信息。',
               '喜欢创作，UX和逻辑，偏爱简洁有美感。',
               `<em>中国色网站</em>作者：<a target="_blank" href="http://colors.ichuantong.cn/">colors.ichuantong.cn</a>`,
-              `<em>rc-bullets</em>作者：<a target="_blank" href="https://github.com/zerosoul/rc-bullets">github.com/zerosoul/rc-bullets</a>`,
               `更多个人作品：<a target="_blank" href="https://works.yangerxiao.com">works.yangerxiao.com</a>`,
               '骑行过长途 (2345km+/单人一个月)，从贵州贵阳到山东聊城，半个中国：<em>可能是写代码里单人骑行最长的，骑行里最会写代码的。</em>'
             ]}

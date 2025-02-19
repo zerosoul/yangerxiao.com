@@ -65,7 +65,7 @@ const Container = styled.section`
 
       .name {
         color: #000;
-        font-size: 2.2rem;
+        font-size: 3rem;
         margin-top: 0;
         margin-bottom: 0;
         /* text-transform: none; */
@@ -98,7 +98,7 @@ const Profile = (props) => {
         </div>
         <div className="head">
           <img className="img" src={profile} alt="简历头像" />
-          <span className="status">{en ? 'Remote' : '在职'}</span>
+          <span className="status">{en ? 'Remote' : '已离职'}</span>
         </div>
         <section className="social">
           {github && (
