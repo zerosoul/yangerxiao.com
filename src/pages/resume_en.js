@@ -102,8 +102,7 @@ class ResumeEn extends React.Component {
         basic: 'Male / 35 / Liaocheng Shandong',
         blog: 'https://yangerxiao.com',
         github: 'https://github.com/zerosoul',
-        // email: 'yanggc888@163.com',
-        tel: '+86 18201385848'
+        email: 'yanggc888@gmail.com'
       }
     }
     const jobs = [
@@ -241,10 +240,7 @@ class ResumeEn extends React.Component {
           'webpack',
           'ESLint'
         ],
-        duties: [
-          'Reconstruct the engineering architecture',
-          "Participating in some products' development"
-        ]
+        duties: ['Reconstruct the engineering architecture']
       },
       {
         company: 'Landing Page System Development',
@@ -352,7 +348,7 @@ class ResumeEn extends React.Component {
           <WorkExp
             duties={[
               'Proficient in English reading and writing, but speaking is relatively weaker.',
-              'Liking to create, UX and logic, preferring simplicity and aesthetics.',
+              'A preference for simple and aesthetically pleasing UX and logic',
               `Author of <em> <a target="_blank" href="http://sinqi.tools/">Sinqi Tools</a></em> and <a target="_blank" href="http://colors.ichuantong.cn/">Chinese Color (Github Star:2.4k+)</a>, more works: <a target="_blank" href="https://works.yangerxiao.com">works.yangerxiao.com</a>`,
               'Rode long distance (2345km+/single person a month), from Guiyang, Guizhou to Liaocheng, Shandong, half of China: <em>probably the longest single person ride in writing code, and the best in writing code among cyclists.</em>'
             ]}

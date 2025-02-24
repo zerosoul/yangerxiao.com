@@ -42,7 +42,8 @@ const Container = styled.section`
     line-height: 1.2;
   }
   .achievements {
-    list-style: none;
+    list-style: square;
+    list-style-position: inside;
     padding: 0;
     margin: 0.5rem 0;
     margin-top: 0;

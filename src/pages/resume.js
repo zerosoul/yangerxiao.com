@@ -6,6 +6,7 @@ import WorkExp from '../components/resume/WorkExp'
 // import PdfBtn from '../components/resume/PdfBtn'
 import Profile from '../components/resume/Profile'
 import { media } from '../utils/media'
+import EduExp from '../components/resume/EduExp'
 
 const CommonStyle = createGlobalStyle`
 body{
@@ -98,7 +99,7 @@ class Resume extends React.Component {
         basic: '男 / 89 年 / 山东',
         blog: 'https://yangerxiao.com',
         github: 'https://github.com/zerosoul',
-        email: 'yanggc888@163.com'
+        email: 'yanggc888@gmail.com'
       }
     }
     const jobs = [
@@ -215,7 +216,7 @@ class Resume extends React.Component {
           'webpack',
           'ESLint'
         ],
-        duties: ['除了聊天的后端服务开发，负责所有开发和运维工作']
+        duties: ['除了聊天 SDK 后端服务开发，负责所有开发和运维工作']
       },
       {
         company: '壹点壹滴 - 幼教云 (SaaS)',
@@ -232,8 +233,7 @@ class Resume extends React.Component {
           'ESLint'
         ],
         duties: [
-          '刚接手该系统时，开发任务比较多，通过不断升级架构，尽可能使用工程化方式来解决问题，在人手短缺的情况下，保质保量完成了开发任务',
-          '重构部分业务代码，打样板，并推动重构计划落地'
+          '重构业务代码，通过不断升级架构，尽可能使用工程化方式来解决问题，打样板，并推动重构计划落地'
         ]
       },
       {
@@ -255,17 +255,15 @@ class Resume extends React.Component {
       }
     ]
     const edu = {
-      company: '贵州大学 - 贵阳学院',
+      school: '贵州大学 - 贵阳学院',
       title: ['本科', '软件工程'].join('/'),
       period: ['2008.9', '2012.9'],
-      duties: [
+      achievements: [
         '2010 全国大学生数学建模：国家一等奖',
-        '英语六级',
-        '国家励志奖学金'
+        '国家励志奖学金',
+        '英语六级'
       ]
     }
-    const { title: siteTitle, description: siteDescription } =
-      this.props.data.site.siteMetadata
 
     return (
       <>
@@ -277,7 +275,7 @@ class Resume extends React.Component {
             <div className="skill">
               <h3>语言</h3>
               <em>Typescript/ES6</em>
-              <p>Node.js/Express/hapi</p>
+              <p>Node.js/Express</p>
               <p>HTML/CSS/Less</p>
               <p>PHP/Smarty/C#</p>
               <p>Shell/SQL/GraphQL</p>
@@ -304,7 +302,9 @@ class Resume extends React.Component {
             </div>
             <div className="skill">
               <h3>工程化</h3>
-              <p>vite/webpack</p>
+              <p>
+                <em>vite</em>/webpack
+              </p>
               <p>ESLint/prettier</p>
               <p>Husky/CommitLint</p>
             </div>
@@ -316,7 +316,7 @@ class Resume extends React.Component {
             </div>
           </section>
           <ExpTitle title="教育" />
-          <WorkExp {...edu} />
+          <EduExp {...edu} />
           <ExpTitle title="工作经历" />
           {jobs.map((job) => (
             <WorkExp key={job.title} {...job} />
@@ -330,7 +330,7 @@ class Resume extends React.Component {
           <WorkExp
             duties={[
               '英语读写流利（听说较弱），习惯阅读一手信息。',
-              '喜欢创作，UX和逻辑，偏爱简洁有美感。',
+              '偏爱简洁有美感的UX和逻辑',
               `<em>中国色网站</em>作者：<a target="_blank" href="http://colors.ichuantong.cn/">colors.ichuantong.cn</a>`,
               `更多个人作品：<a target="_blank" href="https://works.yangerxiao.com">works.yangerxiao.com</a>`,
               '骑行过长途 (2345km+/单人一个月)，从贵州贵阳到山东聊城，半个中国：<em>可能是写代码里单人骑行最长的，骑行里最会写代码的。</em>'
