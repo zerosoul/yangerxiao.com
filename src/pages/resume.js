@@ -142,23 +142,22 @@ class Resume extends React.Component {
     const projects = [
       {
         company: (
-          <a target="_blank" href="https://peekfoc.us">
-            PeekFocus
+          <a target="_blank" href="https://bankofmononoke.com">
+            BankOfMononoke
           </a>
         ),
-        period: ['2024.12', '至今'],
-        desc: '浏览器插件产品：不开新标签页的前提下，预览网址内容，进而避免海量的 Tab 管理烦恼',
+        period: ['2025.03', '至今'],
+        desc: '一个数字纪念平台，专注于为逝者创建永久的数字纪念空间，让生命的记忆得以延续和分享。',
         stack: [
           'react/typescript',
           'redux-toolkit',
-          'wxt',
+          'nextjs',
           'cloudflare',
           'tailwind',
-          'nextjs',
           'supabase',
           'stripe'
         ],
-        duties: ['负责产品所有事宜']
+        duties: ['负责产品以及开发所有事宜']
       },
       {
         company: (
