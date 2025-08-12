@@ -165,6 +165,26 @@ class ResumeEn extends React.Component {
       },
       {
         company: (
+          <a target="_blank" href="https://bankofmononoke.com">
+            Bank of mononoke
+          </a>
+        ),
+        period: ['2025.03', 'today'],
+        desc: 'a digital place where a life is recorded, remembered, and honored.',
+        stack: [
+          'react/typescript',
+          'redux-toolkit',
+          'cloudflare',
+          'tailwind',
+          'nextjs',
+          'supabase',
+          'hono',
+          'stripe'
+        ],
+        duties: ['Creator']
+      },
+      {
+        company: (
           <a
             target="_blank"
             href="https://chromewebstore.google.com/detail/Unsplash%20Wanderer/jdjjjnfdkhpdppedhjgdcecmmcmklopm"
@@ -241,36 +261,7 @@ class ResumeEn extends React.Component {
           'ESLint'
         ],
         duties: ['Reconstruct the engineering architecture']
-      },
-      {
-        company: 'Landing Page System Development',
-        title: 'Fullstack Development',
-        period: ['2019.5', '2020.11'],
-        desc: 'Before: all the articles hard coded in the codebase; After: providing platform to input and publish articles.Saving time too much!',
-        stack: [
-          'react',
-          'GraphQL',
-          'Gatsby.js',
-          'Express',
-          'MongoDB/mogoose',
-          'pm2'
-        ],
-        duties: [
-          'Fullstack: APIs:GraphQL;DB:MongoDB/mogoose;Landing Page:Gatsby.js;Backend:Express'
-        ]
       }
-
-      // {
-      //   company: 'FeiHua Websites',
-      //   title:
-      //     'Feihua website channels: ask,hospital,doctor,tel-consulting,etc.Responsible for all frontend development work',
-      //   period: ['2014.6', '2018.2'],
-      //   desc: 'Feihua website informative sub-stations in each province, you can manage the sub-stations and data through the backend platform.',
-      //   stack: ['javascript', 'jQuery', 'PHP', 'smarty', 'docker', 'mysql'],
-      //   duties: [
-      //     'Responsible for front-end development of the whole site, understanding requirements, assigning development tasks, recruiting and managing'
-      //   ]
-      // }
     ]
     const edu = {
       school: 'GuiYang University',
@@ -293,18 +284,18 @@ class ResumeEn extends React.Component {
             <div className="skill">
               <h3>Languages</h3>
               <em>Typescript/ES6</em>
-              <p>Node.js/Express/hapi</p>
+              <p>Node.js/Hono</p>
               <p>HTML/CSS/Less</p>
               <p>PHP/Smarty/C#</p>
               <p>Shell/SQL/GraphQL</p>
             </div>
             <div className="skill">
               <h3>Frameworks/Libraries</h3>
-              <em>react/next-ui/tailwind</em>
+              <em>react/hero-ui/tailwind</em>
               <em>nextjs/supabase</em>
               <p>redux(rtk)/react-router</p>
               <p>Gatsby.js/styled-components</p>
-              <p>Chrome Extension</p>
+              <p>Browser Extension</p>
             </div>
             <div className="skill">
               <h3>Tools</h3>

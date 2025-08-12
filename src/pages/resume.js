@@ -274,7 +274,7 @@ class Resume extends React.Component {
             <div className="skill">
               <h3>语言</h3>
               <em>Typescript/ES6</em>
-              <p>Node.js/Express</p>
+              <p>Node.js/hono</p>
               <p>HTML/CSS/Less</p>
               <p>PHP/Smarty/C#</p>
               <p>Shell/SQL/GraphQL</p>
@@ -284,7 +284,7 @@ class Resume extends React.Component {
               <em>react/redux/tailwind</em>
               <em>nextjs/supabase</em>
               <em>cloudflare/vercel</em>
-              <p>Chrome Extension/wxt</p>
+              <p>Browser Extension</p>
             </div>
             <div className="skill">
               <h3>工具</h3>
