@@ -234,24 +234,24 @@ class Resume extends React.Component {
         duties: [
           '重构业务代码，通过不断升级架构，尽可能使用工程化方式来解决问题，打样板，并推动重构计划落地'
         ]
-      },
-      {
-        company: '壹点壹滴官网重构与维护',
-        title: '全栈开发',
-        period: ['2019.5', '2020.03'],
-        desc: '重构前，文章写死在代码库；重构后，有专门后台供运营录入文章，大大解放了程序员维护迭代精力。',
-        stack: [
-          'react',
-          'GraphQL',
-          'Gatsby.js',
-          'Express',
-          'MongoDB/mogoose',
-          'pm2'
-        ],
-        duties: [
-          '搭建全栈架构，接口：GraphQL；数据库：MongoDB/mogoose；前台官网：Gatsby.js；后台数据管理：Express'
-        ]
       }
+      // {
+      //   company: '壹点壹滴官网重构与维护',
+      //   title: '全栈开发',
+      //   period: ['2019.5', '2020.03'],
+      //   desc: '重构前，文章写死在代码库；重构后，有专门后台供运营录入文章，大大解放了程序员维护迭代精力。',
+      //   stack: [
+      //     'react',
+      //     'GraphQL',
+      //     'Gatsby.js',
+      //     'Express',
+      //     'MongoDB/mogoose',
+      //     'pm2'
+      //   ],
+      //   duties: [
+      //     '搭建全栈架构，接口：GraphQL；数据库：MongoDB/mogoose；前台官网：Gatsby.js；后台数据管理：Express'
+      //   ]
+      // }
     ]
     const edu = {
       school: '贵州大学 - 贵阳学院',
@@ -275,32 +275,27 @@ class Resume extends React.Component {
               <h3>语言</h3>
               <em>Typescript/ES6</em>
               <p>Node.js/hono</p>
-              <p>HTML/CSS/Less</p>
+              <p>HTML/CSS</p>
               <p>PHP/Smarty/C#</p>
               <p>Shell/SQL/GraphQL</p>
             </div>
             <div className="skill">
               <h3>框架/类库/平台</h3>
               <em>react/redux/tailwind</em>
-              <em>nextjs/supabase</em>
-              <em>cloudflare/vercel</em>
+              <em>Next.js/supabase</em>
+              <em>cloudflare/aws</em>
               <p>Browser Extension</p>
             </div>
             <div className="skill">
               <h3>工具</h3>
               <em>VS CODE</em>
+              <em>Claude/Deepseek</em>
               <p>Git/GitLab</p>
               <p>Jenkins/pm2</p>
-              <p>Claude/Deepseek</p>
-            </div>
-            <div className="skill">
-              <h3>操作系统</h3>
-              <p>Linux/CentOS</p>
-              <em>MacOS</em>
-              <p>Windows</p>
             </div>
             <div className="skill">
               <h3>工程化</h3>
+              <p>monorepo/turbo</p>
               <p>
                 <em>vite</em>/webpack
               </p>
