@@ -300,7 +300,7 @@ class ResumeEn extends React.Component {
             </div>
             <div className="skill">
               <h3>Frameworks/Libraries</h3>
-              <em>react/hero-ui/tailwind</em>
+              <em>react/HeroUI/tailwind</em>
               <em>Next.js/Supabase</em>
               <em>cloudflare/aws</em>
               <p>redux(rtk)/react-router</p>

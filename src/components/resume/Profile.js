@@ -61,14 +61,12 @@ const Container = styled.section`
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      /* margin-right: 1rem; */
-
       .name {
         color: #000;
         font-size: 3rem;
         margin-top: 0;
         margin-bottom: 0;
-        /* text-transform: none; */
+        letter-spacing: -1px;
       }
       .desc {
         margin-top: 0;
