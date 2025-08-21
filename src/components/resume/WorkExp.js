@@ -67,6 +67,7 @@ const WorkExp = (props) => {
     <Container>
       <h3 className="company">
         {company}
+        {title && <span className="period">{title}</span>}
         {period && <span className="period">{period.join(' - ')}</span>}
         {/* {stack && <span className="stack">{stack.join('/')}</span>} */}
       </h3>

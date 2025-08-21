@@ -109,7 +109,7 @@ class ResumeEn extends React.Component {
       {
         company: 'Freelancer',
         title: 'Freelancer',
-        period: ['2023.09', 'today'],
+        period: ['2023.09', 'Present'],
         desc: 'Maintain existing products, try to create new products, help others create products, and work as a freelancer.',
         duties: []
       },
@@ -117,25 +117,25 @@ class ResumeEn extends React.Component {
         company: 'Privoce',
         title: 'VP of Engineering',
         period: ['2020.12', '2023.09'],
-        desc: 'Co-founder of Privoce.com. In charge of the engineering development of the core product functionalities — Portal and voce.chat. Responsible for the overall technical architecture, team building, and the development of the engineering team.',
+        desc: 'Co-founder of Privoce.com. Led the engineering development — Portal and voce.chat. Responsible for technical architecture, team building, and engineering team development.',
         duties: []
       },
       {
         company: 'Beijing Diandian Future Education Technology Co., Ltd',
         title: 'Frontend Tech Manager',
         period: ['2018.5', '2020.11'],
-        desc: 'Starting from the front line, one step at a time to the position of technical manager, responsible for the front-end development of the whole company: understanding and controlling the requirements, coordinating front-end resources, guaranteeing the progress, researching and promoting the implementation of technical upgrades and iterations to improve productivity.',
+        desc: 'Advanced from front-line developer to technical manager, responsible for the front-end development of the whole company: analyzing and managing requirements, coordinating front-end resources, ensuring project delivery, researching and promoting the implementation of technical upgrades and iterations to improve productivity.',
         duties: []
       },
       {
         company: 'Feihua Health Technology Co., Ltd',
         title: 'Frontend Development Engineer',
         period: ['2014.5', '2018.2'],
-        desc: "The company's first full-time front-end, growing with the company, from front-end engineer to front-end manager, the company's front-end from scratch, from weak to strong. Introduced npm, gulp workflow, front-end slicing output seamlessly into the back-end, greatly improving development efficiency, the original 5 days of development shortened to 2 days.",
+        desc: "The company's first full-time front-end, growing with the company, from front-end engineer to front-end manager, built the company's front-end capabilities from the ground up. Introduced npm, gulp workflow, front-end slicing output seamlessly into the back-end, greatly improving development efficiency, the original 5 days of development shortened to 2 days.",
         duties: []
       },
       {
-        company: 'Beijing Huachen creative Co., Ltd',
+        company: 'Beijing Huachen Creative Co., Ltd',
         title: '.NET Engineer/ASP.NET',
         period: ['2012.9', '2014.4'],
         desc: "Participate in the development of the company's courseware management platform",
@@ -147,9 +147,10 @@ class ResumeEn extends React.Component {
         company: (
           <a target="_blank" href="https://edensign.io">
             Edensign
+            <img width={20} height={20} src="/ext-link.svg" />
           </a>
         ),
-        period: ['2024.10', 'today'],
+        period: ['2024.10', 'Present'],
         desc: 'Edensign is a cutting-edge virtual staging solution that empowers real estate professionals and designers to showcase properties in their best light.',
         stack: [
           'react/typescript',
@@ -161,16 +162,19 @@ class ResumeEn extends React.Component {
           'next-ui',
           'stripe'
         ],
-        duties: ['All development and product work except for the LLM API']
+        duties: [
+          'Co-founder: All development and product work except for the LLM training and APIs'
+        ]
       },
       {
         company: (
           <a target="_blank" href="https://bankofmononoke.com">
-            Bank of mononoke
+            Bank of Mononoke
+            <img width={20} height={20} src="/ext-link.svg" />
           </a>
         ),
-        period: ['2025.03', 'today'],
-        desc: 'a digital place where a life is recorded, remembered, and honored.',
+        period: ['2025.03', 'Present'],
+        desc: 'A digital place where lives are recorded, remembered, and honored.',
         stack: [
           'react/typescript',
           'redux-toolkit',
@@ -181,7 +185,9 @@ class ResumeEn extends React.Component {
           'hono',
           'stripe'
         ],
-        duties: ['Creator']
+        duties: [
+          'Co-founder: Responsible for all product and development matters'
+        ]
       },
       {
         company: (
@@ -190,6 +196,7 @@ class ResumeEn extends React.Component {
             href="https://chromewebstore.google.com/detail/Unsplash%20Wanderer/jdjjjnfdkhpdppedhjgdcecmmcmklopm"
           >
             Unsplash Wanderer
+            <img width={20} height={20} src="/ext-link.svg" />
           </a>
         ),
         period: ['2024.08', '2024.09'],
@@ -204,15 +211,16 @@ class ResumeEn extends React.Component {
           'next-ui',
           'stripe'
         ],
-        duties: ['Creator']
+        duties: ['Creator and Owner']
       },
       {
         company: (
           <a target="_blank" href="https://sinqi.tools">
             Sinqi Tools
+            <img width={20} height={20} src="/ext-link.svg" />
           </a>
         ),
-        period: ['2024.03', 'today'],
+        period: ['2024.03', 'Present'],
         desc: 'refined web tools for developers, designers and perfectionists',
         stack: [
           'react/typescript',
@@ -224,15 +232,16 @@ class ResumeEn extends React.Component {
           'next-ui',
           'stripe'
         ],
-        duties: ['Creator']
+        duties: ['Creator and Owner']
       },
       {
         company: (
           <a target="_blank" href="https://voce.chat">
             VoceChat
+            <img width={20} height={20} src="/ext-link.svg" />
           </a>
         ),
-        period: ['2021.03', 'today'],
+        period: ['2021.03', 'Present'],
         desc: 'A super-light Rust powered chat app, API and SDK that prioritizes private hosting.',
         stack: [
           'react/typescript',
@@ -268,7 +277,7 @@ class ResumeEn extends React.Component {
       title: ['Bachelor', 'Software Engineering'].join('/'),
       period: ['2008.9', '2012.9'],
       achievements: [
-        'CUMCM-2010:National First Prize',
+        'CUMCM-2010: National First Prize',
         'CET-6',
         'National Endeavor Fellowship'
       ]
@@ -285,16 +294,16 @@ class ResumeEn extends React.Component {
               <h3>Languages</h3>
               <em>Typescript/ES6</em>
               <p>Node.js/Hono</p>
-              <p>HTML/CSS/Less</p>
+              <p>HTML/CSS</p>
               <p>PHP/Smarty/C#</p>
-              <p>Shell/SQL/GraphQL</p>
+              <p>SQL/GraphQL</p>
             </div>
             <div className="skill">
               <h3>Frameworks/Libraries</h3>
               <em>react/hero-ui/tailwind</em>
-              <em>nextjs/supabase</em>
+              <em>Next.js/Supabase</em>
+              <em>cloudflare/aws</em>
               <p>redux(rtk)/react-router</p>
-              <p>Gatsby.js/styled-components</p>
               <p>Browser Extension</p>
             </div>
             <div className="skill">
@@ -305,21 +314,15 @@ class ResumeEn extends React.Component {
               <p>Vercel</p>
             </div>
             <div className="skill">
-              <h3>Operation System</h3>
-              <p>Linux/CentOS</p>
-              <em>Mac OS</em>
-              <p>Windows</p>
-            </div>
-            <div className="skill">
               <h3>Engineering</h3>
-              <em>Vite</em>
-              <p>webpack/babel</p>
-              <p>ESLint/prettier</p>
+              <p>monorepo/turbo</p>
+              <p>Vite/Webpack</p>
+              <p>ESLint/Prettier</p>
               <p>Husky/CommitLint</p>
             </div>
             <div className="skill">
               <h3>Preferred</h3>
-              <em>Google/ChatGPT</em>
+              <em>Google/Claude</em>
               <p>StackOverflow</p>
               <p>Github/Open Source</p>
             </div>
@@ -338,10 +341,10 @@ class ResumeEn extends React.Component {
           <ExpTitle title="ADDITIONAL INFORMATION" />
           <WorkExp
             duties={[
-              'Proficient in English reading and writing, but speaking is relatively weaker.',
+              'Good at reading and writing English, but still working on my speaking skills.',
               'A preference for simple and aesthetically pleasing UX and logic',
-              `Author of <em> <a target="_blank" href="http://sinqi.tools/">Sinqi Tools</a></em> and <a target="_blank" href="http://colors.ichuantong.cn/">Chinese Color (Github Star:2.4k+)</a>, more works: <a target="_blank" href="https://works.yangerxiao.com">works.yangerxiao.com</a>`,
-              'Rode long distance (2345km+/single person a month), from Guiyang, Guizhou to Liaocheng, Shandong, half of China: <em>probably the longest single person ride in writing code, and the best in writing code among cyclists.</em>'
+              `Author of <a target="_blank" href="http://colors.ichuantong.cn/">Chinese Color (Github Star:2.4k+)</a>, more works: <a target="_blank" href="https://works.yangerxiao.com">works.yangerxiao.com</a>`,
+              'Completed a 2,345km solo cycling journey across half of China while maintaining my coding career.'
             ]}
           />
         </Container>

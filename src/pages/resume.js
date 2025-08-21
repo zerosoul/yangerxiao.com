@@ -105,7 +105,7 @@ class Resume extends React.Component {
     const jobs = [
       {
         company: '自由职业者',
-        title: '',
+        title: 'Freelancer',
         period: ['2023.09', '至今'],
         desc: '以自由职业者的身份工作：维护现有产品，创造新产品，为别人做产品',
         duties: []
@@ -144,6 +144,7 @@ class Resume extends React.Component {
         company: (
           <a target="_blank" href="https://bankofmononoke.com">
             BankOfMononoke
+            <img width={20} height={20} src="/ext-link.svg" />
           </a>
         ),
         period: ['2025.03', '至今'],
@@ -163,6 +164,7 @@ class Resume extends React.Component {
         company: (
           <a target="_blank" href="https://edensign.io">
             Edensign
+            <img width={20} height={20} src="/ext-link.svg" />
           </a>
         ),
         period: ['2024.10', '至今'],
@@ -183,6 +185,7 @@ class Resume extends React.Component {
         company: (
           <a target="_blank" href="https://sinqi.tools">
             Sinqi Tools
+            <img width={20} height={20} src="/ext-link.svg" />
           </a>
         ),
         period: ['2024.03', '至今'],
@@ -202,6 +205,7 @@ class Resume extends React.Component {
         company: (
           <a target="_blank" href="https://voce.chat">
             VoceChat
+            <img width={20} height={20} src="/ext-link.svg" />
           </a>
         ),
         period: ['2021.03', '至今'],
@@ -281,15 +285,15 @@ class Resume extends React.Component {
             </div>
             <div className="skill">
               <h3>框架/类库/平台</h3>
-              <em>react/redux/tailwind</em>
-              <em>Next.js/supabase</em>
+              <em>react/HeroUI/tailwind</em>
+              <em>Next.js/Supabase</em>
               <em>cloudflare/aws</em>
+              <p>redux(rtk)/react-router</p>
               <p>Browser Extension</p>
             </div>
             <div className="skill">
               <h3>工具</h3>
               <em>VS CODE</em>
-              <em>Claude/Deepseek</em>
               <p>Git/GitLab</p>
               <p>Jenkins/pm2</p>
             </div>
@@ -304,7 +308,7 @@ class Resume extends React.Component {
             </div>
             <div className="skill">
               <h3>偏爱</h3>
-              <em>Google/Ask AI</em>
+              <em>Google/Claude</em>
               <p>StackOverflow</p>
               <p>Github/Open Source</p>
             </div>
@@ -327,7 +331,7 @@ class Resume extends React.Component {
               '偏爱简洁有美感的UX和逻辑',
               `<em>中国色网站</em>作者：<a target="_blank" href="http://colors.ichuantong.cn/">colors.ichuantong.cn</a>`,
               `更多个人作品：<a target="_blank" href="https://works.yangerxiao.com">works.yangerxiao.com</a>`,
-              '骑行过长途 (2345km+/单人一个月)，从贵州贵阳到山东聊城，半个中国：<em>可能是写代码里单人骑行最长的，骑行里最会写代码的。</em>'
+              '2500 公里单人骑行穿越半个中国——可能是程序员中最能骑的，骑行者中最会编程的。'
             ]}
           />
         </Container>

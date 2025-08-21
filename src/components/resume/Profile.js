@@ -28,7 +28,7 @@ const Container = styled.section`
         padding-right: 0.5rem;
         display: flex;
         .title {
-          color: #666;
+          color: #999;
           font-size: 0.8rem;
         }
         .content {
