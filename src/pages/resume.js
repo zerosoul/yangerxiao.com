@@ -142,8 +142,8 @@ class Resume extends React.Component {
     const projects = [
       {
         company: (
-          <a target="_blank" href="https://bankofmononoke.com">
-            BankOfMononoke
+          <a target="_blank" href="https://bankoftime.ai">
+            BankOfTime
             <img width={20} height={20} src="/ext-link.svg" />
           </a>
         ),
