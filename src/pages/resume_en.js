@@ -168,8 +168,8 @@ class ResumeEn extends React.Component {
       },
       {
         company: (
-          <a target="_blank" href="https://bankofmononoke.com">
-            Bank of Mononoke
+          <a target="_blank" href="https://bankoftime.ai">
+            Bank of Time
             <img width={20} height={20} src="/ext-link.svg" />
           </a>
         ),
