@@ -1,284 +1,3 @@
-@charset "UTF-8";
-@import url(../css/font-awesome.min.css);
-/*
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-/* Reset */
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-
-body {
-  line-height: 1;
-}
-
-ol,
-ul {
-  list-style: none;
-}
-
-blockquote,
-q {
-  quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: '';
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-body {
-  -webkit-text-size-adjust: none;
-}
-
-/* Box Model */
-*,
-*:before,
-*:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-/* Type */
-html,
-body {
-  min-width: 320px;
-}
-
-html {
-  font-size: 16pt;
-}
-@media screen and (max-width: 1680px) {
-  html {
-    font-size: 12pt;
-  }
-}
-@media screen and (max-width: 736px) {
-  html {
-    font-size: 11pt;
-  }
-}
-@media screen and (max-width: 360px) {
-  html {
-    font-size: 10pt;
-  }
-}
-
-body,
-input,
-select,
-textarea {
-  font-family: 'Microsoft YaHei', 'Hiragino Sans GB', 'WenQuanYi Micro Hei',
-    sans-serif;
-  font-weight: 300;
-  font-size: 1rem;
-  line-height: 1.65;
-}
-
-a {
-  -moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out,
-    border-bottom-color 0.2s ease-in-out;
-  -webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out,
-    border-bottom-color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out,
-    border-bottom-color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out,
-    border-bottom-color 0.2s ease-in-out;
-  text-decoration: none;
-  color: inherit;
-}
-a:hover {
-  border-bottom-color: transparent;
-}
-
-strong,
-b {
-  color: #ffffff;
-  font-weight: 600;
-}
-
-em,
-i {
-  font-style: italic;
-}
-
-p {
-  margin: 0 0 2rem 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #ffffff;
-  font-weight: 600;
-  line-height: 1.5;
-  margin: 0 0 1rem 0;
-  /* text-transform: uppercase; */
-}
-h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a,
-h6 a {
-  color: inherit;
-  text-decoration: none;
-}
-h1.major,
-h2.major,
-h3.major,
-h4.major,
-h5.major,
-h6.major {
-  border-bottom: solid 1px #ffffff;
-  width: -moz-max-content;
-  width: -webkit-max-content;
-  width: -ms-max-content;
-  width: max-content;
-  padding-bottom: 0.5rem;
-  margin: 0 0 2rem 0;
-  color: #eee;
-}
-
-h1 {
-  font-size: 2.25rem;
-  line-height: 1.3;
-}
-
-h2 {
-  font-size: 1.5rem;
-  line-height: 1.4;
-}
-
-h3 {
-  font-size: 1rem;
-}
-
-h4 {
-  font-size: 0.8rem;
-}
-
-h5 {
-  font-size: 0.7rem;
-}
-
-h6 {
-  font-size: 0.6rem;
-}
-
 @media screen and (max-width: 736px) {
   h1 {
     font-size: 1.75rem;
@@ -288,65 +7,6 @@ h6 {
     font-size: 1.25em;
     line-height: 1.5;
   }
-}
-
-sub {
-  font-size: 0.8rem;
-  position: relative;
-  top: 0.5rem;
-}
-
-sup {
-  font-size: 0.8rem;
-  position: relative;
-  top: -0.5rem;
-}
-
-blockquote {
-  border-left: solid 4px #ffffff;
-  font-style: italic;
-  margin: 0 0 2rem 0;
-  padding: 0.5rem 0 0.5rem 2rem;
-}
-
-code {
-  background: rgba(255, 255, 255, 0.075);
-  border-radius: 4px;
-  font-family: 'Microsoft YaHei, 微软雅黑', sans-serif;
-  font-size: 0.9rem;
-  margin: 0 0.25rem;
-  padding: 0.25rem 0.65rem;
-}
-
-pre {
-  -webkit-overflow-scrolling: touch;
-  font-family: 'Microsoft YaHei, 微软雅黑', sans-serif;
-  font-size: 0.9rem;
-  margin: 0 0 2rem 0;
-}
-pre code {
-  display: block;
-  line-height: 1.75;
-  padding: 1rem 1.5rem;
-  overflow-x: auto;
-}
-
-hr {
-  border: 0;
-  border-bottom: solid 1px #ffffff;
-  margin: 2.75rem 0;
-}
-
-.align-left {
-  text-align: left;
-}
-
-.align-center {
-  text-align: center;
-}
-
-.align-right {
-  text-align: right;
 }
 
 /* Box */
@@ -440,179 +100,6 @@ hr {
   }
 }
 
-/* List */
-ol {
-  list-style: decimal;
-  margin: 0 0 2rem 0;
-  padding-left: 1.25em;
-}
-ol li {
-  padding-left: 0.25em;
-}
-
-ul {
-  list-style: disc;
-  margin: 0 0 2rem 0;
-  padding-left: 1em;
-}
-ul li {
-  padding-left: 0;
-}
-ul li {
-  padding-left: 0;
-}
-ul.alt {
-  list-style: none;
-  padding-left: 0;
-}
-ul.alt li {
-  border-top: solid 1px #ffffff;
-  padding: 0.5em 0;
-}
-ul.alt li:first-child {
-  border-top: 0;
-  padding-top: 0;
-}
-ul.icons {
-  cursor: default;
-  list-style: none;
-  padding-left: 0;
-}
-ul.icons li {
-  display: flex;
-  padding: 0 0.75em 0 0;
-}
-ul.icons li:last-child {
-  padding-right: 0;
-}
-ul.icons li .icon {
-  border-radius: 100%;
-  box-shadow: inset 0 0 0 1px #ffffff;
-  display: inline-block;
-  height: 2.25rem;
-  line-height: 2.25rem;
-  text-align: center;
-  width: 2.25rem;
-  margin-right: 1rem;
-  margin-bottom: 0.5rem;
-}
-ul.icons li .icon:hover {
-  background-color: rgba(255, 255, 255, 0.075);
-}
-ul.icons li .icon:active {
-  background-color: rgba(255, 255, 255, 0.175);
-}
-ul.icons li .icon.with-img {
-  vertical-align: top;
-}
-ul.icons li .gatsby-image-outer-wrapper {
-  flex: 1;
-}
-ul.icons li .gatsby-image-outer-wrapper img {
-  margin-top: 0 !important;
-}
-ul.icons li .wx-img {
-  width: 60%;
-  margin-top: 0;
-}
-@media screen and (max-width: 980px) {
-  ul.icons li .wx-img {
-    width: 70%;
-  }
-}
-ul.actions {
-  cursor: default;
-  list-style: none;
-  padding-left: 0;
-}
-ul.actions li {
-  display: inline-block;
-  padding: 0 1rem 0 0;
-  vertical-align: middle;
-}
-ul.actions li:last-child {
-  padding-right: 0;
-}
-ul.actions.small li {
-  padding: 0 0.5rem 0 0;
-}
-ul.actions.vertical li {
-  display: block;
-  padding: 1rem 0 0 0;
-}
-ul.actions.vertical li:first-child {
-  padding-top: 0;
-}
-ul.actions.vertical li > * {
-  margin-bottom: 0;
-}
-ul.actions.vertical.small li {
-  padding: 0.5rem 0 0 0;
-}
-ul.actions.vertical.small li:first-child {
-  padding-top: 0;
-}
-ul.actions.fit {
-  display: table;
-  margin-left: -1rem;
-  padding: 0;
-  table-layout: fixed;
-  width: calc(100% + 1rem);
-}
-ul.actions.fit li {
-  display: table-cell;
-  padding: 0 0 0 1rem;
-}
-ul.actions.fit li > * {
-  margin-bottom: 0;
-}
-ul.actions.fit.small {
-  margin-left: -0.5rem;
-  width: calc(100% + 0.5rem);
-}
-ul.actions.fit.small li {
-  padding: 0 0 0 0.5rem;
-}
-@media screen and (max-width: 480px) {
-  ul.actions {
-    margin: 0 0 2rem 0;
-  }
-  ul.actions li {
-    padding: 1rem 0 0 0;
-    display: block;
-    text-align: center;
-    width: 100%;
-  }
-  ul.actions li:first-child {
-    padding-top: 0;
-  }
-  ul.actions li > * {
-    width: 100%;
-    margin: 0 !important;
-  }
-  ul.actions li > *.icon:before {
-    margin-left: -2em;
-  }
-  ul.actions.small li {
-    padding: 0.5rem 0 0 0;
-  }
-  ul.actions.small li:first-child {
-    padding-top: 0;
-  }
-}
-
-dl {
-  margin: 0 0 2rem 0;
-}
-dl dt {
-  display: block;
-  font-weight: 600;
-  margin: 0 0 1rem 0;
-}
-dl dd {
-  margin-left: 2rem;
-}
-
 /* Button */
 input[type='submit'],
 input[type='reset'],
@@ -623,10 +110,18 @@ button,
   -webkit-appearance: none;
   -ms-appearance: none;
   appearance: none;
-  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -moz-transition:
+    background-color 0.2s ease-in-out,
+    color 0.2s ease-in-out;
+  -webkit-transition:
+    background-color 0.2s ease-in-out,
+    color 0.2s ease-in-out;
+  -ms-transition:
+    background-color 0.2s ease-in-out,
+    color 0.2s ease-in-out;
+  transition:
+    background-color 0.2s ease-in-out,
+    color 0.2s ease-in-out;
   background-color: transparent;
   border-radius: 4px;
   border: 0;
@@ -742,13 +237,12 @@ button {
   -webkit-transition-delay: 0.75s;
   -ms-transition-delay: 0.75s;
   transition-delay: 0.75s;
-  background-image: linear-gradient(
-      to top,
-      rgba(19, 21, 25, 0.5),
-      rgba(19, 21, 25, 0.5)
-    ),
+  background-image:
+    linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)),
     url('../../images/overlay.png');
-  background-size: auto, 256px 256px;
+  background-size:
+    auto,
+    256px 256px;
   background-position: center, center;
   background-repeat: no-repeat, repeat;
   z-index: 2;
@@ -758,13 +252,18 @@ button {
   -webkit-transform: scale(1.125);
   -ms-transform: scale(1.125);
   transform: scale(1.125);
-  -moz-transition: -moz-transform 0.325s ease-in-out,
+  -moz-transition:
+    -moz-transform 0.325s ease-in-out,
     -moz-filter 0.325s ease-in-out;
-  -webkit-transition: -webkit-transform 0.325s ease-in-out,
+  -webkit-transition:
+    -webkit-transform 0.325s ease-in-out,
     -webkit-filter 0.325s ease-in-out;
-  -ms-transition: -ms-transform 0.325s ease-in-out,
+  -ms-transition:
+    -ms-transform 0.325s ease-in-out,
     -ms-filter 0.325s ease-in-out;
-  transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
+  transition:
+    transform 0.325s ease-in-out,
+    filter 0.325s ease-in-out;
   background-image: url('../../images/bg-mountain.jpg');
   background-position: center;
   background-size: cover;
@@ -843,13 +342,21 @@ button {
   -webkit-align-items: center;
   -ms-align-items: center;
   align-items: center;
-  -moz-transition: -moz-transform 0.325s ease-in-out,
-    -moz-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-  -webkit-transition: -webkit-transform 0.325s ease-in-out,
-    -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-  -ms-transition: -ms-transform 0.325s ease-in-out,
-    -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-  transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out,
+  -moz-transition:
+    -moz-transform 0.325s ease-in-out,
+    -moz-filter 0.325s ease-in-out,
+    opacity 0.325s ease-in-out;
+  -webkit-transition:
+    -webkit-transform 0.325s ease-in-out,
+    -webkit-filter 0.325s ease-in-out,
+    opacity 0.325s ease-in-out;
+  -ms-transition:
+    -ms-transform 0.325s ease-in-out,
+    -ms-filter 0.325s ease-in-out,
+    opacity 0.325s ease-in-out;
+  transition:
+    transform 0.325s ease-in-out,
+    filter 0.325s ease-in-out,
     opacity 0.325s ease-in-out;
   background-image: radial-gradient(
     rgba(0, 0, 0, 0.2) 15%,
@@ -898,13 +405,21 @@ button {
   max-width: 100%;
 }
 #header .content .inner {
-  -moz-transition: max-height 0.75s ease, padding 0.75s ease,
+  -moz-transition:
+    max-height 0.75s ease,
+    padding 0.75s ease,
     opacity 0.325s ease-in-out;
-  -webkit-transition: max-height 0.75s ease, padding 0.75s ease,
+  -webkit-transition:
+    max-height 0.75s ease,
+    padding 0.75s ease,
     opacity 0.325s ease-in-out;
-  -ms-transition: max-height 0.75s ease, padding 0.75s ease,
+  -ms-transition:
+    max-height 0.75s ease,
+    padding 0.75s ease,
     opacity 0.325s ease-in-out;
-  transition: max-height 0.75s ease, padding 0.75s ease,
+  transition:
+    max-height 0.75s ease,
+    padding 0.75s ease,
     opacity 0.325s ease-in-out;
   -moz-transition-delay: 0.25s;
   -webkit-transition-delay: 0.25s;
@@ -932,7 +447,7 @@ button {
 #header .content .inner .social .ico {
   border-radius: 100%;
   box-shadow: inset 0 0 0 1px #ffffff;
-  display: inline-block;
+  display: flex;
   height: 2.25rem;
   line-height: 2.25rem;
   text-align: center;
@@ -1128,11 +643,18 @@ button {
   -webkit-transform: translateY(0.25rem);
   -ms-transform: translateY(0.25rem);
   transform: translateY(0.25rem);
-  -moz-transition: opacity 0.325s ease-in-out, -moz-transform 0.325s ease-in-out;
-  -webkit-transition: opacity 0.325s ease-in-out,
+  -moz-transition:
+    opacity 0.325s ease-in-out,
+    -moz-transform 0.325s ease-in-out;
+  -webkit-transition:
+    opacity 0.325s ease-in-out,
     -webkit-transform 0.325s ease-in-out;
-  -ms-transition: opacity 0.325s ease-in-out, -ms-transform 0.325s ease-in-out;
-  transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
+  -ms-transition:
+    opacity 0.325s ease-in-out,
+    -ms-transform 0.325s ease-in-out;
+  transition:
+    opacity 0.325s ease-in-out,
+    transform 0.325s ease-in-out;
   padding: 4.5rem 2.5rem 1.5rem;
   position: relative;
   width: 40rem;

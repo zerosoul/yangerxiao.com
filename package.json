@@ -1,41 +1,37 @@
 {
   "name": "yangerxiao-landingpage",
   "description": "Tristan Yang Personal Landing Page",
-  "version": "3.2.0",
+  "version": "4.0.0",
   "author": "Tristan",
-  "dependencies": {
-    "gatsby": "^5.14.0",
-    "gatsby-image": "^3.11.0",
-    "gatsby-plugin-baidu-analytics": "^2.2.0",
-    "gatsby-plugin-manifest": "^5.14.0",
-    "gatsby-plugin-offline": "^6.14.0",
-    "gatsby-plugin-styled-components": "^6.14.0",
-    "gatsby-source-filesystem": "^5.14.0",
-    "gitalk": "^1.8.0",
-    "prop-types": "^15.8.1",
-    "qrcode.react": "^4.2.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "styled-components": "^6.1.13"
-  },
-  "keywords": [
-    "tristan",
-    "works",
-    "react",
-    "gatsby",
-    "homepage"
-  ],
-  "license": "MIT",
+  "type": "module",
   "scripts": {
-    "build": "gatsby build",
-    "start": "gatsby develop",
-    "deploy": "gatsby build && git add public && git commit -m 'rebuild' && git push",
-    "format": "prettier --write 'src/**/*.js'"
+    "dev": "vite dev",
+    "build": "vite build",
+    "start": "vite preview",
+    "format": "prettier --write 'src/**/*.{ts,tsx,css}'"
+  },
+  "dependencies": {
+    "@tanstack/react-router": "^1.95.0",
+    "@tanstack/react-start": "^1.95.0",
+    "gitalk": "^1.8.0",
+    "lucide-react": "^0.460.0",
+    "qrcode.react": "^4.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "babel-plugin-styled-components": "^2.1.4",
-    "prettier": "^3.4.2"
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "prettier": "^3.4.2",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.7.0",
+    "vite": "^7.0.0",
+    "vite-plugin-pwa": "^1.0.0"
   },
+  "keywords": ["tristan", "works", "react", "tanstack", "homepage"],
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/zerosoul/yangerxiao.com.git"
