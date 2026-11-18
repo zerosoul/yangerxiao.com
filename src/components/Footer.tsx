@@ -14,6 +14,7 @@ export default function Footer({ timeout }: Props) {
       </p>
       <p className="mb-2 text-[0.6rem] tracking-wider text-neutral-300 opacity-75">
         <span>友链：</span>
+        <FooterLink href="https://dongdongpark.com">动动乐园</FooterLink>
         <FooterLink href="https://www.nomadguide.cn">数字游民指南</FooterLink>
         <FooterLink href="https://eleduck.com/">电鸭</FooterLink>
       </p>
