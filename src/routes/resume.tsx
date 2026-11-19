@@ -73,8 +73,8 @@ const jobs = [
 const projects = [
   {
     company: (
-      <a target="_blank" rel="noreferrer" href="https://bankoftime.ai">
-        BankOfTime
+      <a target="_blank" rel="noreferrer" href="https://dongdongpark.com">
+        动动乐园
         <img
           width={20}
           height={20}
@@ -84,15 +84,15 @@ const projects = [
         />
       </a>
     ),
-    period: ['2025.03', '至今'],
-    desc: '一个数字纪念平台，专注于为逝者创建永久的数字纪念空间，让生命的记忆得以延续和分享。',
+    period: ['2026.11', '至今'],
+    desc: '用摄像头玩的体感游戏合集：100 多个游戏，适合 3～18 岁，打开网页就能玩，不用手柄、不用安装，摄像头画面不上传。',
     stack: [
       'react/typescript',
-      'redux-toolkit',
-      'nextjs',
-      'cloudflare',
-      'tailwind',
-      'supabase',
+      'tanstack',
+      'mediapipe',
+      'three.js',
+      'hono',
+      'postgres',
       'stripe'
     ],
     duties: ['负责产品以及开发所有事宜']
@@ -122,32 +122,6 @@ const projects = [
       'stripe'
     ],
     duties: ['负责除 LLM API 外的所有开发和产品工作']
-  },
-  {
-    company: (
-      <a target="_blank" rel="noreferrer" href="https://sinqi.tools">
-        Sinqi Tools
-        <img
-          width={20}
-          height={20}
-          src="/ext-link.svg"
-          alt=""
-          className="ml-1 inline-block"
-        />
-      </a>
-    ),
-    period: ['2024.03', '至今'],
-    desc: '为开发人员、设计师和完美主义者精心打造的 Web 工具',
-    stack: [
-      'react/typescript',
-      'redux-toolkit',
-      'cloudflare worker',
-      'tailwind',
-      'supabase',
-      'nextjs',
-      'stripe'
-    ],
-    duties: ['负责产品所有事宜']
   },
   {
     company: (

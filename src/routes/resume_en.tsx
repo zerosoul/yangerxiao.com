@@ -72,6 +72,17 @@ const jobs = [
 const projects = [
   {
     company: (
+      <a target="_blank" rel="noreferrer" href="https://dongdongpark.com">
+        DongDong Park
+        <img width={20} height={20} src="/ext-link.svg" alt="" className="ml-1 inline-block" />
+      </a>
+    ),
+    period: ['2026.11', 'Present'],
+    desc: 'A collection of 100+ camera-based motion games for ages 3–18. Play right in the browser with no controller or install, and camera footage is never uploaded.',
+    duties: ['Creator and Owner']
+  },
+  {
+    company: (
       <a target="_blank" rel="noreferrer" href="https://edensign.io">
         Edensign
         <img width={20} height={20} src="/ext-link.svg" alt="" className="ml-1 inline-block" />
@@ -80,17 +91,6 @@ const projects = [
     period: ['2024.10', 'Present'],
     desc: 'Edensign is a cutting-edge virtual staging solution that empowers real estate professionals and designers to showcase properties in their best light.',
     duties: ['Co-founder: All development and product work except for the LLM training and APIs']
-  },
-  {
-    company: (
-      <a target="_blank" rel="noreferrer" href="https://bankoftime.ai">
-        Bank of Time
-        <img width={20} height={20} src="/ext-link.svg" alt="" className="ml-1 inline-block" />
-      </a>
-    ),
-    period: ['2025.03', 'Present'],
-    desc: 'A digital place where lives are recorded, remembered, and honored.',
-    duties: ['Co-founder: Responsible for all product and development matters']
   },
   {
     company: (
@@ -105,17 +105,6 @@ const projects = [
     ),
     period: ['2024.08', '2024.09'],
     desc: 'Elevate your browsing with stunning Unsplash photos on every new tab. Simple, beautiful, and ad-free.',
-    duties: ['Creator and Owner']
-  },
-  {
-    company: (
-      <a target="_blank" rel="noreferrer" href="https://sinqi.tools">
-        Sinqi Tools
-        <img width={20} height={20} src="/ext-link.svg" alt="" className="ml-1 inline-block" />
-      </a>
-    ),
-    period: ['2024.03', 'Present'],
-    desc: 'refined web tools for developers, designers and perfectionists',
     duties: ['Creator and Owner']
   },
   {
